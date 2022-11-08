@@ -1,0 +1,20 @@
+2022-11-08 13:34:33,639 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for ZN.  Parsing as new residue.
+2022-11-08 13:34:33,640 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for ZN.  Parsing as new residue.
+2022-11-08 13:34:33,640 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for ZN.  Parsing as new residue.
+2022-11-08 13:34:33,640 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for ZN.  Parsing as new residue.
+2022-11-08 13:34:33,640 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for SAM.  Parsing as new residue.
+2022-11-08 13:34:33,641 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for 9HJ.  Parsing as new residue.
+2022-11-08 13:34:33,665 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for ZN.  Parsing as new residue.
+2022-11-08 13:34:33,666 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for ZN.  Parsing as new residue.
+2022-11-08 13:34:33,666 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for ZN.  Parsing as new residue.
+2022-11-08 13:34:33,666 WARNING:io.py:40:filter:Suppressing further "Unable to find amino or nucleic acid definition for" messages
+2022-11-08 13:34:33,687 WARNING:biomolecule.py:600:update_bonds:Gap in backbone detected between ASP A 1090 and GLU A 1095!
+2022-11-08 13:34:33,692 WARNING:biomolecule.py:600:update_bonds:Gap in backbone detected between ASP B 1090 and GLY B 1094!
+2022-11-08 13:34:33,725 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ALA A 1190
+2022-11-08 13:34:33,727 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ALA B 1190
+2022-11-08 13:34:33,728 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ALA A 1190
+2022-11-08 13:34:33,730 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ALA B 1190
+2022-11-08 13:34:33,732 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ALA A 1190
+2022-11-08 13:34:33,734 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ALA B 1190
+2022-11-08 13:34:42,265 WARNING:main.py:311:print_pqr:Ignoring 4820 header lines in output.
+2022-11-08 13:34:42,266 WARNING:main.py:315:print_pqr:Ignoring 116 missing lines in output.

@@ -1,0 +1,23 @@
+2022-11-08 13:28:23,193 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for NA.  Parsing as new residue.
+2022-11-08 13:28:23,220 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for GOL.  Parsing as new residue.
+2022-11-08 13:28:23,221 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for SAM.  Parsing as new residue.
+2022-11-08 13:28:23,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue PHE A 301
+2022-11-08 13:28:23,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD1 in residue PHE A 301
+2022-11-08 13:28:23,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD2 in residue PHE A 301
+2022-11-08 13:28:23,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE1 in residue PHE A 301
+2022-11-08 13:28:23,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE2 in residue PHE A 301
+2022-11-08 13:28:23,265 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CZ in residue PHE A 301
+2022-11-08 13:28:23,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue PHE A 301
+2022-11-08 13:28:23,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD1 in residue PHE A 301
+2022-11-08 13:28:23,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD2 in residue PHE A 301
+2022-11-08 13:28:23,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE1 in residue PHE A 301
+2022-11-08 13:28:23,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE2 in residue PHE A 301
+2022-11-08 13:28:23,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CZ in residue PHE A 301
+2022-11-08 13:28:23,269 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue PHE A 301
+2022-11-08 13:28:23,269 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD1 in residue PHE A 301
+2022-11-08 13:28:23,269 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD2 in residue PHE A 301
+2022-11-08 13:28:23,270 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE1 in residue PHE A 301
+2022-11-08 13:28:23,270 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE2 in residue PHE A 301
+2022-11-08 13:28:23,270 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CZ in residue PHE A 301
+2022-11-08 13:28:27,011 WARNING:main.py:311:print_pqr:Ignoring 1955 header lines in output.
+2022-11-08 13:28:27,012 WARNING:main.py:315:print_pqr:Ignoring 34 missing lines in output.

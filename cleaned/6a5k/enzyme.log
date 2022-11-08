@@ -1,0 +1,21 @@
+2022-11-08 13:35:43,170 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:35:43,173 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:35:43,179 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:35:43,197 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:35:43,197 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:35:43,201 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:35:43,206 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for ZN.  Parsing as new residue.
+2022-11-08 13:35:43,206 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for ZN.  Parsing as new residue.
+2022-11-08 13:35:43,206 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for ZN.  Parsing as new residue.
+2022-11-08 13:35:43,206 WARNING:io.py:40:filter:Suppressing further "Unable to find amino or nucleic acid definition for" messages
+2022-11-08 13:35:43,224 WARNING:biomolecule.py:600:update_bonds:Gap in backbone detected between SER A 377 and ASN A 386!
+2022-11-08 13:35:43,224 WARNING:biomolecule.py:600:update_bonds:Gap in backbone detected between GLN A 395 and GLU A 413!
+2022-11-08 13:35:43,225 WARNING:biomolecule.py:600:update_bonds:Gap in backbone detected between HIS A 441 and SER A 448!
+2022-11-08 13:35:43,225 WARNING:biomolecule.py:600:update_bonds:Gap in backbone detected between GLY A 469 and GLY A 472!
+2022-11-08 13:35:43,227 WARNING:biomolecule.py:600:update_bonds:Gap in backbone detected between ALA A 562 and VAL A 566!
+2022-11-08 13:35:43,230 WARNING:biomolecule.py:600:update_bonds:Gap in backbone detected between GLN A 765 and GLN A 775!
+2022-11-08 13:35:43,262 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue TYR A 790
+2022-11-08 13:35:43,265 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue TYR A 790
+2022-11-08 13:35:43,268 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue TYR A 790
+2022-11-08 13:35:50,783 WARNING:main.py:311:print_pqr:Ignoring 3407 header lines in output.
+2022-11-08 13:35:50,784 WARNING:main.py:315:print_pqr:Ignoring 79 missing lines in output.

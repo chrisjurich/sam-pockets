@@ -1,0 +1,30 @@
+2022-11-08 13:36:14,299 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:36:14,304 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:36:14,304 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:36:14,308 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:36:14,309 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:36:14,309 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:36:14,312 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:36:14,313 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:36:14,320 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:36:14,325 WARNING:io.py:40:filter:Suppressing further "Unable to find amino or nucleic acid definition for" messages
+2022-11-08 13:36:14,439 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLN A 387
+2022-11-08 13:36:14,440 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU B 219
+2022-11-08 13:36:14,440 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU B 219
+2022-11-08 13:36:14,440 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU B 219
+2022-11-08 13:36:14,440 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU B 219
+2022-11-08 13:36:14,442 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLN B 387
+2022-11-08 13:36:14,444 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLN A 387
+2022-11-08 13:36:14,446 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU B 219
+2022-11-08 13:36:14,446 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU B 219
+2022-11-08 13:36:14,446 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU B 219
+2022-11-08 13:36:14,446 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU B 219
+2022-11-08 13:36:14,447 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLN B 387
+2022-11-08 13:36:14,450 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLN A 387
+2022-11-08 13:36:14,451 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU B 219
+2022-11-08 13:36:14,451 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU B 219
+2022-11-08 13:36:14,451 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU B 219
+2022-11-08 13:36:14,452 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU B 219
+2022-11-08 13:36:14,453 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLN B 387
+2022-11-08 13:36:22,402 WARNING:main.py:311:print_pqr:Ignoring 9262 header lines in output.
+2022-11-08 13:36:22,402 WARNING:main.py:315:print_pqr:Ignoring 262 missing lines in output.

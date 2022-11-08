@@ -1,0 +1,8 @@
+2022-11-08 13:31:44,704 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for SAM.  Parsing as new residue.
+2022-11-08 13:31:44,705 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for DNC.  Parsing as new residue.
+2022-11-08 13:31:44,705 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MG.  Parsing as new residue.
+2022-11-08 13:31:44,754 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue PRO A 215
+2022-11-08 13:31:44,756 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue PRO A 215
+2022-11-08 13:31:44,758 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue PRO A 215
+2022-11-08 13:31:46,683 WARNING:main.py:311:print_pqr:Ignoring 3109 header lines in output.
+2022-11-08 13:31:46,683 WARNING:main.py:315:print_pqr:Ignoring 68 missing lines in output.

@@ -1,0 +1,113 @@
+2022-11-08 13:29:28,521 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for SAM.  Parsing as new residue.
+2022-11-08 13:29:28,522 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for 0N6.  Parsing as new residue.
+2022-11-08 13:29:28,522 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for BME.  Parsing as new residue.
+2022-11-08 13:29:28,523 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for SO4.  Parsing as new residue.
+2022-11-08 13:29:28,523 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in CYS A 119.
+2022-11-08 13:29:28,523 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in CYS A 119.
+2022-11-08 13:29:28,523 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in CYS A 119.
+2022-11-08 13:29:28,524 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in CYS A 119.
+2022-11-08 13:29:28,524 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in CYS A 119.
+2022-11-08 13:29:28,524 WARNING:main.py:418:setup_molecule:Multiple occupancies found: SG in CYS A 119.
+2022-11-08 13:29:28,524 WARNING:main.py:424:setup_molecule:Multiple occupancies found in CYS A 119. At least one of the instances is being ignored.
+2022-11-08 13:29:28,524 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in ARG A 179.
+2022-11-08 13:29:28,524 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in ARG A 179.
+2022-11-08 13:29:28,524 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in ARG A 179.
+2022-11-08 13:29:28,524 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in ARG A 179.
+2022-11-08 13:29:28,525 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in ARG A 179.
+2022-11-08 13:29:28,525 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG in ARG A 179.
+2022-11-08 13:29:28,525 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CD in ARG A 179.
+2022-11-08 13:29:28,525 WARNING:main.py:418:setup_molecule:Multiple occupancies found: NE in ARG A 179.
+2022-11-08 13:29:28,525 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CZ in ARG A 179.
+2022-11-08 13:29:28,525 WARNING:main.py:418:setup_molecule:Multiple occupancies found: NH1 in ARG A 179.
+2022-11-08 13:29:28,525 WARNING:main.py:418:setup_molecule:Multiple occupancies found: NH2 in ARG A 179.
+2022-11-08 13:29:28,525 WARNING:main.py:424:setup_molecule:Multiple occupancies found in ARG A 179. At least one of the instances is being ignored.
+2022-11-08 13:29:28,525 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in VAL A 190.
+2022-11-08 13:29:28,526 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in VAL A 190.
+2022-11-08 13:29:28,526 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG1 in VAL A 190.
+2022-11-08 13:29:28,526 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG2 in VAL A 190.
+2022-11-08 13:29:28,526 WARNING:main.py:424:setup_molecule:Multiple occupancies found in VAL A 190. At least one of the instances is being ignored.
+2022-11-08 13:29:28,526 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in SER A 213.
+2022-11-08 13:29:28,526 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in SER A 213.
+2022-11-08 13:29:28,526 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OG in SER A 213.
+2022-11-08 13:29:28,526 WARNING:main.py:424:setup_molecule:Multiple occupancies found in SER A 213. At least one of the instances is being ignored.
+2022-11-08 13:29:28,527 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in VAL A 333.
+2022-11-08 13:29:28,527 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in VAL A 333.
+2022-11-08 13:29:28,527 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG1 in VAL A 333.
+2022-11-08 13:29:28,528 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG2 in VAL A 333.
+2022-11-08 13:29:28,528 WARNING:main.py:424:setup_molecule:Multiple occupancies found in VAL A 333. At least one of the instances is being ignored.
+2022-11-08 13:29:28,528 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in GLU A 351.
+2022-11-08 13:29:28,528 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in GLU A 351.
+2022-11-08 13:29:28,528 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in GLU A 351.
+2022-11-08 13:29:28,528 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in GLU A 351.
+2022-11-08 13:29:28,528 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in GLU A 351.
+2022-11-08 13:29:28,529 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG in GLU A 351.
+2022-11-08 13:29:28,529 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CD in GLU A 351.
+2022-11-08 13:29:28,529 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OE1 in GLU A 351.
+2022-11-08 13:29:28,529 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OE2 in GLU A 351.
+2022-11-08 13:29:28,529 WARNING:main.py:424:setup_molecule:Multiple occupancies found in GLU A 351. At least one of the instances is being ignored.
+2022-11-08 13:29:28,541 WARNING:biomolecule.py:600:update_bonds:Gap in backbone detected between ASP A 338 and GLY A 346!
+2022-11-08 13:29:28,569 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue HIS A 116
+2022-11-08 13:29:28,569 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom ND1 in residue HIS A 116
+2022-11-08 13:29:28,570 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD2 in residue HIS A 116
+2022-11-08 13:29:28,570 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE1 in residue HIS A 116
+2022-11-08 13:29:28,570 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NE2 in residue HIS A 116
+2022-11-08 13:29:28,571 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 271
+2022-11-08 13:29:28,571 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 271
+2022-11-08 13:29:28,571 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 271
+2022-11-08 13:29:28,571 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 271
+2022-11-08 13:29:28,571 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 272
+2022-11-08 13:29:28,571 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 272
+2022-11-08 13:29:28,572 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 272
+2022-11-08 13:29:28,572 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 272
+2022-11-08 13:29:28,572 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASP A 338
+2022-11-08 13:29:28,572 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASP A 338
+2022-11-08 13:29:28,573 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD2 in residue ASP A 338
+2022-11-08 13:29:28,573 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 348
+2022-11-08 13:29:28,573 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 348
+2022-11-08 13:29:28,573 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 348
+2022-11-08 13:29:28,573 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 348
+2022-11-08 13:29:28,573 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue HIS A 368
+2022-11-08 13:29:28,573 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue HIS A 116
+2022-11-08 13:29:28,574 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom ND1 in residue HIS A 116
+2022-11-08 13:29:28,574 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD2 in residue HIS A 116
+2022-11-08 13:29:28,574 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE1 in residue HIS A 116
+2022-11-08 13:29:28,574 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NE2 in residue HIS A 116
+2022-11-08 13:29:28,575 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 271
+2022-11-08 13:29:28,575 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 271
+2022-11-08 13:29:28,575 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 271
+2022-11-08 13:29:28,575 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 271
+2022-11-08 13:29:28,575 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 272
+2022-11-08 13:29:28,576 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 272
+2022-11-08 13:29:28,576 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 272
+2022-11-08 13:29:28,576 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 272
+2022-11-08 13:29:28,576 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASP A 338
+2022-11-08 13:29:28,576 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASP A 338
+2022-11-08 13:29:28,577 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD2 in residue ASP A 338
+2022-11-08 13:29:28,577 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 348
+2022-11-08 13:29:28,577 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 348
+2022-11-08 13:29:28,577 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 348
+2022-11-08 13:29:28,577 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 348
+2022-11-08 13:29:28,577 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue HIS A 368
+2022-11-08 13:29:28,577 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue HIS A 116
+2022-11-08 13:29:28,578 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom ND1 in residue HIS A 116
+2022-11-08 13:29:28,578 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD2 in residue HIS A 116
+2022-11-08 13:29:28,578 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE1 in residue HIS A 116
+2022-11-08 13:29:28,578 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NE2 in residue HIS A 116
+2022-11-08 13:29:28,579 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 271
+2022-11-08 13:29:28,579 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 271
+2022-11-08 13:29:28,579 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 271
+2022-11-08 13:29:28,579 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 271
+2022-11-08 13:29:28,580 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 272
+2022-11-08 13:29:28,580 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 272
+2022-11-08 13:29:28,580 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 272
+2022-11-08 13:29:28,580 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 272
+2022-11-08 13:29:28,580 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASP A 338
+2022-11-08 13:29:28,581 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASP A 338
+2022-11-08 13:29:28,581 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD2 in residue ASP A 338
+2022-11-08 13:29:28,581 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 348
+2022-11-08 13:29:28,581 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 348
+2022-11-08 13:29:28,581 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 348
+2022-11-08 13:29:28,581 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 348
+2022-11-08 13:29:28,581 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue HIS A 368
+2022-11-08 13:29:32,054 WARNING:main.py:311:print_pqr:Ignoring 3064 header lines in output.
+2022-11-08 13:29:32,055 WARNING:main.py:315:print_pqr:Ignoring 67 missing lines in output.

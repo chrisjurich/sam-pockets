@@ -1,0 +1,7 @@
+2022-11-08 13:25:25,239 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for SAM.  Parsing as new residue.
+2022-11-08 13:25:25,260 WARNING:biomolecule.py:600:update_bonds:Gap in backbone detected between SER A 141 and PRO A 148!
+2022-11-08 13:25:25,301 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue PRO A 297
+2022-11-08 13:25:25,303 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue PRO A 297
+2022-11-08 13:25:25,306 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue PRO A 297
+2022-11-08 13:25:29,440 WARNING:main.py:311:print_pqr:Ignoring 1729 header lines in output.
+2022-11-08 13:25:29,441 WARNING:main.py:315:print_pqr:Ignoring 27 missing lines in output.

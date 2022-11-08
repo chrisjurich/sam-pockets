@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+
+function run_cmd() {
+    echo Running $@
+
+    eval $@
+    
+}
+
+for code in $( ls raw/????.pdb ); do
+    echo $code;
+    
+    fname=$(basename $code)
+    clcase=$(echo "${fname%.*}" | tr '[:upper:]' '[:lower:]')
+    dname="cleaned/${clcase}"
+
+    if [[ ! -d $dname ]]; then
+        mkdir -p $dname;
+    fi
+    
+    if [[ -f $dname/enzyme.pdb ]]; then
+        continue;
+    fi
+
+    run_cmd pdb2pqr30 --quiet --keep-chain --with-ph 7.0 --ffout AMBER $code $dname/enzyme.pdb;
+
+done;

@@ -1,0 +1,18 @@
+#!/usr/bin/env python3 
+
+
+from pathlib import Path
+from pymol import cmd
+
+
+for pp in Path('.').glob('????.pdb'):
+
+    cmd.delete('all')
+    cmd.load(str(pp))
+    cmd.remove('solvent')
+    cmd.select("batman", "r. na\\+")
+    cmd.remove("batman")
+    cmd.select("pooltime", "r. cl\\-")
+    cmd.remove("pooltime")
+    cmd.save(str(pp))
+    cmd.delete("all")

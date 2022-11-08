@@ -1,0 +1,25 @@
+2022-11-08 13:27:50,821 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for HIC.  Parsing as new residue.
+2022-11-08 13:27:50,841 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for PEG.  Parsing as new residue.
+2022-11-08 13:27:50,841 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for SAM.  Parsing as new residue.
+2022-11-08 13:27:50,842 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in LEU A 107.
+2022-11-08 13:27:50,842 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in LEU A 107.
+2022-11-08 13:27:50,843 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in LEU A 107.
+2022-11-08 13:27:50,843 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in LEU A 107.
+2022-11-08 13:27:50,843 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in LEU A 107.
+2022-11-08 13:27:50,843 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG in LEU A 107.
+2022-11-08 13:27:50,843 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CD1 in LEU A 107.
+2022-11-08 13:27:50,843 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CD2 in LEU A 107.
+2022-11-08 13:27:50,843 WARNING:main.py:424:setup_molecule:Multiple occupancies found in LEU A 107. At least one of the instances is being ignored.
+2022-11-08 13:27:50,843 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in SER A 167.
+2022-11-08 13:27:50,843 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in SER A 167.
+2022-11-08 13:27:50,844 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in SER A 167.
+2022-11-08 13:27:50,844 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in SER A 167.
+2022-11-08 13:27:50,844 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in SER A 167.
+2022-11-08 13:27:50,844 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OG in SER A 167.
+2022-11-08 13:27:50,844 WARNING:main.py:424:setup_molecule:Multiple occupancies found in SER A 167. At least one of the instances is being ignored.
+2022-11-08 13:27:50,852 WARNING:biomolecule.py:600:update_bonds:Gap in backbone detected between ALA A 46 and GLY A 57!
+2022-11-08 13:27:50,884 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue CYS A 249
+2022-11-08 13:27:50,886 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue CYS A 249
+2022-11-08 13:27:50,888 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue CYS A 249
+2022-11-08 13:27:52,842 WARNING:main.py:311:print_pqr:Ignoring 2280 header lines in output.
+2022-11-08 13:27:52,843 WARNING:main.py:315:print_pqr:Ignoring 45 missing lines in output.

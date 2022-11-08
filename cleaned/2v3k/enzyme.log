@@ -1,0 +1,14 @@
+2022-11-08 13:26:45,444 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:26:45,445 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:26:45,448 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:26:45,453 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:26:45,459 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for MSE.  Parsing as new residue.
+2022-11-08 13:26:45,463 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for SO4.  Parsing as new residue.
+2022-11-08 13:26:45,463 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for SO4.  Parsing as new residue.
+2022-11-08 13:26:45,464 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for SAM.  Parsing as new residue.
+2022-11-08 13:26:45,472 WARNING:biomolecule.py:600:update_bonds:Gap in backbone detected between ILE A 55 and TYR A 65!
+2022-11-08 13:26:45,505 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ILE A 251
+2022-11-08 13:26:45,507 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ILE A 251
+2022-11-08 13:26:45,508 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ILE A 251
+2022-11-08 13:26:48,816 WARNING:main.py:311:print_pqr:Ignoring 3343 header lines in output.
+2022-11-08 13:26:48,816 WARNING:main.py:315:print_pqr:Ignoring 77 missing lines in output.

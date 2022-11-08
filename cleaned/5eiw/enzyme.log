@@ -1,0 +1,27 @@
+2022-11-08 13:31:35,299 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for SAM.  Parsing as new residue.
+2022-11-08 13:31:35,300 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for X0V.  Parsing as new residue.
+2022-11-08 13:31:35,300 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in GLU A 43.
+2022-11-08 13:31:35,300 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in GLU A 43.
+2022-11-08 13:31:35,301 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in GLU A 43.
+2022-11-08 13:31:35,301 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in GLU A 43.
+2022-11-08 13:31:35,301 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in GLU A 43.
+2022-11-08 13:31:35,301 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG in GLU A 43.
+2022-11-08 13:31:35,301 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CD in GLU A 43.
+2022-11-08 13:31:35,301 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OE1 in GLU A 43.
+2022-11-08 13:31:35,301 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OE2 in GLU A 43.
+2022-11-08 13:31:35,301 WARNING:main.py:424:setup_molecule:Multiple occupancies found in GLU A 43. At least one of the instances is being ignored.
+2022-11-08 13:31:35,302 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in GLU A 111.
+2022-11-08 13:31:35,302 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in GLU A 111.
+2022-11-08 13:31:35,302 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in GLU A 111.
+2022-11-08 13:31:35,302 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in GLU A 111.
+2022-11-08 13:31:35,302 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in GLU A 111.
+2022-11-08 13:31:35,302 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG in GLU A 111.
+2022-11-08 13:31:35,302 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CD in GLU A 111.
+2022-11-08 13:31:35,302 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OE1 in GLU A 111.
+2022-11-08 13:31:35,302 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OE2 in GLU A 111.
+2022-11-08 13:31:35,303 WARNING:main.py:424:setup_molecule:Multiple occupancies found in GLU A 111. At least one of the instances is being ignored.
+2022-11-08 13:31:35,345 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ARG A 262
+2022-11-08 13:31:35,347 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ARG A 262
+2022-11-08 13:31:35,349 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ARG A 262
+2022-11-08 13:31:39,132 WARNING:main.py:311:print_pqr:Ignoring 2126 header lines in output.
+2022-11-08 13:31:39,133 WARNING:main.py:315:print_pqr:Ignoring 39 missing lines in output.

@@ -1,0 +1,10 @@
+2022-11-08 13:30:50,853 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for I9H.  Parsing as new residue.
+2022-11-08 13:30:50,854 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for SAM.  Parsing as new residue.
+2022-11-08 13:30:50,854 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for ZN.  Parsing as new residue.
+2022-11-08 13:30:50,854 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for ZN.  Parsing as new residue.
+2022-11-08 13:30:50,854 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for ZN.  Parsing as new residue.
+2022-11-08 13:30:50,907 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ILE A 430
+2022-11-08 13:30:50,910 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ILE A 430
+2022-11-08 13:30:50,912 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ILE A 430
+2022-11-08 13:30:56,442 WARNING:main.py:311:print_pqr:Ignoring 3046 header lines in output.
+2022-11-08 13:30:56,443 WARNING:main.py:315:print_pqr:Ignoring 64 missing lines in output.
