@@ -1,6 +1,0 @@
-2022-11-08 13:29:24,856 WARNING:biomolecule.py:966:create_residue:Unable to find amino or nucleic acid definition for SAM.  Parsing as new residue.
-2022-11-08 13:29:24,897 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue VAL A 230
-2022-11-08 13:29:24,899 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue VAL A 230
-2022-11-08 13:29:24,900 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue VAL A 230
-2022-11-08 13:29:27,651 WARNING:main.py:311:print_pqr:Ignoring 1729 header lines in output.
-2022-11-08 13:29:27,652 WARNING:main.py:315:print_pqr:Ignoring 27 missing lines in output.
