@@ -1,0 +1,14 @@
+cleaned/4ctj
+cleaned/2cl5
+cleaned/4ctk
+cleaned/1h1d
+cleaned/5t0k
+cleaned/5t0m
+
+Edits:
+4ctj - removed terminal atom missing heavy atoms
+4ctk - removed terminal atom missing heavy atoms
+2cl5 - removed terminal atom missing heavy atoms
+1h1d - removed terminal atom missing heavy atoms
+5t0k - removed terminal atom missing heavy atoms
+5t0m - removed terminal atom missing heavy atoms
