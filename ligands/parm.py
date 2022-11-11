@@ -9,8 +9,7 @@ def get_charge( fname ):
     cmd.load( fname )
     stored.fc = 0
     cmd.iterate('all', 'stored.fc += formal_charge')
-    print(stored.fc)
-
+    return stored.fc
 
 def validate_file( lig ):
     cmd.delete('all')    
@@ -30,11 +29,15 @@ def protonate( lig ):
    
 
 def parameterize( lig, outdir ):
-    
+    code = lig.stem.split('_')[0] 
     prepin = f"{outdir}/{code}.prepin"
     frcmod = f"{outdir}/{code}.frcmod"
-
-    os.system(f'antechamber -i {lig} -fi mol2 -o {prepin} -fo prepi -c bcc -s 0 -nc {get_charge(lig)} ')
+    if Path(prepin).exists() and Path(frcmod).exists():
+        return
+    print(f'antechamber -i {lig} -fi mol2 -o {prepin} -fo prepi -c bcc -s 0 -nc {get_charge(lig)} ')
+    if os.system(f'antechamber -i {lig} -fi mol2 -o {prepin} -fo prepi -c bcc -s 0 -nc {get_charge(lig)} ') != 0:
+        exit( 0 )
+    print(f"parmchk2 -i {prepin} -f prepi -o {frcmod} ")
     os.system(f"parmchk2 -i {prepin} -f prepi -o {frcmod} ")
 
 
@@ -44,13 +47,15 @@ for lidx, lig in enumerate(Path('../cleaned/').rglob('???_?.mol2')):
     # for each ligand
     # 1. check that it is correct
     print(lidx, lig)
-    validate_file( lig )
+    #validate_file( lig )
     
-    protonate( lig )
+    #protonate( lig )
 
     unique[lig.stem.split('_')[0]] = lig
 
 
 for vv in unique.values():
+    if str(vv).find('GP3') != -1:
+        continue
     print(f"Parming... {vv}")
     parameterize( vv, 'parms/')
