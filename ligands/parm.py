@@ -23,9 +23,21 @@ def validate_file( lig ):
     cmd.delete('all')
 
 def protonate( lig ):
-    shutil.copy(lig, 'temp.mol2')
-    os.system('/sb/apps/moe/bin/moebatch -script cmd.svl 1>/dev/null 2>/dev/null')
-    shutil.copy('temp.mol2', lig)
+    if str(lig).find('SAM') != -1:
+        shutil.copy(lig, 'temp.mol2')
+        cmd.delete('all')
+        cmd.load('temp.mol2')
+        cmd.save('temp.pdb')
+        cmd.delete('all')
+        os.system('/sb/apps/moe/bin/moebatch -script cmd_pdb.svl 1>/dev/null 2>/dev/null')
+        cmd.delete('all')
+        cmd.load('temp.pdb')
+        cmd.save('temp.mol2')
+        shutil.copy('temp.mol2', lig)
+    else:
+        shutil.copy(lig, 'temp.mol2')
+        os.system('/sb/apps/moe/bin/moebatch -script cmd.svl 1>/dev/null 2>/dev/null')
+        shutil.copy('temp.mol2', lig)
    
 
 def parameterize( lig, outdir ):
@@ -34,8 +46,11 @@ def parameterize( lig, outdir ):
     frcmod = f"{outdir}/{code}.frcmod"
     if Path(prepin).exists() and Path(frcmod).exists():
         return
-    print(f'antechamber -i {lig} -fi mol2 -o {prepin} -fo prepi -c bcc -s 0 -nc {get_charge(lig)} ')
-    if os.system(f'antechamber -i {lig} -fi mol2 -o {prepin} -fo prepi -c bcc -s 0 -nc {get_charge(lig)} ') != 0:
+    charge = get_charge(lig)
+    if str(lig).find('SAM') != -1:
+        charge = 1
+    print(f'antechamber -i {lig} -fi mol2 -o {prepin} -fo prepi -c bcc -s 0 -nc {charge} ')
+    if os.system(f'antechamber -i {lig} -fi mol2 -o {prepin} -fo prepi -c bcc -s 0 -nc {charge} ') != 0:
         exit( 0 )
     print(f"parmchk2 -i {prepin} -f prepi -o {frcmod} ")
     os.system(f"parmchk2 -i {prepin} -f prepi -o {frcmod} ")
@@ -49,8 +64,8 @@ for lidx, lig in enumerate(Path('../cleaned/').rglob('???_?.mol2')):
     print(lidx, lig)
     #validate_file( lig )
     
-    #protonate( lig )
-
+    #if str(lig).find('SAM') != -1:
+        #protonate( lig )
     unique[lig.stem.split('_')[0]] = lig
 
 
