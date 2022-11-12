@@ -36,7 +36,7 @@ def protonate( lig ):
         shutil.copy('temp.mol2', lig)
     else:
         shutil.copy(lig, 'temp.mol2')
-        os.system('/sb/apps/moe/bin/moebatch -script cmd.svl 1>/dev/null 2>/dev/null')
+        os.system('/sb/apps/moe/bin/moebatch -script cmd.svl ')
         shutil.copy('temp.mol2', lig)
    
 
@@ -59,18 +59,18 @@ def parameterize( lig, outdir ):
 unique = dict()
 
 for lidx, lig in enumerate(Path('../cleaned/').rglob('???_?.mol2')):
+    code = lig.stem.split('_')[0]
+    if Path(f'parms/{code}.frcmod').exists() and Path(f'parms/{code}.prepin').exists():
+        continue    
     # for each ligand
     # 1. check that it is correct
     print(lidx, lig)
-    #validate_file( lig )
+    validate_file( lig )
     
-    #if str(lig).find('SAM') != -1:
-        #protonate( lig )
+    protonate( lig )
+
     unique[lig.stem.split('_')[0]] = lig
 
-
 for vv in unique.values():
-    if str(vv).find('GP3') != -1:
-        continue
     print(f"Parming... {vv}")
     parameterize( vv, 'parms/')
