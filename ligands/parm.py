@@ -70,7 +70,5 @@ for lidx, lig in enumerate(Path('../cleaned/').rglob('???_?.mol2')):
 
 
 for vv in unique.values():
-    if str(vv).find('GP3') != -1:
-        continue
     print(f"Parming... {vv}")
     parameterize( vv, 'parms/')
