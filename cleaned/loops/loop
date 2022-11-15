@@ -1,0 +1,338 @@
+#!/usr/bin/env python3
+import sys
+import shutil
+import requests
+import pandas as pd
+from pymol import cmd
+from modeller import *
+from modeller.automodel import *    # Load the AutoModel class
+from pathlib import Path
+from Bio.PDB.PDBParser import PDBParser
+import Bio.PDB.Polypeptide as ptide 
+
+log.none()
+
+def get_chain_mapper( fname ):
+    print(fname)
+    parser = PDBParser(QUIET=True, get_header=True)
+    ss = parser.get_structure( 'ss', fname )
+    
+    holder = []
+    for res in ss.get_residues():
+        if res.get_resname() in ["HOH", "WAT", "SAH"] or not ptide.is_aa( res.get_resname() ):
+            continue
+        (_,_,icode) = res.get_id()
+        (_,_,cname,(rname, rnum, _)) = res.get_full_id()
+        holder.append((cname, rnum, icode))
+   
+    if header['has_missing_residues']:
+        for mr in header['missing_residues']:
+            key = ( mr['chain'], mr['ssseq'], mr['insertion'] )
+
+            cmin, cmax = 10000, -1
+
+            for ridx, row in enumerate(holder):
+                if key[0] == row[0]:
+                    cmin = min(cmin, ridx)
+                    cmax = max(cmax, ridx)
+            
+            for ridx in range(cmin, cmax + 1):
+                assert key[0] == holder[ridx][0]
+            
+            for ridx in range( cmin, cmax + 1):
+                
+                row = holder[ridx]
+
+                if ridx == cmin:
+                    if key[1] < row[1]:
+                        holder.insert(cmin, key)
+                        break
+                elif key[1] > holder[ridx-1][1] and key[1] < row[1]:
+                    holder.insert(ridx, key)
+                    break
+                elif cmax == ridx and key[1] > row[1]:
+                    holder.insert(ridx+1, key)
+                    break
+            else:
+                #TODO(CJ): this will often be the insertion code stuff
+                print(mr)
+                assert False
+
+    df = pd.DataFrame(holder, columns="chain num icode".split())
+    
+
+    result = dict() 
+    offset = 0
+    prev_chain = df.chain[0]
+
+
+    for i, row in df.iterrows():
+        if prev_chain != row.chain:
+            prev_chain = row.chain
+            offset += 1
+        result[(row.chain, row.num)] = i + offset
+
+    return result
+
+
+def fix_loops( code ):
+    
+    cmd.delete('all')
+    cmd.fetch( code )
+    cmd.save(f"{code}.pdb")
+    cmd.delete('all')
+    
+    env = Environ()
+    
+    # directories for input atom files
+    env.io.atom_files_directory = ['.', '../atom_files']
+    env.io.hetatm = True
+
+
+    a = AutoModel(env, alnfile = 'alignment.ali',
+                  knowns = f"{code}.pdb", sequence = f"{code}_fill" )
+    a.starting_model= 1
+    a.ending_model  = 1
+    
+    #a.loop.starting_model = 1
+    #a.loop.ending_model   = 2
+    #a.loop.md_level       = refine.fast
+    
+    a.make()  
+
+def add_gaps( header, cmapper, infile='alignment.ali' ):
+    lines = get_lines( infile )
+
+    #gapped_header, gapped, full = str(), str(), str(), str()
+
+    #lines = filter(lambda ll: not ll.startswith('>') and not ll.find('structure'), lines)
+    (gapped, full) = '\n'.join(lines).split('\n\n')
+    gapped = gapped.splitlines()
+    full_seq = full.splitlines()[2:]
+
+    full_seq = list(''.join('\n'.join(full_seq).split()))
+
+    direct_index = False
+    for mr in header['missing_residues']:
+        if (mr['ssseq']-1) >= len(full_seq) or (mr['ssseq']-1) < 0:
+            direct_index = False
+
+    if direct_index:
+        for mr in header['missing_residues']:
+            assert ptide.three_to_one(mr['res_name']) == full_seq[mr['ssseq']-1]
+            full_seq[mr['ssseq']-1] = '-'
+    else:
+        df = pd.DataFrame(header['missing_residues'])
+        frag = ''.join([ ptide.three_to_one( vv ) for vv in df['res_name']])
+        
+        it = ''.join(full_seq).find(frag)
+        ct = ''.join(full_seq).count(frag)
+        
+        if it == -1:
+            print('not found')
+            exit( 0 )
+        
+        if ct > 1:
+            print('too many')
+            exit( 0 )
+
+
+        for idx, ch in enumerate( frag ):
+            full_seq[it+idx] = '-'
+
+    gapped_seq = chunk(''.join(full_seq), 75)
+
+    write_lines( 'alignment.ali', gapped[0:3] + gapped_seq  + [''] + [full])
+
+
+def generate_align_file( code, header, cmapper):
+
+    
+    cnames = set()
+    for k,v in cmapper.items():
+        cnames.add( k[0] )
+    
+    num_chains = len(cnames)
+
+    e = Environ()
+    m = Model(e, file=f"../../pdb-intact/{code.upper()}.pdb")
+    aln = Alignment(e)
+    aln.append_model(m, align_codes=f"{code_str}.pdb")
+    aln.write(file=f"{code}.seq")
+
+    fasta = get_fasta_str(code_str)
+
+    if len(fasta) == 1 and len(fasta) != num_chains:
+        fasta *= num_chains
+
+    target_str = '/'.join(fasta)
+    orig = target_str 
+
+    target_str = ''.join([
+#        "TLKYPIEMGIVTNWDDMEKIWHH/",
+#        "MGKKSRVKTQKSGTGATATVSPKEILNLTSELLQKCSSPAPGPGKEWEEYVQIRTLVEKIRKKQKGLSVTFDGKREDYFPDLMKWASENGASVEGFEMVNFKEEGFGLRATRDIKAEELFLWVPRKLLMTVESAKNSVLGPLYSQDRILQAMGNIALAFHLLCERASPNSFWQPYIQTLPSEYDTPLYFEEDEVRYLQSTQAIHDVFSQYKNTARQYAYFYKVIQTHPHANKLPLKDSFTYEDYRWAVSSVMTRQVQIPTEDGSRVTLALIPLWDMCNHTNGLITTGYNLEDDRCECVALQDFRAGEQIYIFYGTRSNAEFVIHSGFFFDNNSHDRVKIKLGVSKSDRLYAMKAEVLARAGIPTSSVFALHFTEPPISAQLLAFLRVFCMTEEELKEHLLGDSAIDRIFTLGNSEFPVSWDNEVKLWTFLEDRASLLLKTYKTTIEEDKSVLKNHDLSVRAKMAIKLRLGEKEILEKAVKSAAVNREYYRQQMEEKAPLPKYEESNLGLLESSVGDSRLPLVLRNLEEEAGVQDALNIREAISKAKATENGLVNGENSIPNGTRSENESLNQESKRAVEDAKGSSSDSTAGVKE/",
+#        "TLKYPIEMGIVTNWDDMEKIWHH/",
+#        "MGKKSRVKTQKSGTGATATVSPKEILNLTSELLQKCSSPAPGPGKEWEEYVQIRTLVEKIRKKQKGLSVTFDGKREDYFPDLMKWASENGASVEGFEMVNFKEEGFGLRATRDIKAEELFLWVPRKLLMTVESAKNSVLGPLYSQDRILQAMGNIALAFHLLCERASPNSFWQPYIQTLPSEYDTPLYFEEDEVRYLQSTQAIHDVFSQYKNTARQYAYFYKVIQTHPHANKLPLKDSFTYEDYRWAVSSVMTRQVQIPTEDGSRVTLALIPLWDMCNHTNGLITTGYNLEDDRCECVALQDFRAGEQIYIFYGTRSNAEFVIHSGFFFDNNSHDRVKIKLGVSKSDRLYAMKAEVLARAGIPTSSVFALHFTEPPISAQLLAFLRVFCMTEEELKEHLLGDSAIDRIFTLGNSEFPVSWDNEVKLWTFLEDRASLLLKTYKTTIEEDKSVLKNHDLSVRAKMAIKLRLGEKEILEKAVKSAAVNREYYRQQMEEKAPLPKYEESNLGLLESSVGDSRLPLVLRNLEEEAGVQDALNIREAISKAKATENGLVNGENSIPNGTRSENESLNQESKRAVEDAKGSSSDSTAGVKE/",
+#        
+"AMGSRKSKAELQSEERKRIDELIESGKEEGMKIDLIDGKGRGVIATKQFSRGDFVVEYHGDLIEITDAKKREALYAQDPSTGCYMYYFQYLSKTYCVDATRETNRLGRLINHSKSGNCQTKLHDIDGVPHLILIASRDIAAGEELLYDYGDRSKASIEAHPWLKH/",
+"AMGSRKSKAELQSEERKRIDELIESGKEEGMKIDLIDGKGRGVIATKQFSRGDFVVEYHGDLIEITDAKKREALYAQDPSTGCYMYYFQYLSKTYCVDATRETNRLGRLINHSKSGNCQTKLHDIDGVPHLILIASRDIAAGEELLYDYGDRSKASIEAHPWLKH/",
+"XXXXXXXXXX/",
+
+#    #    "SNASSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLPTGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADLYKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDMILSLLSKGRLIIRENNRVVISSDVLVNN/",
+#    #    "SNAAGNATEVPANSTVLSFCAFAVDAAKAYKDYLASGGQPITNCVKMLCTHTGTGQAITVTPEANMDQESFGGASCCLYCRCHIDHPNPKGFCDLKGKYVQIPTTCANDPVGFTLKNTVCTVCGMWKGYGCSCDQLREPMLQ/",
+#    #    "SNASSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLPTGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADLYKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDMILSLLSKGRLIIRENNRVVISSDVLVNN/",
+#    #    "SNAAGNATEVPANSTVLSFCAFAVDAAKAYKDYLASGGQPITNCVKMLCTHTGTGQAITVTPEANMDQESFGGASCCLYCRCHIDHPNPKGFCDLKGKYVQIPTTCANDPVGFTLKNTVCTVCGMWKGYGCSCDQLREPMLQ/",
+    ])
+    orig = target_str
+#    orig = target_str
+#    target_str = ''.join([
+#        "------MREFIFKANKTITSSDINLKDLPGSCGRLDLLCRCVSDAFFLSHDIRRDVVFYAVLYGQPNPPVCIKFVGSELKKVSPDERNIAIFIKKALKKFEELDEEQRKDWNQSTPGIYVRRLGFRNLVLEKLEEGKNIYYLHMNGEDVENVDIENPVFIIGDHIGIGEEDERFLDEIKAKRISLSPLELHANHCITIIHNVLDKK-----/",
+#        "------MREFIFKANKTITSSDINLKDLPGSCGRLDLLCRCVSDAFFLSHDIRRDVVFYAVLYGQPNPPVCIKFVGSELKKVSPDERNIAIFIKKALKKFEELDEEQRKDWNQSTPGIYVRRLGFRNLVLEKLEEGKNIYYLHMNGEDVENVDIENPVFIIGDHIGIGEEDERFLDEIKAKRISLSPLELHANHCITIIHNVLDKK-----/",
+#    ]) 
+#
+#    orig = ''.join([
+#        "GSHMASMREFIFKANKTITSSDINLKDLPGSCGRLDLLCRCVSDAFFLSHDIRRDVVFYAVLYGQPNPPVCIKFVGSELKKVSPDERNIAIFIKKALKKFEELDEEQRKDWNQSTPGIYVRRLGFRNLVLEKLEEGKNIYYLHMNGEDVENVDIENPVFIIGDHIGIGEEDERFLDEIKAKRISLSPLELHANHCITIIHNVLDKKRICEI/",
+#        "GSHMASMREFIFKANKTITSSDINLKDLPGSCGRLDLLCRCVSDAFFLSHDIRRDVVFYAVLYGQPNPPVCIKFVGSELKKVSPDERNIAIFIKKALKKFEELDEEQRKDWNQSTPGIYVRRLGFRNLVLEKLEEGKNIYYLHMNGEDVENVDIENPVFIIGDHIGIGEEDERFLDEIKAKRISLSPLELHANHCITIIHNVLDKKRICEI/",
+#    ]) 
+
+
+    target_str = list(target_str)
+
+    for mr in header['missing_residues']:
+        seqIdx = cmapper[(mr['chain'], mr['ssseq'])]
+        
+        if mr['res_name'] == 'MSE' and target_str[seqIdx] == 'M':
+            pass
+        elif target_str[seqIdx] == 'X' and mr['res_name'] in 'UNK ACE'.split():
+            pass
+        elif target_str[seqIdx] == 'U' and mr['res_name'] == 'SEC':
+            orig = list(orig)
+            orig[seqIdx] = 'C'
+            orig = ''.join(orig)
+            pass
+        elif target_str[seqIdx] == ptide.three_to_one(mr['res_name']):
+            pass
+        else:
+            print(mr)
+            assert False
+        target_str[seqIdx] = '-'
+
+    target_str = ''.join(target_str)
+
+    mobile = get_lines(f"{code}.seq")
+
+    aln_lines = [''] + mobile[1:3] + chunk( target_str, 75, True )
+    aln_lines.extend(
+        [
+            '',
+            f'>P1;{code_str.lower()}_fill',
+            'sequence' + ':'*9,
+        ] +   chunk(orig, 75, True )
+            
+    )
+    write_lines('alignment.ali', aln_lines )
+
+def get_header( fname ):
+    parser = PDBParser(get_header=True, QUIET=True)
+    parser.get_structure('ss',  fname )
+   
+    header = parser.get_header()
+
+    return header
+ 
+def chunk( raw, size, add_star=False ):
+    result = [raw[i:i+size] for i in range(0, len(raw), size)]
+
+    if add_star:
+        result[-1] = result[-1] + '*'
+
+    return result
+
+def write_lines( fname, lines ):
+    fh = open(fname, 'w')
+    fh.write('\n'.join(lines))
+    fh.close()
+
+
+def get_lines( fname, delete=True ):
+
+    fh = open( fname, 'r' )
+    lines = fh.read().splitlines() 
+    fh.close()
+
+    if delete:
+        Path(fname).unlink()
+
+
+    return lines 
+
+
+def get_fasta_str( code ):
+    FASTA_URL="https://www.rcsb.org/fasta/entry/"
+    res = requests.get(f"{FASTA_URL}{code.upper()}")
+    
+    if not res.ok:
+        return False
+  
+    result = list(filter(lambda ll: not ll.startswith('>'), res.text.splitlines()))
+
+    return result
+
+
+
+def align_full( dname ):
+    full = dname / 'full.pdb'
+    for_leap = dname / 'for_leap.pdb'
+    if not full.exists() or for_leap.exists():
+        return
+    cmd.delete('all')
+    cmd.load( full )
+    cmd.load( for_leap )
+    cmd.align( 'full', 'for_leap' )
+    cmd.save( full, 'full')
+    cmd.delete('all')
+
+def cleanup_dir( code, full_path, aln_path ):
+    if Path(f"{code_str}_fill.B99990001.pdb").exists():
+        shutil.copy(f"{code_str}_fill.B99990001.pdb", full_path )
+
+    if Path("alignment.ali").exists():
+        shutil.copy("alignment.ali", aln_path )
+
+    for pp in Path('.').glob(f'*{code_str}*'):
+        pp.unlink()
+
+
+for code in sorted(Path('../').glob('????')):
+
+    if str(code).lower().find('4ij8') != -1:
+        continue
+
+    if not code.is_dir():
+        
+        continue
+
+    full_path = code / 'full.pdb'
+    aln_path = code / 'alignment.ali'
+    
+    if full_path.exists() and aln_path.exists():
+        continue
+  
+    code_str = str(code.stem)
+ 
+    header = get_header( f"../../pdb-intact/{code_str.upper()}.pdb" )
+
+    if not header['has_missing_residues']:
+        print('skipped')
+        continue
+
+    print( code ) 
+    cmapper = get_chain_mapper( f"../../pdb-intact/{code_str.upper()}.pdb" )
+    
+    generate_align_file( code_str, header, cmapper)
+
+    fix_loops( code_str ) 
+    
+    cleanup_dir( code_str, full_path, aln_path )
+
+    align_full( code )
