@@ -67,7 +67,7 @@ CORRECT     OMIT DU   BEG
   60  CAL   ca    M   58  57  55     1.396   123.111  -178.866 -0.128000
   61  HAL   ha    E   60  58  57     1.080   121.480  -178.468  0.155500
   62  CAR   ca    M   60  58  57     1.426   117.037     1.521  0.027400
-  63  Cl1   cl    E   62  60  58     1.697   115.510  -178.118 -0.063400
+  63  CL1   cl    E   62  60  58     1.697   115.510  -178.118 -0.063400
   64  CAM   ca    M   62  60  58     1.385   120.480    -2.974 -0.128000
   65  HAM   ha    E   64  62  60     1.080   120.166  -176.067  0.155500
   66  CAH   ca    M   64  62  60     1.385   119.658     3.927 -0.106500
@@ -92,7 +92,7 @@ IMPROPER
   CAA  CAG  CAC  CAH
   CAC  CAL  CAG  HAG
   CAG  CAR  CAL  HAL
-  CAL  CAM  CAR  Cl1
+  CAL  CAM  CAR  CL1
   CAR  CAH  CAM  HAM
   CAC  CAM  CAH  HAH
 

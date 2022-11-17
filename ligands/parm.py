@@ -44,11 +44,12 @@ def parameterize( lig, outdir ):
     code = lig.stem.split('_')[0] 
     prepin = f"{outdir}/{code}.prepin"
     frcmod = f"{outdir}/{code}.frcmod"
-    if Path(prepin).exists() and Path(frcmod).exists():
-        return
+    #if Path(prepin).exists() and Path(frcmod).exists():
+    #    return
     charge = get_charge(lig)
     if str(lig).find('SAM') != -1:
         charge = 1
+    print(charge)
     print(f'antechamber -i {lig} -fi mol2 -o {prepin} -fo prepi -c bcc -s 0 -nc {charge} ')
     if os.system(f'antechamber -i {lig} -fi mol2 -o {prepin} -fo prepi -c bcc -s 0 -nc {charge} ') != 0:
         exit( 0 )
@@ -59,17 +60,22 @@ def parameterize( lig, outdir ):
 unique = dict()
 
 for lidx, lig in enumerate(Path('../cleaned/').rglob('???_?.mol2')):
+    if str(lig).find('ACE') == -1:
+        continue
+#    if str(lig).find('DNC') == -1:
+#        continue
     code = lig.stem.split('_')[0]
-    if Path(f'parms/{code}.frcmod').exists() and Path(f'parms/{code}.prepin').exists():
-        continue    
+#    if Path(f'parms/{code}.frcmod').exists() and Path(f'parms/{code}.prepin').exists():
+#        continue    
     # for each ligand
     # 1. check that it is correct
     print(lidx, lig)
     validate_file( lig )
     
-    protonate( lig )
+    #protonate( lig )
 
     unique[lig.stem.split('_')[0]] = lig
+
 
 for vv in unique.values():
     print(f"Parming... {vv}")
