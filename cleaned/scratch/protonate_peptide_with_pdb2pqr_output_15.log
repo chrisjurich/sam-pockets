@@ -1,0 +1,13 @@
+2022-11-16 04:32:08,125 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_15.pdb'
+2022-11-16 04:32:08,512 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 04:32:08,514 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 04:32:08,853 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 04:32:08,884 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_23.pdb'...
+2022-11-16 04:32:12,365 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_15.pdb'
+2022-11-16 04:32:13,163 INFO:structure.py:332:is_idx_subset:current stru chain Chain(B, residue: 999-999) doesnt contain residue: Residue(567, GLY, atom:9, Chain(B, residue: 567-849)) of the target stru
+2022-11-16 04:32:13,177 INFO:general.py:75:update_residues:updating ('A', 60) HIS to HID
+2022-11-16 04:32:13,178 INFO:general.py:75:update_residues:updating ('A', 63) HIS to HID
+2022-11-16 04:32:13,208 INFO:general.py:75:update_residues:updating ('A', 203) HIS to HID
+2022-11-16 04:32:13,212 INFO:general.py:75:update_residues:updating ('A', 218) HIS to HID
+2022-11-16 04:32:13,223 INFO:general.py:75:update_residues:updating ('A', 267) HIS to HID
+2022-11-16 04:32:13,228 INFO:structure.py:332:is_idx_subset:current stru chain Chain(B, residue: 999-999) doesnt contain residue: Residue(567, GLY, atom:9, Chain(B, residue: 567-849)) of the target stru

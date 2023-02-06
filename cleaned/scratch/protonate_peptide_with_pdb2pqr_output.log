@@ -1,0 +1,345 @@
+2022-11-16 02:05:29,951 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output.pdb'
+2022-11-16 02:05:30,576 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HIE
+2022-11-16 02:05:30,578 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 02:05:30,587 INFO:general.py:75:update_residues:updating ('A', 54) HIS to HIE
+2022-11-16 02:05:30,588 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 02:05:30,592 INFO:general.py:75:update_residues:updating ('A', 77) HIS to HIE
+2022-11-16 02:05:30,595 INFO:general.py:75:update_residues:updating ('A', 88) HIS to HID
+2022-11-16 02:05:30,604 INFO:general.py:75:update_residues:updating ('A', 130) HIS to HID
+2022-11-16 02:05:30,612 INFO:general.py:75:update_residues:updating ('A', 170) HIS to HIE
+2022-11-16 02:05:30,615 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 02:05:30,617 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 02:05:30,618 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 02:05:30,620 INFO:general.py:75:update_residues:updating ('A', 206) HIS to HID
+2022-11-16 02:05:30,626 INFO:general.py:75:update_residues:updating ('B', 241) HIS to HID
+2022-11-16 02:05:30,628 INFO:general.py:75:update_residues:updating ('B', 247) HIS to HID
+2022-11-16 02:05:30,637 INFO:general.py:75:update_residues:updating ('B', 293) HIS to HIE
+2022-11-16 02:05:30,638 INFO:general.py:75:update_residues:updating ('B', 296) HIS to HID
+2022-11-16 02:05:30,642 INFO:general.py:75:update_residues:updating ('B', 316) HIS to HID
+2022-11-16 02:05:30,644 INFO:general.py:75:update_residues:updating ('B', 327) HIS to HID
+2022-11-16 02:05:30,653 INFO:general.py:75:update_residues:updating ('B', 369) HIS to HID
+2022-11-16 02:05:30,662 INFO:general.py:75:update_residues:updating ('B', 409) HIS to HID
+2022-11-16 02:05:30,664 INFO:general.py:75:update_residues:updating ('B', 422) HIS to HID
+2022-11-16 02:05:30,667 INFO:general.py:75:update_residues:updating ('B', 434) HIS to HID
+2022-11-16 02:05:30,668 INFO:general.py:75:update_residues:updating ('B', 439) HIS to HIE
+2022-11-16 02:05:30,670 INFO:general.py:75:update_residues:updating ('B', 445) HIS to HID
+2022-11-16 02:05:30,678 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:11:12,497 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output.pdb'
+2022-11-16 02:11:13,125 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HIE
+2022-11-16 02:11:13,126 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 02:11:13,136 INFO:general.py:75:update_residues:updating ('A', 54) HIS to HIE
+2022-11-16 02:11:13,137 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 02:11:13,141 INFO:general.py:75:update_residues:updating ('A', 77) HIS to HIE
+2022-11-16 02:11:13,144 INFO:general.py:75:update_residues:updating ('A', 88) HIS to HID
+2022-11-16 02:11:13,153 INFO:general.py:75:update_residues:updating ('A', 130) HIS to HID
+2022-11-16 02:11:13,162 INFO:general.py:75:update_residues:updating ('A', 170) HIS to HIE
+2022-11-16 02:11:13,164 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 02:11:13,167 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 02:11:13,168 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 02:11:13,170 INFO:general.py:75:update_residues:updating ('A', 206) HIS to HID
+2022-11-16 02:11:13,176 INFO:general.py:75:update_residues:updating ('B', 241) HIS to HID
+2022-11-16 02:11:13,178 INFO:general.py:75:update_residues:updating ('B', 247) HIS to HID
+2022-11-16 02:11:13,187 INFO:general.py:75:update_residues:updating ('B', 293) HIS to HIE
+2022-11-16 02:11:13,187 INFO:general.py:75:update_residues:updating ('B', 296) HIS to HID
+2022-11-16 02:11:13,192 INFO:general.py:75:update_residues:updating ('B', 316) HIS to HID
+2022-11-16 02:11:13,194 INFO:general.py:75:update_residues:updating ('B', 327) HIS to HID
+2022-11-16 02:11:13,202 INFO:general.py:75:update_residues:updating ('B', 369) HIS to HID
+2022-11-16 02:11:13,212 INFO:general.py:75:update_residues:updating ('B', 409) HIS to HID
+2022-11-16 02:11:13,214 INFO:general.py:75:update_residues:updating ('B', 422) HIS to HID
+2022-11-16 02:11:13,217 INFO:general.py:75:update_residues:updating ('B', 434) HIS to HID
+2022-11-16 02:11:13,218 INFO:general.py:75:update_residues:updating ('B', 439) HIS to HIE
+2022-11-16 02:11:13,219 INFO:general.py:75:update_residues:updating ('B', 445) HIS to HID
+2022-11-16 02:11:13,227 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:12:17,666 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output.pdb'
+2022-11-16 02:12:18,298 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HIE
+2022-11-16 02:12:18,300 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 02:12:18,309 INFO:general.py:75:update_residues:updating ('A', 54) HIS to HIE
+2022-11-16 02:12:18,310 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 02:12:18,314 INFO:general.py:75:update_residues:updating ('A', 77) HIS to HIE
+2022-11-16 02:12:18,317 INFO:general.py:75:update_residues:updating ('A', 88) HIS to HID
+2022-11-16 02:12:18,326 INFO:general.py:75:update_residues:updating ('A', 130) HIS to HID
+2022-11-16 02:12:18,335 INFO:general.py:75:update_residues:updating ('A', 170) HIS to HIE
+2022-11-16 02:12:18,337 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 02:12:18,340 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 02:12:18,341 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 02:12:18,342 INFO:general.py:75:update_residues:updating ('A', 206) HIS to HID
+2022-11-16 02:12:18,349 INFO:general.py:75:update_residues:updating ('B', 241) HIS to HID
+2022-11-16 02:12:18,351 INFO:general.py:75:update_residues:updating ('B', 247) HIS to HID
+2022-11-16 02:12:18,359 INFO:general.py:75:update_residues:updating ('B', 293) HIS to HIE
+2022-11-16 02:12:18,360 INFO:general.py:75:update_residues:updating ('B', 296) HIS to HID
+2022-11-16 02:12:18,364 INFO:general.py:75:update_residues:updating ('B', 316) HIS to HID
+2022-11-16 02:12:18,367 INFO:general.py:75:update_residues:updating ('B', 327) HIS to HID
+2022-11-16 02:12:18,375 INFO:general.py:75:update_residues:updating ('B', 369) HIS to HID
+2022-11-16 02:12:18,384 INFO:general.py:75:update_residues:updating ('B', 409) HIS to HID
+2022-11-16 02:12:18,387 INFO:general.py:75:update_residues:updating ('B', 422) HIS to HID
+2022-11-16 02:12:18,389 INFO:general.py:75:update_residues:updating ('B', 434) HIS to HID
+2022-11-16 02:12:18,390 INFO:general.py:75:update_residues:updating ('B', 439) HIS to HIE
+2022-11-16 02:12:18,392 INFO:general.py:75:update_residues:updating ('B', 445) HIS to HID
+2022-11-16 02:12:18,399 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:13:24,288 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output.pdb'
+2022-11-16 02:13:24,919 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HIE
+2022-11-16 02:13:24,921 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 02:13:24,930 INFO:general.py:75:update_residues:updating ('A', 54) HIS to HIE
+2022-11-16 02:13:24,931 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 02:13:24,935 INFO:general.py:75:update_residues:updating ('A', 77) HIS to HIE
+2022-11-16 02:13:24,938 INFO:general.py:75:update_residues:updating ('A', 88) HIS to HID
+2022-11-16 02:13:24,947 INFO:general.py:75:update_residues:updating ('A', 130) HIS to HID
+2022-11-16 02:13:24,956 INFO:general.py:75:update_residues:updating ('A', 170) HIS to HIE
+2022-11-16 02:13:24,958 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 02:13:24,961 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 02:13:24,962 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 02:13:24,963 INFO:general.py:75:update_residues:updating ('A', 206) HIS to HID
+2022-11-16 02:13:24,970 INFO:general.py:75:update_residues:updating ('B', 241) HIS to HID
+2022-11-16 02:13:24,971 INFO:general.py:75:update_residues:updating ('B', 247) HIS to HID
+2022-11-16 02:13:24,981 INFO:general.py:75:update_residues:updating ('B', 293) HIS to HIE
+2022-11-16 02:13:24,981 INFO:general.py:75:update_residues:updating ('B', 296) HIS to HID
+2022-11-16 02:13:24,985 INFO:general.py:75:update_residues:updating ('B', 316) HIS to HID
+2022-11-16 02:13:24,988 INFO:general.py:75:update_residues:updating ('B', 327) HIS to HID
+2022-11-16 02:13:24,996 INFO:general.py:75:update_residues:updating ('B', 369) HIS to HID
+2022-11-16 02:13:25,005 INFO:general.py:75:update_residues:updating ('B', 409) HIS to HID
+2022-11-16 02:13:25,008 INFO:general.py:75:update_residues:updating ('B', 422) HIS to HID
+2022-11-16 02:13:25,010 INFO:general.py:75:update_residues:updating ('B', 434) HIS to HID
+2022-11-16 02:13:25,012 INFO:general.py:75:update_residues:updating ('B', 439) HIS to HIE
+2022-11-16 02:13:25,013 INFO:general.py:75:update_residues:updating ('B', 445) HIS to HID
+2022-11-16 02:13:25,022 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:14:20,760 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output.pdb'
+2022-11-16 02:14:21,388 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HIE
+2022-11-16 02:14:21,389 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 02:14:21,399 INFO:general.py:75:update_residues:updating ('A', 54) HIS to HIE
+2022-11-16 02:14:21,400 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 02:14:21,404 INFO:general.py:75:update_residues:updating ('A', 77) HIS to HIE
+2022-11-16 02:14:21,407 INFO:general.py:75:update_residues:updating ('A', 88) HIS to HID
+2022-11-16 02:14:21,416 INFO:general.py:75:update_residues:updating ('A', 130) HIS to HID
+2022-11-16 02:14:21,424 INFO:general.py:75:update_residues:updating ('A', 170) HIS to HIE
+2022-11-16 02:14:21,427 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 02:14:21,430 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 02:14:21,431 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 02:14:21,432 INFO:general.py:75:update_residues:updating ('A', 206) HIS to HID
+2022-11-16 02:14:21,439 INFO:general.py:75:update_residues:updating ('B', 241) HIS to HID
+2022-11-16 02:14:21,440 INFO:general.py:75:update_residues:updating ('B', 247) HIS to HID
+2022-11-16 02:14:21,449 INFO:general.py:75:update_residues:updating ('B', 293) HIS to HIE
+2022-11-16 02:14:21,450 INFO:general.py:75:update_residues:updating ('B', 296) HIS to HID
+2022-11-16 02:14:21,454 INFO:general.py:75:update_residues:updating ('B', 316) HIS to HID
+2022-11-16 02:14:21,457 INFO:general.py:75:update_residues:updating ('B', 327) HIS to HID
+2022-11-16 02:14:21,465 INFO:general.py:75:update_residues:updating ('B', 369) HIS to HID
+2022-11-16 02:14:21,474 INFO:general.py:75:update_residues:updating ('B', 409) HIS to HID
+2022-11-16 02:14:21,477 INFO:general.py:75:update_residues:updating ('B', 422) HIS to HID
+2022-11-16 02:14:21,479 INFO:general.py:75:update_residues:updating ('B', 434) HIS to HID
+2022-11-16 02:14:21,480 INFO:general.py:75:update_residues:updating ('B', 439) HIS to HIE
+2022-11-16 02:14:21,482 INFO:general.py:75:update_residues:updating ('B', 445) HIS to HID
+2022-11-16 02:14:21,490 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:15:27,516 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output.pdb'
+2022-11-16 02:15:28,142 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HIE
+2022-11-16 02:15:28,144 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 02:15:28,153 INFO:general.py:75:update_residues:updating ('A', 54) HIS to HIE
+2022-11-16 02:15:28,154 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 02:15:28,158 INFO:general.py:75:update_residues:updating ('A', 77) HIS to HIE
+2022-11-16 02:15:28,161 INFO:general.py:75:update_residues:updating ('A', 88) HIS to HID
+2022-11-16 02:15:28,170 INFO:general.py:75:update_residues:updating ('A', 130) HIS to HID
+2022-11-16 02:15:28,178 INFO:general.py:75:update_residues:updating ('A', 170) HIS to HIE
+2022-11-16 02:15:28,181 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 02:15:28,183 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 02:15:28,184 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 02:15:28,186 INFO:general.py:75:update_residues:updating ('A', 206) HIS to HID
+2022-11-16 02:15:28,193 INFO:general.py:75:update_residues:updating ('B', 241) HIS to HID
+2022-11-16 02:15:28,194 INFO:general.py:75:update_residues:updating ('B', 247) HIS to HID
+2022-11-16 02:15:28,203 INFO:general.py:75:update_residues:updating ('B', 293) HIS to HIE
+2022-11-16 02:15:28,204 INFO:general.py:75:update_residues:updating ('B', 296) HIS to HID
+2022-11-16 02:15:28,208 INFO:general.py:75:update_residues:updating ('B', 316) HIS to HID
+2022-11-16 02:15:28,211 INFO:general.py:75:update_residues:updating ('B', 327) HIS to HID
+2022-11-16 02:15:28,219 INFO:general.py:75:update_residues:updating ('B', 369) HIS to HID
+2022-11-16 02:15:28,229 INFO:general.py:75:update_residues:updating ('B', 409) HIS to HID
+2022-11-16 02:15:28,232 INFO:general.py:75:update_residues:updating ('B', 422) HIS to HID
+2022-11-16 02:15:28,235 INFO:general.py:75:update_residues:updating ('B', 434) HIS to HID
+2022-11-16 02:15:28,236 INFO:general.py:75:update_residues:updating ('B', 439) HIS to HIE
+2022-11-16 02:15:28,237 INFO:general.py:75:update_residues:updating ('B', 445) HIS to HID
+2022-11-16 02:15:28,246 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:15:28,249 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7260, (23.241, 1.031, 24.565), Ligand(1, UPP, atom:47, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:15:28,249 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7262, (20.228, -0.154, 25.018), Ligand(1, UPP, atom:47, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:15:28,251 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:16:02,867 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output.pdb'
+2022-11-16 02:16:03,489 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HIE
+2022-11-16 02:16:03,491 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 02:16:03,500 INFO:general.py:75:update_residues:updating ('A', 54) HIS to HIE
+2022-11-16 02:16:03,501 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 02:16:03,505 INFO:general.py:75:update_residues:updating ('A', 77) HIS to HIE
+2022-11-16 02:16:03,508 INFO:general.py:75:update_residues:updating ('A', 88) HIS to HID
+2022-11-16 02:16:03,517 INFO:general.py:75:update_residues:updating ('A', 130) HIS to HID
+2022-11-16 02:16:03,525 INFO:general.py:75:update_residues:updating ('A', 170) HIS to HIE
+2022-11-16 02:16:03,528 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 02:16:03,530 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 02:16:03,531 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 02:16:03,533 INFO:general.py:75:update_residues:updating ('A', 206) HIS to HID
+2022-11-16 02:16:03,540 INFO:general.py:75:update_residues:updating ('B', 241) HIS to HID
+2022-11-16 02:16:03,541 INFO:general.py:75:update_residues:updating ('B', 247) HIS to HID
+2022-11-16 02:16:03,550 INFO:general.py:75:update_residues:updating ('B', 293) HIS to HIE
+2022-11-16 02:16:03,551 INFO:general.py:75:update_residues:updating ('B', 296) HIS to HID
+2022-11-16 02:16:03,555 INFO:general.py:75:update_residues:updating ('B', 316) HIS to HID
+2022-11-16 02:16:03,557 INFO:general.py:75:update_residues:updating ('B', 327) HIS to HID
+2022-11-16 02:16:03,566 INFO:general.py:75:update_residues:updating ('B', 369) HIS to HID
+2022-11-16 02:16:03,575 INFO:general.py:75:update_residues:updating ('B', 409) HIS to HID
+2022-11-16 02:16:03,578 INFO:general.py:75:update_residues:updating ('B', 422) HIS to HID
+2022-11-16 02:16:03,580 INFO:general.py:75:update_residues:updating ('B', 434) HIS to HID
+2022-11-16 02:16:03,581 INFO:general.py:75:update_residues:updating ('B', 439) HIS to HIE
+2022-11-16 02:16:03,583 INFO:general.py:75:update_residues:updating ('B', 445) HIS to HID
+2022-11-16 02:16:03,590 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:16:03,593 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7260, (23.241, 1.031, 24.565), Ligand(1, UPP, atom:47, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:16:03,593 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7262, (20.228, -0.154, 25.018), Ligand(1, UPP, atom:47, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:16:03,595 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:16:03,663 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2, 7309, (6.896, -7.466, 11.87), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H21
+2022-11-16 02:16:03,663 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7314, (7.363, -8.21, 19.154), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:16:03,663 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7316, (6.395, -6.18, 19.608), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:16:03,665 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:16:03,723 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7357, (4.534, -0.834, 56.627), Ligand(1, UPP, atom:47, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:16:03,723 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7359, (7.419, -2.066, 55.84), Ligand(1, UPP, atom:47, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:16:03,725 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:16:03,781 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2, 7411, (21.054, -11.229, 67.905), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H21
+2022-11-16 02:16:03,781 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7416, (20.516, -10.941, 60.7), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:16:03,781 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7418, (21.253, -8.85, 60.423), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:16:03,782 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:16:30,891 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output.pdb'
+2022-11-16 02:16:31,523 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HIE
+2022-11-16 02:16:31,524 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 02:16:31,534 INFO:general.py:75:update_residues:updating ('A', 54) HIS to HIE
+2022-11-16 02:16:31,535 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 02:16:31,539 INFO:general.py:75:update_residues:updating ('A', 77) HIS to HIE
+2022-11-16 02:16:31,542 INFO:general.py:75:update_residues:updating ('A', 88) HIS to HID
+2022-11-16 02:16:31,551 INFO:general.py:75:update_residues:updating ('A', 130) HIS to HID
+2022-11-16 02:16:31,560 INFO:general.py:75:update_residues:updating ('A', 170) HIS to HIE
+2022-11-16 02:16:31,563 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 02:16:31,565 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 02:16:31,566 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 02:16:31,568 INFO:general.py:75:update_residues:updating ('A', 206) HIS to HID
+2022-11-16 02:16:31,575 INFO:general.py:75:update_residues:updating ('B', 241) HIS to HID
+2022-11-16 02:16:31,576 INFO:general.py:75:update_residues:updating ('B', 247) HIS to HID
+2022-11-16 02:16:31,585 INFO:general.py:75:update_residues:updating ('B', 293) HIS to HIE
+2022-11-16 02:16:31,586 INFO:general.py:75:update_residues:updating ('B', 296) HIS to HID
+2022-11-16 02:16:31,590 INFO:general.py:75:update_residues:updating ('B', 316) HIS to HID
+2022-11-16 02:16:31,592 INFO:general.py:75:update_residues:updating ('B', 327) HIS to HID
+2022-11-16 02:16:31,601 INFO:general.py:75:update_residues:updating ('B', 369) HIS to HID
+2022-11-16 02:16:31,610 INFO:general.py:75:update_residues:updating ('B', 409) HIS to HID
+2022-11-16 02:16:31,613 INFO:general.py:75:update_residues:updating ('B', 422) HIS to HID
+2022-11-16 02:16:31,615 INFO:general.py:75:update_residues:updating ('B', 434) HIS to HID
+2022-11-16 02:16:31,616 INFO:general.py:75:update_residues:updating ('B', 439) HIS to HIE
+2022-11-16 02:16:31,618 INFO:general.py:75:update_residues:updating ('B', 445) HIS to HID
+2022-11-16 02:16:31,626 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:16:31,629 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7260, (23.241, 1.031, 24.565), Ligand(1, UPP, atom:47, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:16:31,629 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7262, (20.228, -0.154, 25.018), Ligand(1, UPP, atom:47, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:16:31,630 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:16:31,698 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2, 7309, (6.896, -7.466, 11.87), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H21
+2022-11-16 02:16:31,698 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7314, (7.363, -8.21, 19.154), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:16:31,698 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7316, (6.395, -6.18, 19.608), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:16:31,700 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:16:31,758 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7357, (4.534, -0.834, 56.627), Ligand(1, UPP, atom:47, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:16:31,758 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7359, (7.419, -2.066, 55.84), Ligand(1, UPP, atom:47, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:16:31,760 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:16:31,816 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2, 7411, (21.054, -11.229, 67.905), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H21
+2022-11-16 02:16:31,816 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7416, (20.516, -10.941, 60.7), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:16:31,816 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7418, (21.253, -8.85, 60.423), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:16:31,818 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:16:31,876 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:19,319 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output.pdb'
+2022-11-16 02:17:19,947 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HIE
+2022-11-16 02:17:19,949 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 02:17:19,958 INFO:general.py:75:update_residues:updating ('A', 54) HIS to HIE
+2022-11-16 02:17:19,959 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 02:17:19,963 INFO:general.py:75:update_residues:updating ('A', 77) HIS to HIE
+2022-11-16 02:17:19,966 INFO:general.py:75:update_residues:updating ('A', 88) HIS to HID
+2022-11-16 02:17:19,976 INFO:general.py:75:update_residues:updating ('A', 130) HIS to HID
+2022-11-16 02:17:19,984 INFO:general.py:75:update_residues:updating ('A', 170) HIS to HIE
+2022-11-16 02:17:19,987 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 02:17:19,990 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 02:17:19,991 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 02:17:19,993 INFO:general.py:75:update_residues:updating ('A', 206) HIS to HID
+2022-11-16 02:17:19,999 INFO:general.py:75:update_residues:updating ('B', 241) HIS to HID
+2022-11-16 02:17:20,001 INFO:general.py:75:update_residues:updating ('B', 247) HIS to HID
+2022-11-16 02:17:20,010 INFO:general.py:75:update_residues:updating ('B', 293) HIS to HIE
+2022-11-16 02:17:20,011 INFO:general.py:75:update_residues:updating ('B', 296) HIS to HID
+2022-11-16 02:17:20,015 INFO:general.py:75:update_residues:updating ('B', 316) HIS to HID
+2022-11-16 02:17:20,018 INFO:general.py:75:update_residues:updating ('B', 327) HIS to HID
+2022-11-16 02:17:20,026 INFO:general.py:75:update_residues:updating ('B', 369) HIS to HID
+2022-11-16 02:17:20,035 INFO:general.py:75:update_residues:updating ('B', 409) HIS to HID
+2022-11-16 02:17:20,038 INFO:general.py:75:update_residues:updating ('B', 422) HIS to HID
+2022-11-16 02:17:20,041 INFO:general.py:75:update_residues:updating ('B', 434) HIS to HID
+2022-11-16 02:17:20,042 INFO:general.py:75:update_residues:updating ('B', 439) HIS to HIE
+2022-11-16 02:17:20,043 INFO:general.py:75:update_residues:updating ('B', 445) HIS to HID
+2022-11-16 02:17:20,052 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:20,055 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7260, (23.241, 1.031, 24.565), Ligand(1, UPP, atom:47, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:17:20,055 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7262, (20.228, -0.154, 25.018), Ligand(1, UPP, atom:47, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:17:20,057 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:20,124 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2, 7309, (6.896, -7.466, 11.87), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H21
+2022-11-16 02:17:20,124 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7314, (7.363, -8.21, 19.154), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:17:20,124 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7316, (6.395, -6.18, 19.608), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:17:20,126 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:20,185 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7357, (4.534, -0.834, 56.627), Ligand(1, UPP, atom:47, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:17:20,185 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7359, (7.419, -2.066, 55.84), Ligand(1, UPP, atom:47, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:17:20,187 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:20,243 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2, 7411, (21.054, -11.229, 67.905), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H21
+2022-11-16 02:17:20,244 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7416, (20.516, -10.941, 60.7), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:17:20,244 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7418, (21.253, -8.85, 60.423), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:17:20,245 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:20,303 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:33,771 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output.pdb'
+2022-11-16 02:17:34,403 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HIE
+2022-11-16 02:17:34,405 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 02:17:34,414 INFO:general.py:75:update_residues:updating ('A', 54) HIS to HIE
+2022-11-16 02:17:34,415 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 02:17:34,419 INFO:general.py:75:update_residues:updating ('A', 77) HIS to HIE
+2022-11-16 02:17:34,422 INFO:general.py:75:update_residues:updating ('A', 88) HIS to HID
+2022-11-16 02:17:34,431 INFO:general.py:75:update_residues:updating ('A', 130) HIS to HID
+2022-11-16 02:17:34,440 INFO:general.py:75:update_residues:updating ('A', 170) HIS to HIE
+2022-11-16 02:17:34,443 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 02:17:34,446 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 02:17:34,447 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 02:17:34,449 INFO:general.py:75:update_residues:updating ('A', 206) HIS to HID
+2022-11-16 02:17:34,456 INFO:general.py:75:update_residues:updating ('B', 241) HIS to HID
+2022-11-16 02:17:34,457 INFO:general.py:75:update_residues:updating ('B', 247) HIS to HID
+2022-11-16 02:17:34,467 INFO:general.py:75:update_residues:updating ('B', 293) HIS to HIE
+2022-11-16 02:17:34,467 INFO:general.py:75:update_residues:updating ('B', 296) HIS to HID
+2022-11-16 02:17:34,472 INFO:general.py:75:update_residues:updating ('B', 316) HIS to HID
+2022-11-16 02:17:34,474 INFO:general.py:75:update_residues:updating ('B', 327) HIS to HID
+2022-11-16 02:17:34,483 INFO:general.py:75:update_residues:updating ('B', 369) HIS to HID
+2022-11-16 02:17:34,492 INFO:general.py:75:update_residues:updating ('B', 409) HIS to HID
+2022-11-16 02:17:34,495 INFO:general.py:75:update_residues:updating ('B', 422) HIS to HID
+2022-11-16 02:17:34,498 INFO:general.py:75:update_residues:updating ('B', 434) HIS to HID
+2022-11-16 02:17:34,499 INFO:general.py:75:update_residues:updating ('B', 439) HIS to HIE
+2022-11-16 02:17:34,501 INFO:general.py:75:update_residues:updating ('B', 445) HIS to HID
+2022-11-16 02:17:34,509 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:34,512 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7260, (23.241, 1.031, 24.565), Ligand(1, UPP, atom:47, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:17:34,512 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7262, (20.228, -0.154, 25.018), Ligand(1, UPP, atom:47, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:17:34,514 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:34,579 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2, 7309, (6.896, -7.466, 11.87), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H21
+2022-11-16 02:17:34,579 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7314, (7.363, -8.21, 19.154), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:17:34,579 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7316, (6.395, -6.18, 19.608), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:17:34,581 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:34,639 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7357, (4.534, -0.834, 56.627), Ligand(1, UPP, atom:47, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:17:34,639 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7359, (7.419, -2.066, 55.84), Ligand(1, UPP, atom:47, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:17:34,641 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:34,697 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2, 7411, (21.054, -11.229, 67.905), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H21
+2022-11-16 02:17:34,698 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 7416, (20.516, -10.941, 60.7), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:17:34,698 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 7418, (21.253, -8.85, 60.423), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:17:34,699 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:34,758 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:34,867 WARNING:pdb_io.py:335:_resolve_missing_chain_id:Found multiple chain id in 1 HETATM chain. Be careful. Treating them as individual chains
+2022-11-16 02:17:35,124 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:35,153 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input.pdb'...
+2022-11-16 02:17:36,138 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output.pdb'
+2022-11-16 02:17:36,643 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:36,645 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2, 4987, (-27.169, 38.562, 9.396), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H21
+2022-11-16 02:17:36,645 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 4992, (-26.366, 32.486, 8.036), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:17:36,646 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 4994, (-25.101, 32.654, 5.611), Ligand(1, SAM, atom:50, Chain(C, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:17:36,647 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:36,706 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2, 5037, (-34.223, 34.037, 10.198), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H21
+2022-11-16 02:17:36,706 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H2', 5042, (-29.857, 31.096, 6.548), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H2'1
+2022-11-16 02:17:36,706 INFO:ligand.py:78:fix_atom_names:found atom with invalid name Atom(H3', 5044, (-29.835, 28.749, 7.642), Ligand(1, SAM, atom:50, Chain(D, residue: 1-1)), 0.0, H, None ). changing it to H3'1
+2022-11-16 02:17:36,708 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:36,768 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:36,989 INFO:structure.py:355:renumber_atoms:renumbering atoms
+2022-11-16 02:17:37,003 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input.pdb'...
+2022-11-16 02:17:38,523 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output.pdb'
+2022-11-16 02:17:38,921 INFO:general.py:75:update_residues:updating ('A', 55) HIS to HID
+2022-11-16 02:17:38,922 INFO:general.py:75:update_residues:updating ('A', 58) HIS to HID
+2022-11-16 02:17:38,952 INFO:general.py:75:update_residues:updating ('A', 198) HIS to HID
+2022-11-16 02:17:38,955 INFO:general.py:75:update_residues:updating ('A', 213) HIS to HID
+2022-11-16 02:17:38,967 INFO:general.py:75:update_residues:updating ('A', 262) HIS to HIE
+2022-11-16 02:17:38,970 INFO:structure.py:355:renumber_atoms:renumbering atoms

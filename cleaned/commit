@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+for pp in $( find . -name 'protonated.pdb' ); do 
+    git add $pp;
+    git commit -a -m "quick commit to add file "
+    git push origin
+
+done;

@@ -1,0 +1,17 @@
+2022-11-16 03:54:48,275 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_12.pdb'
+2022-11-16 03:54:48,552 INFO:general.py:75:update_residues:updating ('A', 214) HIS to HID
+2022-11-16 03:54:48,566 INFO:general.py:75:update_residues:updating ('A', 267) HIS to HIE
+2022-11-16 03:54:48,569 INFO:general.py:75:update_residues:updating ('A', 278) HIS to HIE
+2022-11-16 03:54:48,570 INFO:general.py:75:update_residues:updating ('A', 285) HIS to HID
+2022-11-16 03:54:48,577 INFO:general.py:75:update_residues:updating ('A', 315) HIS to HID
+2022-11-16 03:54:48,580 INFO:general.py:75:update_residues:updating ('B', 331) HIS to HID
+2022-11-16 03:54:48,583 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:54:48,585 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:54:48,675 ERROR:pdb_io.py:329:_resolve_missing_chain_id:Found multiple chain id together with missing chain id in 1 chain. Impossible to solve.
+2022-11-16 04:00:04,759 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_12.pdb'
+2022-11-16 04:00:05,559 INFO:structure.py:332:is_idx_subset:current stru chain Chain(B, residue: 999-999) doesnt contain residue: Residue(567, GLY, atom:9, Chain(B, residue: 567-849)) of the target stru
+2022-11-16 04:00:05,573 INFO:general.py:75:update_residues:updating ('A', 60) HIS to HID
+2022-11-16 04:00:05,574 INFO:general.py:75:update_residues:updating ('A', 63) HIS to HID
+2022-11-16 04:00:05,604 INFO:general.py:75:update_residues:updating ('A', 203) HIS to HID
+2022-11-16 04:00:05,608 INFO:general.py:75:update_residues:updating ('A', 218) HIS to HID
+2022-11-16 04:00:05,650 INFO:general.py:75:update_residues:updating ('A', 267) HIS to HID

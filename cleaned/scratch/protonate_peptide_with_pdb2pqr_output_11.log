@@ -1,0 +1,2 @@
+2022-11-16 03:53:10,125 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_11.pdb'
+2022-11-16 03:53:10,385 INFO:structure.py:322:is_idx_subset:current stru ['B', 'D', 'E'] doesnt contain chain: Chain(A, residue: 161-320) from the target stru

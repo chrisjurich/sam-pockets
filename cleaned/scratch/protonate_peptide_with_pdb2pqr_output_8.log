@@ -1,0 +1,1475 @@
+2022-11-16 03:29:42,193 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:29:42,563 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:29:42,567 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:29:42,639 ERROR:pdb_io.py:329:_resolve_missing_chain_id:Found multiple chain id together with missing chain id in 1 chain. Impossible to solve.
+2022-11-16 03:30:41,360 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:30:41,733 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:41,736 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(300, MG, atom:1, Chain(C, residue: 300-300)): Atom(OD1, 2174, (-5.068, -8.848, -13.483), Residue(141, ASP, atom:12, Chain(A, residue: 2-215)), None, None, None )
+2022-11-16 03:30:41,737 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(300, MG, atom:1, Chain(C, residue: 300-300)): Atom(OD1, 2656, (-2.853, -10.932, -13.971), Residue(170, ASN, atom:14, Chain(A, residue: 2-215)), None, None, None )
+2022-11-16 03:30:41,737 INFO:protonate.py:220:deprotonate_metal_donors:donor residue Residue(141, ASP, atom:12, Chain(A, residue: 2-215)) already have no proton in center MetalUnit(300, MG, atom:1, Chain(C, residue: 300-300))
+2022-11-16 03:30:41,737 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(170, ASN, atom:14, Chain(A, residue: 2-215)) found in center MetalUnit(300, MG, atom:1, Chain(C, residue: 300-300))
+2022-11-16 03:30:41,738 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:41,820 WARNING:pdb_io.py:335:_resolve_missing_chain_id:Found multiple chain id in 1 HETATM chain. Be careful. Treating them as individual chains
+2022-11-16 03:30:42,028 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:42,053 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:30:44,199 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:30:44,847 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HIE
+2022-11-16 03:30:44,848 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 03:30:44,858 INFO:general.py:75:update_residues:updating ('A', 54) HIS to HIE
+2022-11-16 03:30:44,858 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 03:30:44,863 INFO:general.py:75:update_residues:updating ('A', 77) HIS to HIE
+2022-11-16 03:30:44,865 INFO:general.py:75:update_residues:updating ('A', 88) HIS to HID
+2022-11-16 03:30:44,875 INFO:general.py:75:update_residues:updating ('A', 130) HIS to HID
+2022-11-16 03:30:44,883 INFO:general.py:75:update_residues:updating ('A', 170) HIS to HIE
+2022-11-16 03:30:44,886 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 03:30:44,889 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 03:30:44,890 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 03:30:44,892 INFO:general.py:75:update_residues:updating ('A', 206) HIS to HID
+2022-11-16 03:30:44,899 INFO:general.py:75:update_residues:updating ('B', 241) HIS to HID
+2022-11-16 03:30:44,900 INFO:general.py:75:update_residues:updating ('B', 247) HIS to HID
+2022-11-16 03:30:44,909 INFO:general.py:75:update_residues:updating ('B', 293) HIS to HIE
+2022-11-16 03:30:44,910 INFO:general.py:75:update_residues:updating ('B', 296) HIS to HID
+2022-11-16 03:30:44,914 INFO:general.py:75:update_residues:updating ('B', 316) HIS to HID
+2022-11-16 03:30:44,917 INFO:general.py:75:update_residues:updating ('B', 327) HIS to HID
+2022-11-16 03:30:44,925 INFO:general.py:75:update_residues:updating ('B', 369) HIS to HID
+2022-11-16 03:30:44,935 INFO:general.py:75:update_residues:updating ('B', 409) HIS to HID
+2022-11-16 03:30:44,938 INFO:general.py:75:update_residues:updating ('B', 422) HIS to HID
+2022-11-16 03:30:44,941 INFO:general.py:75:update_residues:updating ('B', 434) HIS to HID
+2022-11-16 03:30:44,942 INFO:general.py:75:update_residues:updating ('B', 439) HIS to HIE
+2022-11-16 03:30:44,943 INFO:general.py:75:update_residues:updating ('B', 445) HIS to HID
+2022-11-16 03:30:44,951 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:44,956 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:45,145 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:45,159 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:30:46,203 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:30:46,554 INFO:general.py:75:update_residues:updating ('A', 3) HIS to HID
+2022-11-16 03:30:46,563 INFO:general.py:75:update_residues:updating ('A', 33) HIS to HID
+2022-11-16 03:30:46,581 INFO:general.py:75:update_residues:updating ('A', 114) HIS to HID
+2022-11-16 03:30:46,586 INFO:general.py:75:update_residues:updating ('A', 135) HIS to HID
+2022-11-16 03:30:46,589 INFO:general.py:75:update_residues:updating ('A', 141) HIS to HID
+2022-11-16 03:30:46,596 INFO:general.py:75:update_residues:updating ('A', 174) HIS to HIE
+2022-11-16 03:30:46,598 INFO:general.py:75:update_residues:updating ('A', 180) HIS to HID
+2022-11-16 03:30:46,599 INFO:general.py:75:update_residues:updating ('A', 184) HIS to HID
+2022-11-16 03:30:46,603 INFO:general.py:75:update_residues:updating ('A', 203) HIS to HID
+2022-11-16 03:30:46,611 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:46,613 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:46,840 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:46,860 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:30:48,416 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:30:48,946 INFO:general.py:75:update_residues:updating ('A', 9) HIS to HID
+2022-11-16 03:30:48,948 INFO:general.py:75:update_residues:updating ('A', 16) HIS to HIE
+2022-11-16 03:30:48,952 INFO:general.py:75:update_residues:updating ('A', 35) HIS to HID
+2022-11-16 03:30:48,988 INFO:general.py:75:update_residues:updating ('A', 201) HIS to HID
+2022-11-16 03:30:48,988 INFO:general.py:75:update_residues:updating ('A', 202) HIS to HIE
+2022-11-16 03:30:49,006 INFO:general.py:75:update_residues:updating ('A', 286) HIS to HID
+2022-11-16 03:30:49,011 INFO:general.py:75:update_residues:updating ('A', 309) HIS to HID
+2022-11-16 03:30:49,026 INFO:general.py:75:update_residues:updating ('A', 376) HIS to HID
+2022-11-16 03:30:49,027 INFO:general.py:75:update_residues:updating ('A', 377) HIS to HID
+2022-11-16 03:30:49,027 INFO:general.py:75:update_residues:updating ('A', 378) HIS to HID
+2022-11-16 03:30:49,027 INFO:general.py:75:update_residues:updating ('A', 379) HIS to HID
+2022-11-16 03:30:49,028 INFO:general.py:75:update_residues:updating ('A', 380) HIS to HID
+2022-11-16 03:30:49,029 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:49,033 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:49,300 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:49,320 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:30:50,803 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:30:51,337 INFO:general.py:75:update_residues:updating ('A', 9) HIS to HID
+2022-11-16 03:30:51,339 INFO:general.py:75:update_residues:updating ('A', 16) HIS to HIE
+2022-11-16 03:30:51,343 INFO:general.py:75:update_residues:updating ('A', 35) HIS to HIE
+2022-11-16 03:30:51,380 INFO:general.py:75:update_residues:updating ('A', 201) HIS to HID
+2022-11-16 03:30:51,380 INFO:general.py:75:update_residues:updating ('A', 202) HIS to HIE
+2022-11-16 03:30:51,425 INFO:general.py:75:update_residues:updating ('A', 286) HIS to HID
+2022-11-16 03:30:51,430 INFO:general.py:75:update_residues:updating ('A', 309) HIS to HID
+2022-11-16 03:30:51,445 INFO:general.py:75:update_residues:updating ('A', 376) HIS to HID
+2022-11-16 03:30:51,446 INFO:general.py:75:update_residues:updating ('A', 377) HIS to HID
+2022-11-16 03:30:51,446 INFO:general.py:75:update_residues:updating ('A', 378) HIS to HID
+2022-11-16 03:30:51,446 INFO:general.py:75:update_residues:updating ('A', 379) HIS to HID
+2022-11-16 03:30:51,447 INFO:general.py:75:update_residues:updating ('A', 380) HIS to HID
+2022-11-16 03:30:51,449 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:51,452 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:51,609 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:51,620 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:30:52,428 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:30:52,746 INFO:general.py:75:update_residues:updating ('A', 111) HIS to HID
+2022-11-16 03:30:52,762 INFO:general.py:75:update_residues:updating ('A', 186) HIS to HID
+2022-11-16 03:30:52,762 INFO:general.py:75:update_residues:updating ('A', 187) HIS to HID
+2022-11-16 03:30:52,763 INFO:general.py:75:update_residues:updating ('A', 188) HIS to HID
+2022-11-16 03:30:52,763 INFO:general.py:75:update_residues:updating ('A', 189) HIS to HID
+2022-11-16 03:30:52,763 INFO:general.py:75:update_residues:updating ('A', 190) HIS to HID
+2022-11-16 03:30:52,764 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:52,767 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:52,921 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:52,935 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:30:53,958 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:30:54,307 INFO:general.py:75:update_residues:updating ('A', 7) HIS to HID
+2022-11-16 03:30:54,321 INFO:general.py:75:update_residues:updating ('A', 67) HIS to HID
+2022-11-16 03:30:54,323 INFO:general.py:75:update_residues:updating ('A', 79) HIS to HIE
+2022-11-16 03:30:54,326 INFO:general.py:75:update_residues:updating ('A', 91) HIS to HID
+2022-11-16 03:30:54,328 INFO:general.py:75:update_residues:updating ('A', 98) HIS to HID
+2022-11-16 03:30:54,333 INFO:general.py:75:update_residues:updating ('A', 118) HIS to HID
+2022-11-16 03:30:54,334 INFO:general.py:75:update_residues:updating ('A', 122) HIS to HID
+2022-11-16 03:30:54,341 INFO:general.py:75:update_residues:updating ('A', 147) HIS to HID
+2022-11-16 03:30:54,343 INFO:general.py:75:update_residues:updating ('A', 158) HIS to HIE
+2022-11-16 03:30:54,352 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 03:30:54,354 INFO:general.py:75:update_residues:updating ('A', 199) HIS to HID
+2022-11-16 03:30:54,357 INFO:general.py:75:update_residues:updating ('A', 213) HIS to HID
+2022-11-16 03:30:54,358 INFO:general.py:75:update_residues:updating ('A', 214) HIS to HID
+2022-11-16 03:30:54,358 INFO:general.py:75:update_residues:updating ('A', 215) HIS to HID
+2022-11-16 03:30:54,358 INFO:general.py:75:update_residues:updating ('A', 216) HIS to HID
+2022-11-16 03:30:54,358 INFO:general.py:75:update_residues:updating ('A', 217) HIS to HID
+2022-11-16 03:30:54,360 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:54,362 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:54,561 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:54,578 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:30:56,051 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:30:56,498 INFO:general.py:75:update_residues:updating ('A', 3) HIS to HID
+2022-11-16 03:30:56,498 INFO:general.py:75:update_residues:updating ('A', 4) HIS to HID
+2022-11-16 03:30:56,499 INFO:general.py:75:update_residues:updating ('A', 5) HIS to HID
+2022-11-16 03:30:56,499 INFO:general.py:75:update_residues:updating ('A', 6) HIS to HID
+2022-11-16 03:30:56,500 INFO:general.py:75:update_residues:updating ('A', 7) HIS to HID
+2022-11-16 03:30:56,500 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 03:30:56,515 INFO:general.py:75:update_residues:updating ('A', 74) HIS to HID
+2022-11-16 03:30:56,525 INFO:general.py:75:update_residues:updating ('A', 118) HIS to HID
+2022-11-16 03:30:56,526 INFO:general.py:75:update_residues:updating ('A', 123) HIS to HID
+2022-11-16 03:30:56,540 INFO:general.py:75:update_residues:updating ('A', 181) HIS to HID
+2022-11-16 03:30:56,556 INFO:general.py:75:update_residues:updating ('A', 196) HIS to HID
+2022-11-16 03:30:56,563 INFO:general.py:75:update_residues:updating ('A', 225) HIS to HID
+2022-11-16 03:30:56,566 INFO:general.py:75:update_residues:updating ('A', 239) HIS to HID
+2022-11-16 03:30:56,575 INFO:general.py:75:update_residues:updating ('A', 283) HIS to HID
+2022-11-16 03:30:56,581 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:56,584 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:56,797 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:56,813 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:30:58,272 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:30:58,713 INFO:general.py:75:update_residues:updating ('A', 3) HIS to HID
+2022-11-16 03:30:58,714 INFO:general.py:75:update_residues:updating ('A', 4) HIS to HID
+2022-11-16 03:30:58,714 INFO:general.py:75:update_residues:updating ('A', 5) HIS to HID
+2022-11-16 03:30:58,714 INFO:general.py:75:update_residues:updating ('A', 6) HIS to HID
+2022-11-16 03:30:58,715 INFO:general.py:75:update_residues:updating ('A', 7) HIS to HID
+2022-11-16 03:30:58,715 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 03:30:58,730 INFO:general.py:75:update_residues:updating ('A', 74) HIS to HIE
+2022-11-16 03:30:58,739 INFO:general.py:75:update_residues:updating ('A', 118) HIS to HID
+2022-11-16 03:30:58,740 INFO:general.py:75:update_residues:updating ('A', 123) HIS to HID
+2022-11-16 03:30:58,753 INFO:general.py:75:update_residues:updating ('A', 181) HIS to HIE
+2022-11-16 03:30:58,757 INFO:general.py:75:update_residues:updating ('A', 196) HIS to HID
+2022-11-16 03:30:58,763 INFO:general.py:75:update_residues:updating ('A', 225) HIS to HID
+2022-11-16 03:30:58,766 INFO:general.py:75:update_residues:updating ('A', 239) HIS to HID
+2022-11-16 03:30:58,775 INFO:general.py:75:update_residues:updating ('A', 283) HIS to HID
+2022-11-16 03:30:58,780 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:58,783 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:58,938 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:30:58,949 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:30:59,917 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:31:00,223 INFO:general.py:75:update_residues:updating ('A', 26) HIS to HIE
+2022-11-16 03:31:00,229 INFO:general.py:75:update_residues:updating ('A', 49) HIS to HID
+2022-11-16 03:31:00,235 INFO:general.py:75:update_residues:updating ('A', 77) HIS to HID
+2022-11-16 03:31:00,250 INFO:general.py:75:update_residues:updating ('A', 143) HIS to HID
+2022-11-16 03:31:00,264 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:00,266 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:00,425 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:00,438 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:31:01,403 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:31:01,755 INFO:general.py:75:update_residues:updating ('A', 3) HIS to HID
+2022-11-16 03:31:01,756 INFO:general.py:75:update_residues:updating ('A', 6) HIS to HID
+2022-11-16 03:31:01,761 INFO:general.py:75:update_residues:updating ('A', 32) HIS to HID
+2022-11-16 03:31:01,768 INFO:general.py:75:update_residues:updating ('A', 65) HIS to HID
+2022-11-16 03:31:01,787 INFO:general.py:75:update_residues:updating ('A', 148) HIS to HID
+2022-11-16 03:31:01,790 INFO:general.py:75:update_residues:updating ('A', 164) CYS to CYX
+2022-11-16 03:31:01,802 INFO:general.py:75:update_residues:updating ('A', 222) HIS to HID
+2022-11-16 03:31:01,807 INFO:general.py:75:update_residues:updating ('A', 246) HIS to HID
+2022-11-16 03:31:01,809 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:01,811 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:01,980 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:01,994 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:31:02,940 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:31:03,301 INFO:general.py:75:update_residues:updating ('A', 3) HIS to HID
+2022-11-16 03:31:03,302 INFO:general.py:75:update_residues:updating ('A', 6) HIS to HIE
+2022-11-16 03:31:03,307 INFO:general.py:75:update_residues:updating ('A', 32) HIS to HID
+2022-11-16 03:31:03,314 INFO:general.py:75:update_residues:updating ('A', 65) HIS to HID
+2022-11-16 03:31:03,333 INFO:general.py:75:update_residues:updating ('A', 148) HIS to HID
+2022-11-16 03:31:03,336 INFO:general.py:75:update_residues:updating ('A', 164) CYS to CYX
+2022-11-16 03:31:03,348 INFO:general.py:75:update_residues:updating ('A', 222) HIS to HID
+2022-11-16 03:31:03,353 INFO:general.py:75:update_residues:updating ('A', 246) HIS to HID
+2022-11-16 03:31:03,355 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:03,358 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:03,548 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:03,564 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:31:04,934 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:31:05,343 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HID
+2022-11-16 03:31:05,344 INFO:general.py:75:update_residues:updating ('A', 3) HIS to HID
+2022-11-16 03:31:05,344 INFO:general.py:75:update_residues:updating ('A', 4) HIS to HID
+2022-11-16 03:31:05,345 INFO:general.py:75:update_residues:updating ('A', 5) HIS to HID
+2022-11-16 03:31:05,345 INFO:general.py:75:update_residues:updating ('A', 6) HIS to HID
+2022-11-16 03:31:05,347 INFO:general.py:75:update_residues:updating ('A', 16) HIS to HID
+2022-11-16 03:31:05,356 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 03:31:05,371 INFO:general.py:75:update_residues:updating ('A', 127) HIS to HID
+2022-11-16 03:31:05,393 INFO:general.py:75:update_residues:updating ('A', 220) HIS to HID
+2022-11-16 03:31:05,396 INFO:general.py:75:update_residues:updating ('A', 235) HIS to HID
+2022-11-16 03:31:05,408 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:05,411 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:05,600 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:05,617 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:31:06,925 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:31:07,335 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HID
+2022-11-16 03:31:07,336 INFO:general.py:75:update_residues:updating ('A', 3) HIS to HID
+2022-11-16 03:31:07,336 INFO:general.py:75:update_residues:updating ('A', 4) HIS to HID
+2022-11-16 03:31:07,336 INFO:general.py:75:update_residues:updating ('A', 5) HIS to HID
+2022-11-16 03:31:07,337 INFO:general.py:75:update_residues:updating ('A', 6) HIS to HIE
+2022-11-16 03:31:07,337 INFO:general.py:75:update_residues:updating ('A', 7) HIS to HID
+2022-11-16 03:31:07,350 INFO:general.py:75:update_residues:updating ('A', 65) HIS to HID
+2022-11-16 03:31:07,355 INFO:general.py:75:update_residues:updating ('A', 85) HIS to HID
+2022-11-16 03:31:07,359 INFO:general.py:75:update_residues:updating ('A', 109) HIS to HIE
+2022-11-16 03:31:07,362 INFO:general.py:75:update_residues:updating ('A', 118) HIS to HID
+2022-11-16 03:31:07,364 INFO:general.py:75:update_residues:updating ('A', 129) HIS to HIE
+2022-11-16 03:31:07,376 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 03:31:07,399 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:07,402 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:07,675 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:07,698 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:31:09,417 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:31:10,099 INFO:general.py:75:update_residues:updating ('A', 75) HIS to HID
+2022-11-16 03:31:10,108 INFO:general.py:75:update_residues:updating ('A', 118) HIS to HID
+2022-11-16 03:31:10,120 INFO:general.py:75:update_residues:updating ('A', 172) HIS to HID
+2022-11-16 03:31:10,125 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 03:31:10,134 INFO:general.py:75:update_residues:updating ('A', 243) HIS to HID
+2022-11-16 03:31:10,136 INFO:general.py:75:update_residues:updating ('A', 248) HIS to HID
+2022-11-16 03:31:10,139 INFO:general.py:75:update_residues:updating ('A', 259) HIS to HID
+2022-11-16 03:31:10,144 INFO:general.py:75:update_residues:updating ('A', 285) HIS to HID
+2022-11-16 03:31:10,146 INFO:general.py:75:update_residues:updating ('A', 292) HIS to HID
+2022-11-16 03:31:10,158 INFO:general.py:75:update_residues:updating ('A', 344) HIS to HID
+2022-11-16 03:31:10,174 INFO:general.py:75:update_residues:updating ('A', 423) HIS to HID
+2022-11-16 03:31:10,183 INFO:general.py:75:update_residues:updating ('A', 459) HIS to HID
+2022-11-16 03:31:10,184 INFO:general.py:75:update_residues:updating ('A', 460) HIS to HID
+2022-11-16 03:31:10,184 INFO:general.py:75:update_residues:updating ('A', 461) HIS to HID
+2022-11-16 03:31:10,185 INFO:general.py:75:update_residues:updating ('A', 462) HIS to HID
+2022-11-16 03:31:10,185 INFO:general.py:75:update_residues:updating ('A', 463) HIS to HID
+2022-11-16 03:31:10,187 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:10,191 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:10,515 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:10,540 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:31:12,279 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:31:12,994 INFO:general.py:75:update_residues:updating ('A', 75) HIS to HID
+2022-11-16 03:31:13,003 INFO:general.py:75:update_residues:updating ('A', 118) HIS to HIE
+2022-11-16 03:31:13,016 INFO:general.py:75:update_residues:updating ('A', 172) HIS to HID
+2022-11-16 03:31:13,021 INFO:general.py:75:update_residues:updating ('A', 195) HIS to HID
+2022-11-16 03:31:13,030 INFO:general.py:75:update_residues:updating ('A', 243) HIS to HID
+2022-11-16 03:31:13,031 INFO:general.py:75:update_residues:updating ('A', 248) HIS to HID
+2022-11-16 03:31:13,034 INFO:general.py:75:update_residues:updating ('A', 259) HIS to HID
+2022-11-16 03:31:13,040 INFO:general.py:75:update_residues:updating ('A', 285) HIS to HID
+2022-11-16 03:31:13,042 INFO:general.py:75:update_residues:updating ('A', 292) HIS to HID
+2022-11-16 03:31:13,054 INFO:general.py:75:update_residues:updating ('A', 344) HIS to HID
+2022-11-16 03:31:13,070 INFO:general.py:75:update_residues:updating ('A', 423) HIS to HID
+2022-11-16 03:31:13,078 INFO:general.py:75:update_residues:updating ('A', 459) HIS to HID
+2022-11-16 03:31:13,079 INFO:general.py:75:update_residues:updating ('A', 460) HIS to HID
+2022-11-16 03:31:13,080 INFO:general.py:75:update_residues:updating ('A', 461) HIS to HID
+2022-11-16 03:31:13,080 INFO:general.py:75:update_residues:updating ('A', 462) HIS to HID
+2022-11-16 03:31:13,080 INFO:general.py:75:update_residues:updating ('A', 463) HIS to HID
+2022-11-16 03:31:13,082 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:13,087 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:13,410 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:13,435 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:31:14,073 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:31:14,520 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:14,522 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:14,689 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:14,702 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:31:15,644 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:31:16,014 INFO:general.py:75:update_residues:updating ('A', 31) HIS to HID
+2022-11-16 03:31:16,038 INFO:general.py:75:update_residues:updating ('A', 137) HIS to HID
+2022-11-16 03:31:16,056 INFO:general.py:75:update_residues:updating ('A', 218) HIS to HID
+2022-11-16 03:31:16,058 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:16,060 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:16,249 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:16,267 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:31:17,672 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:31:18,143 INFO:general.py:75:update_residues:updating ('A', 31) HIS to HID
+2022-11-16 03:31:18,145 INFO:general.py:75:update_residues:updating ('A', 37) HIS to HID
+2022-11-16 03:31:18,151 INFO:general.py:75:update_residues:updating ('A', 59) HIS to HID
+2022-11-16 03:31:18,155 INFO:general.py:75:update_residues:updating ('A', 75) HIS to HID
+2022-11-16 03:31:18,165 INFO:general.py:75:update_residues:updating ('A', 116) HIS to HID
+2022-11-16 03:31:18,168 INFO:general.py:75:update_residues:updating ('A', 132) HIS to HIE
+2022-11-16 03:31:18,170 INFO:general.py:75:update_residues:updating ('A', 142) HIS to HID
+2022-11-16 03:31:18,201 INFO:general.py:75:update_residues:updating ('A', 274) HIS to HID
+2022-11-16 03:31:18,206 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:18,209 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:31:18,295 ERROR:pdb_io.py:329:_resolve_missing_chain_id:Found multiple chain id together with missing chain id in 1 chain. Impossible to solve.
+2022-11-16 03:32:16,791 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:17,196 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:17,200 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(232, ZN, atom:1, Chain(B, residue: 232-234)): Atom(SG, 2793, (-3.453, 9.255, -17.517), Residue(172, CYM, atom:10, Chain(A, residue: 0-231)), None, None, None )
+2022-11-16 03:32:17,200 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(232, ZN, atom:1, Chain(B, residue: 232-234)): Atom(SG, 3496, (-0.598, 6.511, -16.954), Residue(219, CYM, atom:10, Chain(A, residue: 0-231)), None, None, None )
+2022-11-16 03:32:17,200 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(232, ZN, atom:1, Chain(B, residue: 232-234)): Atom(SG, 3528, (-3.678, 5.624, -18.712), Residue(221, CYM, atom:10, Chain(A, residue: 0-231)), None, None, None )
+2022-11-16 03:32:17,200 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(232, ZN, atom:1, Chain(B, residue: 232-234)): Atom(SG, 3583, (-1.059, 8.058, -20.316), Residue(226, CYM, atom:10, Chain(A, residue: 0-231)), None, None, None )
+2022-11-16 03:32:17,201 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(172, CYM, atom:10, Chain(A, residue: 0-231)) found in center MetalUnit(232, ZN, atom:1, Chain(B, residue: 232-234))
+2022-11-16 03:32:17,201 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(219, CYM, atom:10, Chain(A, residue: 0-231)) found in center MetalUnit(232, ZN, atom:1, Chain(B, residue: 232-234))
+2022-11-16 03:32:17,201 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(221, CYM, atom:10, Chain(A, residue: 0-231)) found in center MetalUnit(232, ZN, atom:1, Chain(B, residue: 232-234))
+2022-11-16 03:32:17,201 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(226, CYM, atom:10, Chain(A, residue: 0-231)) found in center MetalUnit(232, ZN, atom:1, Chain(B, residue: 232-234))
+2022-11-16 03:32:17,203 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(233, ZN, atom:1, Chain(B, residue: 232-234)): Atom(SG, 766, (-29.203, 13.224, 7.311), Residue(44, CYM, atom:10, Chain(A, residue: 0-231)), None, None, None )
+2022-11-16 03:32:17,203 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(233, ZN, atom:1, Chain(B, residue: 232-234)): Atom(SG, 790, (-30.867, 11.915, 4.083), Residue(46, CYM, atom:10, Chain(A, residue: 0-231)), None, None, None )
+2022-11-16 03:32:17,203 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(233, ZN, atom:1, Chain(B, residue: 232-234)): Atom(SG, 901, (-28.877, 9.707, 6.255), Residue(54, CYM, atom:10, Chain(A, residue: 0-231)), None, None, None )
+2022-11-16 03:32:17,204 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(233, ZN, atom:1, Chain(B, residue: 232-234)): Atom(SG, 975, (-27.089, 12.474, 4.061), Residue(60, CYM, atom:10, Chain(A, residue: 0-231)), None, None, None )
+2022-11-16 03:32:17,204 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(44, CYM, atom:10, Chain(A, residue: 0-231)) found in center MetalUnit(233, ZN, atom:1, Chain(B, residue: 232-234))
+2022-11-16 03:32:17,204 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(46, CYM, atom:10, Chain(A, residue: 0-231)) found in center MetalUnit(233, ZN, atom:1, Chain(B, residue: 232-234))
+2022-11-16 03:32:17,204 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(54, CYM, atom:10, Chain(A, residue: 0-231)) found in center MetalUnit(233, ZN, atom:1, Chain(B, residue: 232-234))
+2022-11-16 03:32:17,204 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(60, CYM, atom:10, Chain(A, residue: 0-231)) found in center MetalUnit(233, ZN, atom:1, Chain(B, residue: 232-234))
+2022-11-16 03:32:17,206 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(234, ZN, atom:1, Chain(B, residue: 232-234)): Atom(SG, 901, (-28.877, 9.707, 6.255), Residue(54, CYM, atom:10, Chain(A, residue: 0-231)), None, None, None )
+2022-11-16 03:32:17,206 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(234, ZN, atom:1, Chain(B, residue: 232-234)): Atom(SG, 1133, (-25.479, 10.884, 8.011), Residue(69, CYM, atom:10, Chain(A, residue: 0-231)), None, None, None )
+2022-11-16 03:32:17,207 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(234, ZN, atom:1, Chain(B, residue: 232-234)): Atom(SG, 1204, (-28.878, 10.106, 9.88), Residue(74, CYM, atom:10, Chain(A, residue: 0-231)), None, None, None )
+2022-11-16 03:32:17,207 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(234, ZN, atom:1, Chain(B, residue: 232-234)): Atom(SG, 1276, (-26.634, 7.354, 8.358), Residue(80, CYM, atom:10, Chain(A, residue: 0-231)), None, None, None )
+2022-11-16 03:32:17,207 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(54, CYM, atom:10, Chain(A, residue: 0-231)) found in center MetalUnit(234, ZN, atom:1, Chain(B, residue: 232-234))
+2022-11-16 03:32:17,207 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(69, CYM, atom:10, Chain(A, residue: 0-231)) found in center MetalUnit(234, ZN, atom:1, Chain(B, residue: 232-234))
+2022-11-16 03:32:17,207 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(74, CYM, atom:10, Chain(A, residue: 0-231)) found in center MetalUnit(234, ZN, atom:1, Chain(B, residue: 232-234))
+2022-11-16 03:32:17,207 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(80, CYM, atom:10, Chain(A, residue: 0-231)) found in center MetalUnit(234, ZN, atom:1, Chain(B, residue: 232-234))
+2022-11-16 03:32:17,208 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:17,388 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:17,404 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:18,663 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:19,088 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 03:32:19,088 INFO:general.py:75:update_residues:updating ('A', 58) HIS to HIE
+2022-11-16 03:32:19,101 INFO:general.py:75:update_residues:updating ('A', 115) HIS to HID
+2022-11-16 03:32:19,119 INFO:general.py:75:update_residues:updating ('A', 197) HIS to HID
+2022-11-16 03:32:19,122 INFO:general.py:75:update_residues:updating ('A', 205) HIS to HIE
+2022-11-16 03:32:19,125 INFO:general.py:75:update_residues:updating ('A', 220) HIS to HID
+2022-11-16 03:32:19,132 INFO:general.py:75:update_residues:updating ('A', 251) HIS to HID
+2022-11-16 03:32:19,136 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:19,139 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:19,319 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:19,333 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:20,511 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:20,870 INFO:general.py:75:update_residues:updating ('A', 3) HIS to HID
+2022-11-16 03:32:20,875 INFO:general.py:75:update_residues:updating ('A', 26) HIS to HID
+2022-11-16 03:32:20,877 INFO:general.py:75:update_residues:updating ('A', 34) HIS to HID
+2022-11-16 03:32:20,879 INFO:general.py:75:update_residues:updating ('A', 47) HIS to HIE
+2022-11-16 03:32:20,883 INFO:general.py:75:update_residues:updating ('A', 64) HIS to HID
+2022-11-16 03:32:20,884 INFO:general.py:75:update_residues:updating ('A', 67) HIS to HID
+2022-11-16 03:32:20,890 INFO:general.py:75:update_residues:updating ('A', 98) HIS to HIE
+2022-11-16 03:32:20,891 INFO:general.py:75:update_residues:updating ('A', 99) HIS to HID
+2022-11-16 03:32:20,921 INFO:general.py:75:update_residues:updating ('A', 123) HIS to HIE
+2022-11-16 03:32:20,925 INFO:general.py:75:update_residues:updating ('A', 140) HIS to HID
+2022-11-16 03:32:20,932 INFO:general.py:75:update_residues:updating ('A', 180) HIS to HID
+2022-11-16 03:32:20,935 INFO:general.py:75:update_residues:updating ('A', 193) HIS to HID
+2022-11-16 03:32:20,938 INFO:general.py:75:update_residues:updating ('A', 205) HIS to HID
+2022-11-16 03:32:20,938 INFO:general.py:75:update_residues:updating ('A', 206) HIS to HID
+2022-11-16 03:32:20,939 INFO:general.py:75:update_residues:updating ('A', 210) HIS to HID
+2022-11-16 03:32:20,948 INFO:general.py:75:update_residues:updating ('A', 258) HIS to HID
+2022-11-16 03:32:20,949 INFO:general.py:75:update_residues:updating ('A', 259) HIS to HID
+2022-11-16 03:32:20,949 INFO:general.py:75:update_residues:updating ('A', 260) HIS to HID
+2022-11-16 03:32:20,949 INFO:general.py:75:update_residues:updating ('A', 261) HIS to HID
+2022-11-16 03:32:20,950 INFO:general.py:75:update_residues:updating ('A', 262) HIS to HID
+2022-11-16 03:32:20,951 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:20,953 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:21,212 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:21,233 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:23,238 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:23,899 INFO:general.py:75:update_residues:updating ('A', 84) HIS to HIE
+2022-11-16 03:32:23,915 INFO:general.py:75:update_residues:updating ('A', 154) HIS to HID
+2022-11-16 03:32:23,926 INFO:general.py:75:update_residues:updating ('A', 207) HIS to HID
+2022-11-16 03:32:23,928 INFO:general.py:75:update_residues:updating ('A', 221) HIS to HID
+2022-11-16 03:32:23,946 INFO:general.py:75:update_residues:updating ('A', 300) HIS to HID
+2022-11-16 03:32:23,961 INFO:general.py:75:update_residues:updating ('A', 367) HIS to HID
+2022-11-16 03:32:23,964 INFO:general.py:75:update_residues:updating ('A', 383) HIS to HID
+2022-11-16 03:32:23,969 INFO:general.py:75:update_residues:updating ('A', 405) HIS to HIE
+2022-11-16 03:32:23,970 INFO:general.py:75:update_residues:updating ('A', 409) HIS to HIE
+2022-11-16 03:32:23,976 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:23,982 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(500, ZN, atom:1, Chain(B, residue: 1-1,500-502)): Atom(SG, 986, (13.481, -4.049, 12.97), Residue(63, CYS, atom:11, Chain(A, residue: 1-429)), None, None, None )
+2022-11-16 03:32:23,983 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(500, ZN, atom:1, Chain(B, residue: 1-1,500-502)): Atom(SG, 1025, (16.371, -5.465, 11.186), Residue(66, CYS, atom:11, Chain(A, residue: 1-429)), None, None, None )
+2022-11-16 03:32:23,983 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(500, ZN, atom:1, Chain(B, residue: 1-1,500-502)): Atom(SG, 1393, (13.859, -8.209, 12.745), Residue(88, CYS, atom:11, Chain(A, residue: 1-429)), None, None, None )
+2022-11-16 03:32:23,983 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(63, CYS, atom:11, Chain(A, residue: 1-429))
+2022-11-16 03:32:23,983 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(66, CYS, atom:11, Chain(A, residue: 1-429))
+2022-11-16 03:32:23,983 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(88, CYS, atom:11, Chain(A, residue: 1-429))
+2022-11-16 03:32:23,987 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(501, ZN, atom:1, Chain(B, residue: 1-1,500-502)): Atom(SG, 811, (11.971, 6.147, 1.406), Residue(53, CYS, atom:11, Chain(A, residue: 1-429)), None, None, None )
+2022-11-16 03:32:23,987 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(501, ZN, atom:1, Chain(B, residue: 1-1,500-502)): Atom(SG, 1129, (11.072, 7.489, 4.898), Residue(72, CYS, atom:11, Chain(A, residue: 1-429)), None, None, None )
+2022-11-16 03:32:23,988 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(501, ZN, atom:1, Chain(B, residue: 1-1,500-502)): Atom(SG, 1183, (8.911, 5.212, 4.318), Residue(76, CYS, atom:11, Chain(A, residue: 1-429)), None, None, None )
+2022-11-16 03:32:23,988 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(53, CYS, atom:11, Chain(A, residue: 1-429))
+2022-11-16 03:32:23,988 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(72, CYS, atom:11, Chain(A, residue: 1-429))
+2022-11-16 03:32:23,988 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(76, CYS, atom:11, Chain(A, residue: 1-429))
+2022-11-16 03:32:23,992 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(502, ZN, atom:1, Chain(B, residue: 1-1,500-502)): Atom(SG, 3320, (21.348, -5.047, -29.014), Residue(209, CYS, atom:11, Chain(A, residue: 1-429)), None, None, None )
+2022-11-16 03:32:23,992 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(502, ZN, atom:1, Chain(B, residue: 1-1,500-502)): Atom(SG, 4179, (20.064, -8.465, -29.694), Residue(262, CYS, atom:11, Chain(A, residue: 1-429)), None, None, None )
+2022-11-16 03:32:23,993 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(502, ZN, atom:1, Chain(B, residue: 1-1,500-502)): Atom(SG, 4257, (23.362, -7.18, -30.755), Residue(267, CYS, atom:11, Chain(A, residue: 1-429)), None, None, None )
+2022-11-16 03:32:23,993 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(209, CYS, atom:11, Chain(A, residue: 1-429))
+2022-11-16 03:32:23,993 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(262, CYS, atom:11, Chain(A, residue: 1-429))
+2022-11-16 03:32:23,993 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(267, CYS, atom:11, Chain(A, residue: 1-429))
+2022-11-16 03:32:23,995 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:24,095 WARNING:pdb_io.py:335:_resolve_missing_chain_id:Found multiple chain id in 1 HETATM chain. Be careful. Treating them as individual chains
+2022-11-16 03:32:24,302 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:24,329 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:26,841 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:27,522 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HID
+2022-11-16 03:32:27,522 INFO:general.py:75:update_residues:updating ('A', 3) HIS to HID
+2022-11-16 03:32:27,522 INFO:general.py:75:update_residues:updating ('A', 4) HIS to HID
+2022-11-16 03:32:27,523 INFO:general.py:75:update_residues:updating ('A', 5) HIS to HID
+2022-11-16 03:32:27,523 INFO:general.py:75:update_residues:updating ('A', 6) HIS to HID
+2022-11-16 03:32:27,523 INFO:general.py:75:update_residues:updating ('A', 7) HIS to HID
+2022-11-16 03:32:27,528 INFO:general.py:75:update_residues:updating ('A', 30) HIS to HID
+2022-11-16 03:32:27,546 INFO:general.py:75:update_residues:updating ('A', 115) HIS to HID
+2022-11-16 03:32:27,556 INFO:general.py:75:update_residues:updating ('A', 165) HIS to HIE
+2022-11-16 03:32:27,561 INFO:general.py:75:update_residues:updating ('A', 184) HIS to HID
+2022-11-16 03:32:27,598 INFO:general.py:75:update_residues:updating ('A', 220) HIS to HIE
+2022-11-16 03:32:27,601 INFO:general.py:75:update_residues:updating ('A', 232) HIS to HIE
+2022-11-16 03:32:27,609 INFO:general.py:75:update_residues:updating ('A', 271) HIS to HID
+2022-11-16 03:32:27,626 INFO:general.py:75:update_residues:updating ('B', 351) HIS to HID
+2022-11-16 03:32:27,627 INFO:general.py:75:update_residues:updating ('B', 352) HIS to HID
+2022-11-16 03:32:27,627 INFO:general.py:75:update_residues:updating ('B', 353) HIS to HID
+2022-11-16 03:32:27,627 INFO:general.py:75:update_residues:updating ('B', 354) HIS to HID
+2022-11-16 03:32:27,628 INFO:general.py:75:update_residues:updating ('B', 355) HIS to HID
+2022-11-16 03:32:27,628 INFO:general.py:75:update_residues:updating ('B', 356) HIS to HID
+2022-11-16 03:32:27,637 INFO:general.py:75:update_residues:updating ('B', 395) HIS to HID
+2022-11-16 03:32:27,643 INFO:general.py:75:update_residues:updating ('B', 427) HIS to HID
+2022-11-16 03:32:27,644 INFO:general.py:75:update_residues:updating ('B', 430) HIS to HID
+2022-11-16 03:32:27,660 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:27,668 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(998, ZN, atom:1, Chain(C, residue: 998-999)): Atom(SG, 6466, (58.154, 42.711, 77.786), Residue(421, CYS, atom:11, Chain(B, residue: 345-499)), None, None, None )
+2022-11-16 03:32:27,668 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(998, ZN, atom:1, Chain(C, residue: 998-999)): Atom(SG, 6517, (56.845, 46.39, 77.832), Residue(424, CYS, atom:11, Chain(B, residue: 345-499)), None, None, None )
+2022-11-16 03:32:27,668 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(998, ZN, atom:1, Chain(C, residue: 998-999)): Atom(SG, 6719, (58.489, 44.757, 80.903), Residue(437, CYS, atom:11, Chain(B, residue: 345-499)), None, None, None )
+2022-11-16 03:32:27,668 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(421, CYS, atom:11, Chain(B, residue: 345-499))
+2022-11-16 03:32:27,668 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(424, CYS, atom:11, Chain(B, residue: 345-499))
+2022-11-16 03:32:27,668 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(437, CYS, atom:11, Chain(B, residue: 345-499))
+2022-11-16 03:32:27,673 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(999, ZN, atom:1, Chain(C, residue: 998-999)): Atom(SG, 7173, (76.83, 35.678, 89.18), Residue(467, CYS, atom:11, Chain(B, residue: 345-499)), None, None, None )
+2022-11-16 03:32:27,673 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(467, CYS, atom:11, Chain(B, residue: 345-499))
+2022-11-16 03:32:27,674 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:27,868 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:27,881 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:29,008 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:29,372 INFO:general.py:75:update_residues:updating ('A', 31) HIS to HID
+2022-11-16 03:32:29,375 INFO:general.py:75:update_residues:updating ('A', 46) HIS to HID
+2022-11-16 03:32:29,385 INFO:general.py:75:update_residues:updating ('A', 91) HIS to HIE
+2022-11-16 03:32:29,404 INFO:general.py:75:update_residues:updating ('A', 182) HIS to HID
+2022-11-16 03:32:29,414 INFO:general.py:75:update_residues:updating ('A', 227) HIS to HID
+2022-11-16 03:32:29,415 INFO:general.py:75:update_residues:updating ('A', 231) HIS to HIE
+2022-11-16 03:32:29,419 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:29,423 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1000, ZN, atom:1, Chain(B, residue: 1-1,1000-1000)): Atom(SG, 2954, (20.634, 33.304, 66.425), Residue(184, CYS, atom:11, Chain(A, residue: 1-247)), None, None, None )
+2022-11-16 03:32:29,423 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1000, ZN, atom:1, Chain(B, residue: 1-1,1000-1000)): Atom(SG, 3604, (17.272, 31.711, 67.842), Residue(228, CYS, atom:11, Chain(A, residue: 1-247)), None, None, None )
+2022-11-16 03:32:29,423 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1000, ZN, atom:1, Chain(B, residue: 1-1,1000-1000)): Atom(SG, 3630, (18.978, 34.058, 69.351), Residue(230, CYS, atom:11, Chain(A, residue: 1-247)), None, None, None )
+2022-11-16 03:32:29,423 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1000, ZN, atom:1, Chain(B, residue: 1-1,1000-1000)): Atom(SG, 3672, (17.557, 34.835, 66.586), Residue(233, CYS, atom:11, Chain(A, residue: 1-247)), None, None, None )
+2022-11-16 03:32:29,423 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(184, CYS, atom:11, Chain(A, residue: 1-247))
+2022-11-16 03:32:29,424 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(228, CYS, atom:11, Chain(A, residue: 1-247))
+2022-11-16 03:32:29,424 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(230, CYS, atom:11, Chain(A, residue: 1-247))
+2022-11-16 03:32:29,424 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(233, CYS, atom:11, Chain(A, residue: 1-247))
+2022-11-16 03:32:29,425 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:29,617 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:29,629 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:30,658 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:31,010 INFO:general.py:75:update_residues:updating ('A', 142) HIS to HID
+2022-11-16 03:32:31,020 INFO:general.py:75:update_residues:updating ('A', 193) HIS to HID
+2022-11-16 03:32:31,027 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:31,031 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(222, MG, atom:1, Chain(B, residue: 1-1,222-222)): Atom(OD1, 2694, (-7.491, 37.735, 61.379), Residue(170, ASN, atom:14, Chain(A, residue: 1-221)), None, None, None )
+2022-11-16 03:32:31,031 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(170, ASN, atom:14, Chain(A, residue: 1-221)) found in center MetalUnit(222, MG, atom:1, Chain(B, residue: 1-1,222-222))
+2022-11-16 03:32:31,032 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:31,216 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:31,230 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:32,713 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:33,117 INFO:general.py:75:update_residues:updating ('A', 36) HIS to HID
+2022-11-16 03:32:33,121 INFO:general.py:75:update_residues:updating ('A', 50) HIS to HID
+2022-11-16 03:32:33,123 INFO:general.py:75:update_residues:updating ('A', 59) HIS to HID
+2022-11-16 03:32:33,130 INFO:general.py:75:update_residues:updating ('A', 87) HIS to HID
+2022-11-16 03:32:33,134 INFO:general.py:75:update_residues:updating ('A', 103) HIS to HID
+2022-11-16 03:32:33,139 INFO:general.py:75:update_residues:updating ('A', 119) HIS to HIE
+2022-11-16 03:32:33,155 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 03:32:33,161 INFO:general.py:75:update_residues:updating ('A', 211) HIS to HID
+2022-11-16 03:32:33,176 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:33,180 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(400, ZN, atom:1, Chain(B, residue: 1-1,400-400)): Atom(SG, 3438, (21.55, 41.941, -3.838), Residue(213, CYS, atom:11, Chain(A, residue: 1-273)), None, None, None )
+2022-11-16 03:32:33,180 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(400, ZN, atom:1, Chain(B, residue: 1-1,400-400)): Atom(SG, 4121, (22.142, 43.975, -1.161), Residue(259, CYS, atom:11, Chain(A, residue: 1-273)), None, None, None )
+2022-11-16 03:32:33,180 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(400, ZN, atom:1, Chain(B, residue: 1-1,400-400)): Atom(SG, 4167, (23.518, 44.48, -4.11), Residue(262, CYS, atom:11, Chain(A, residue: 1-273)), None, None, None )
+2022-11-16 03:32:33,180 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(213, CYS, atom:11, Chain(A, residue: 1-273))
+2022-11-16 03:32:33,180 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(259, CYS, atom:11, Chain(A, residue: 1-273))
+2022-11-16 03:32:33,181 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(262, CYS, atom:11, Chain(A, residue: 1-273))
+2022-11-16 03:32:33,182 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:33,470 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:33,492 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:35,588 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:36,244 INFO:general.py:75:update_residues:updating ('A', 51) HIS to HID
+2022-11-16 03:32:36,253 INFO:general.py:75:update_residues:updating ('A', 86) HIS to HID
+2022-11-16 03:32:36,260 INFO:general.py:75:update_residues:updating ('A', 119) HIS to HID
+2022-11-16 03:32:36,264 INFO:general.py:75:update_residues:updating ('A', 137) HIS to HIE
+2022-11-16 03:32:36,268 INFO:general.py:75:update_residues:updating ('A', 157) HIS to HID
+2022-11-16 03:32:36,269 INFO:general.py:75:update_residues:updating ('A', 158) HIS to HID
+2022-11-16 03:32:36,270 INFO:general.py:75:update_residues:updating ('A', 163) HIS to HID
+2022-11-16 03:32:36,276 INFO:general.py:75:update_residues:updating ('A', 193) HIS to HIE
+2022-11-16 03:32:36,279 INFO:general.py:75:update_residues:updating ('A', 207) HIS to HID
+2022-11-16 03:32:36,302 INFO:general.py:75:update_residues:updating ('A', 310) HIS to HID
+2022-11-16 03:32:36,308 INFO:general.py:75:update_residues:updating ('A', 341) HIS to HID
+2022-11-16 03:32:36,315 INFO:general.py:75:update_residues:updating ('A', 373) HIS to HIE
+2022-11-16 03:32:36,320 INFO:general.py:75:update_residues:updating ('A', 397) HIS to HID
+2022-11-16 03:32:36,325 INFO:general.py:75:update_residues:updating ('A', 416) HIS to HID
+2022-11-16 03:32:36,325 INFO:general.py:75:update_residues:updating ('A', 420) HIS to HIE
+2022-11-16 03:32:36,330 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:36,337 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(435, ZN, atom:1, Chain(B, residue: 1-1,435-437)): Atom(SG, 829, (3.487, -5.479, 32.247), Residue(55, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:32:36,337 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(435, ZN, atom:1, Chain(B, residue: 1-1,435-437)): Atom(SG, 1193, (2.975, -4.95, 36.445), Residue(78, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:32:36,337 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(55, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:32:36,337 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(78, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:32:36,342 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(436, ZN, atom:1, Chain(B, residue: 1-1,435-437)): Atom(SG, 1036, (-7.01, 5.952, 34.854), Residue(68, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:32:36,342 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(436, ZN, atom:1, Chain(B, residue: 1-1,435-437)): Atom(SG, 1398, (-5.828, 8.823, 37.712), Residue(90, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:32:36,342 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(68, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:32:36,342 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(90, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:32:36,347 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(437, ZN, atom:1, Chain(B, residue: 1-1,435-437)): Atom(SG, 3267, (18.137, 1.911, 2.107), Residue(209, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:32:36,347 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(437, ZN, atom:1, Chain(B, residue: 1-1,435-437)): Atom(SG, 4122, (21.118, 4.462, 2.945), Residue(262, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:32:36,347 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(437, ZN, atom:1, Chain(B, residue: 1-1,435-437)): Atom(SG, 4148, (21.369, 1.573, 1.5), Residue(264, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:32:36,348 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(437, ZN, atom:1, Chain(B, residue: 1-1,435-437)): Atom(SG, 4191, (19.185, 3.86, -0.313), Residue(267, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:32:36,348 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(209, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:32:36,348 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(262, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:32:36,348 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(264, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:32:36,348 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(267, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:32:36,350 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:36,600 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:36,620 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:38,177 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:38,733 INFO:general.py:75:update_residues:updating ('A', 76) HIS to HIE
+2022-11-16 03:32:38,745 INFO:general.py:75:update_residues:updating ('A', 131) HIS to HIE
+2022-11-16 03:32:38,752 INFO:general.py:75:update_residues:updating ('A', 162) HIS to HID
+2022-11-16 03:32:38,758 INFO:general.py:75:update_residues:updating ('A', 189) HIS to HID
+2022-11-16 03:32:38,760 INFO:general.py:75:update_residues:updating ('A', 198) HIS to HID
+2022-11-16 03:32:38,761 INFO:general.py:75:update_residues:updating ('A', 201) HIS to HID
+2022-11-16 03:32:38,772 INFO:general.py:75:update_residues:updating ('A', 253) HIS to HIE
+2022-11-16 03:32:38,794 INFO:general.py:75:update_residues:updating ('A', 348) HIS to HIE
+2022-11-16 03:32:38,794 INFO:general.py:75:update_residues:updating ('A', 349) HIS to HID
+2022-11-16 03:32:38,795 INFO:general.py:75:update_residues:updating ('A', 354) HIS to HIE
+2022-11-16 03:32:38,797 INFO:general.py:75:update_residues:updating ('A', 360) HIS to HID
+2022-11-16 03:32:38,799 INFO:general.py:75:update_residues:updating ('A', 368) HIS to HIE
+2022-11-16 03:32:38,799 INFO:general.py:75:update_residues:updating ('A', 369) HIS to HID
+2022-11-16 03:32:38,799 INFO:general.py:75:update_residues:updating ('A', 370) HIS to HID
+2022-11-16 03:32:38,800 INFO:general.py:75:update_residues:updating ('A', 371) HIS to HID
+2022-11-16 03:32:38,800 INFO:general.py:75:update_residues:updating ('A', 372) HIS to HID
+2022-11-16 03:32:38,802 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:38,805 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:39,012 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:39,028 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:40,253 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:40,676 INFO:general.py:75:update_residues:updating ('A', 6) HIS to HIE
+2022-11-16 03:32:40,677 INFO:general.py:75:update_residues:updating ('A', 9) HIS to HID
+2022-11-16 03:32:40,678 INFO:general.py:75:update_residues:updating ('A', 13) HIS to HID
+2022-11-16 03:32:40,679 INFO:general.py:75:update_residues:updating ('A', 19) HIS to HID
+2022-11-16 03:32:40,685 INFO:general.py:75:update_residues:updating ('A', 42) HIS to HID
+2022-11-16 03:32:40,687 INFO:general.py:75:update_residues:updating ('A', 54) HIS to HID
+2022-11-16 03:32:40,695 INFO:general.py:75:update_residues:updating ('A', 87) HIS to HID
+2022-11-16 03:32:40,703 INFO:general.py:75:update_residues:updating ('A', 120) HIS to HIE
+2022-11-16 03:32:40,723 INFO:general.py:75:update_residues:updating ('A', 209) HIS to HID
+2022-11-16 03:32:40,734 INFO:general.py:75:update_residues:updating ('A', 261) HIS to HIE
+2022-11-16 03:32:40,736 INFO:general.py:75:update_residues:updating ('A', 271) HIS to HID
+2022-11-16 03:32:40,739 INFO:general.py:75:update_residues:updating ('A', 284) HIS to HID
+2022-11-16 03:32:40,739 INFO:general.py:75:update_residues:updating ('A', 285) HIS to HID
+2022-11-16 03:32:40,740 INFO:general.py:75:update_residues:updating ('A', 286) HIS to HID
+2022-11-16 03:32:40,740 INFO:general.py:75:update_residues:updating ('A', 287) HIS to HID
+2022-11-16 03:32:40,740 INFO:general.py:75:update_residues:updating ('A', 288) HIS to HID
+2022-11-16 03:32:40,742 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:40,744 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:40,936 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:40,950 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:42,272 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:42,681 INFO:general.py:75:update_residues:updating ('A', 52) HIS to HIE
+2022-11-16 03:32:42,681 INFO:general.py:75:update_residues:updating ('A', 53) HIS to HIE
+2022-11-16 03:32:42,693 INFO:general.py:75:update_residues:updating ('A', 110) HIS to HID
+2022-11-16 03:32:42,711 INFO:general.py:75:update_residues:updating ('A', 192) HIS to HID
+2022-11-16 03:32:42,713 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 03:32:42,716 INFO:general.py:75:update_residues:updating ('A', 215) HIS to HID
+2022-11-16 03:32:42,723 INFO:general.py:75:update_residues:updating ('A', 246) HIS to HIE
+2022-11-16 03:32:42,726 INFO:general.py:75:update_residues:updating ('A', 263) HIS to HID
+2022-11-16 03:32:42,730 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:42,732 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:42,914 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:42,926 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:43,994 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:44,341 INFO:general.py:75:update_residues:updating ('A', 10) HIS to HID
+2022-11-16 03:32:44,359 INFO:general.py:75:update_residues:updating ('A', 94) HIS to HID
+2022-11-16 03:32:44,370 INFO:general.py:75:update_residues:updating ('A', 143) HIS to HID
+2022-11-16 03:32:44,386 INFO:general.py:75:update_residues:updating ('A', 216) HIS to HID
+2022-11-16 03:32:44,388 INFO:general.py:75:update_residues:updating ('A', 224) HIS to HID
+2022-11-16 03:32:44,391 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:44,393 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:44,576 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:44,591 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:46,066 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:46,440 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 03:32:46,453 INFO:general.py:75:update_residues:updating ('A', 73) HIS to HID
+2022-11-16 03:32:46,455 INFO:general.py:75:update_residues:updating ('A', 84) HIS to HID
+2022-11-16 03:32:46,468 INFO:general.py:75:update_residues:updating ('A', 144) HIS to HID
+2022-11-16 03:32:46,474 INFO:general.py:75:update_residues:updating ('A', 175) HIS to HIE
+2022-11-16 03:32:46,476 INFO:general.py:75:update_residues:updating ('A', 185) HIS to HIE
+2022-11-16 03:32:46,477 INFO:general.py:75:update_residues:updating ('A', 189) HIS to HID
+2022-11-16 03:32:46,480 INFO:general.py:75:update_residues:updating ('A', 202) HIS to HID
+2022-11-16 03:32:46,486 INFO:general.py:75:update_residues:updating ('A', 231) HIS to HID
+2022-11-16 03:32:46,492 INFO:general.py:75:update_residues:updating ('A', 259) HIS to HID
+2022-11-16 03:32:46,492 INFO:general.py:75:update_residues:updating ('A', 260) HIS to HID
+2022-11-16 03:32:46,492 INFO:general.py:75:update_residues:updating ('A', 261) HIS to HID
+2022-11-16 03:32:46,493 INFO:general.py:75:update_residues:updating ('A', 262) HIS to HID
+2022-11-16 03:32:46,493 INFO:general.py:75:update_residues:updating ('A', 263) HIS to HIE
+2022-11-16 03:32:46,494 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:46,497 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:46,717 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:46,732 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:47,120 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:47,433 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:47,435 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:47,770 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:47,800 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:50,343 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:51,163 INFO:general.py:75:update_residues:updating ('A', 60) HIS to HID
+2022-11-16 03:32:51,168 INFO:general.py:75:update_residues:updating ('A', 80) HIS to HID
+2022-11-16 03:32:51,190 INFO:general.py:75:update_residues:updating ('A', 193) HIS to HID
+2022-11-16 03:32:51,200 INFO:general.py:75:update_residues:updating ('A', 238) HIS to HID
+2022-11-16 03:32:51,201 INFO:general.py:75:update_residues:updating ('A', 241) HIS to HID
+2022-11-16 03:32:51,209 INFO:general.py:75:update_residues:updating ('A', 279) HIS to HID
+2022-11-16 03:32:51,211 INFO:general.py:75:update_residues:updating ('A', 289) HIS to HID
+2022-11-16 03:32:51,218 INFO:general.py:75:update_residues:updating ('A', 318) HIS to HIE
+2022-11-16 03:32:51,249 INFO:general.py:75:update_residues:updating ('B', 485) HIS to HID
+2022-11-16 03:32:51,255 INFO:general.py:75:update_residues:updating ('B', 513) HIS to HIE
+2022-11-16 03:32:51,260 INFO:general.py:75:update_residues:updating ('B', 533) HIS to HID
+2022-11-16 03:32:51,276 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:51,283 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:51,433 WARNING:pdb_io.py:335:_resolve_missing_chain_id:Found multiple chain id in 1 HETATM chain. Be careful. Treating them as individual chains
+2022-11-16 03:32:51,686 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:51,714 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:54,203 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:55,031 INFO:general.py:75:update_residues:updating ('A', 2) HIS to HID
+2022-11-16 03:32:55,031 INFO:general.py:75:update_residues:updating ('A', 3) HIS to HID
+2022-11-16 03:32:55,031 INFO:general.py:75:update_residues:updating ('A', 4) HIS to HID
+2022-11-16 03:32:55,032 INFO:general.py:75:update_residues:updating ('A', 5) HIS to HID
+2022-11-16 03:32:55,032 INFO:general.py:75:update_residues:updating ('A', 6) HIS to HID
+2022-11-16 03:32:55,032 INFO:general.py:75:update_residues:updating ('A', 7) HIS to HID
+2022-11-16 03:32:55,050 INFO:general.py:75:update_residues:updating ('A', 91) HIS to HID
+2022-11-16 03:32:55,057 INFO:general.py:75:update_residues:updating ('A', 123) HIS to HID
+2022-11-16 03:32:55,059 INFO:general.py:75:update_residues:updating ('A', 132) HIS to HIE
+2022-11-16 03:32:55,061 INFO:general.py:75:update_residues:updating ('A', 143) HIS to HID
+2022-11-16 03:32:55,070 INFO:general.py:75:update_residues:updating ('A', 177) HIS to HID
+2022-11-16 03:32:55,071 INFO:general.py:75:update_residues:updating ('A', 182) HIS to HID
+2022-11-16 03:32:55,083 INFO:general.py:75:update_residues:updating ('A', 236) HIS to HIE
+2022-11-16 03:32:55,085 INFO:general.py:75:update_residues:updating ('A', 243) HIS to HID
+2022-11-16 03:32:55,092 INFO:general.py:75:update_residues:updating ('A', 273) HIS to HID
+2022-11-16 03:32:55,095 INFO:general.py:75:update_residues:updating ('B', 287) HIS to HID
+2022-11-16 03:32:55,095 INFO:general.py:75:update_residues:updating ('B', 288) HIS to HID
+2022-11-16 03:32:55,096 INFO:general.py:75:update_residues:updating ('B', 289) HIS to HID
+2022-11-16 03:32:55,096 INFO:general.py:75:update_residues:updating ('B', 290) HIS to HID
+2022-11-16 03:32:55,096 INFO:general.py:75:update_residues:updating ('B', 291) HIS to HID
+2022-11-16 03:32:55,097 INFO:general.py:75:update_residues:updating ('B', 292) HIS to HID
+2022-11-16 03:32:55,114 INFO:general.py:75:update_residues:updating ('B', 376) HIS to HIE
+2022-11-16 03:32:55,121 INFO:general.py:75:update_residues:updating ('B', 408) HIS to HID
+2022-11-16 03:32:55,123 INFO:general.py:75:update_residues:updating ('B', 417) HIS to HID
+2022-11-16 03:32:55,125 INFO:general.py:75:update_residues:updating ('B', 428) HIS to HIE
+2022-11-16 03:32:55,133 INFO:general.py:75:update_residues:updating ('B', 462) HIS to HID
+2022-11-16 03:32:55,134 INFO:general.py:75:update_residues:updating ('B', 467) HIS to HID
+2022-11-16 03:32:55,147 INFO:general.py:75:update_residues:updating ('B', 521) HIS to HID
+2022-11-16 03:32:55,148 INFO:general.py:75:update_residues:updating ('B', 528) HIS to HID
+2022-11-16 03:32:55,155 INFO:general.py:75:update_residues:updating ('B', 558) HIS to HID
+2022-11-16 03:32:55,160 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:55,165 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:55,284 WARNING:pdb_io.py:335:_resolve_missing_chain_id:Found multiple chain id in 1 HETATM chain. Be careful. Treating them as individual chains
+2022-11-16 03:32:55,592 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:55,620 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:56,588 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:57,139 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:57,141 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:57,342 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:57,357 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:32:58,635 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:32:59,064 INFO:general.py:75:update_residues:updating ('A', 5) HIS to HID
+2022-11-16 03:32:59,064 INFO:general.py:75:update_residues:updating ('A', 6) HIS to HID
+2022-11-16 03:32:59,064 INFO:general.py:75:update_residues:updating ('A', 7) HIS to HID
+2022-11-16 03:32:59,065 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 03:32:59,065 INFO:general.py:75:update_residues:updating ('A', 9) HIS to HIE
+2022-11-16 03:32:59,065 INFO:general.py:75:update_residues:updating ('A', 10) HIS to HID
+2022-11-16 03:32:59,067 INFO:general.py:75:update_residues:updating ('A', 20) HIS to HID
+2022-11-16 03:32:59,082 INFO:general.py:75:update_residues:updating ('A', 97) HIS to HID
+2022-11-16 03:32:59,083 INFO:general.py:75:update_residues:updating ('A', 99) HIS to HID
+2022-11-16 03:32:59,122 INFO:general.py:75:update_residues:updating ('A', 149) HIS to HIE
+2022-11-16 03:32:59,154 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:59,157 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:59,250 WARNING:pdb_io.py:335:_resolve_missing_chain_id:Found multiple chain id in 1 HETATM chain. Be careful. Treating them as individual chains
+2022-11-16 03:32:59,502 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:32:59,531 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:02,243 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:03,064 INFO:general.py:75:update_residues:updating ('A', 5) HIS to HID
+2022-11-16 03:33:03,065 INFO:general.py:75:update_residues:updating ('A', 6) HIS to HID
+2022-11-16 03:33:03,065 INFO:general.py:75:update_residues:updating ('A', 7) HIS to HID
+2022-11-16 03:33:03,065 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 03:33:03,065 INFO:general.py:75:update_residues:updating ('A', 9) HIS to HID
+2022-11-16 03:33:03,066 INFO:general.py:75:update_residues:updating ('A', 10) HIS to HID
+2022-11-16 03:33:03,068 INFO:general.py:75:update_residues:updating ('A', 20) HIS to HID
+2022-11-16 03:33:03,083 INFO:general.py:75:update_residues:updating ('A', 97) HIS to HID
+2022-11-16 03:33:03,095 INFO:general.py:75:update_residues:updating ('A', 149) HIS to HID
+2022-11-16 03:33:03,124 INFO:general.py:75:update_residues:updating ('A', 271) HIS to HID
+2022-11-16 03:33:03,128 INFO:general.py:75:update_residues:updating ('B', 289) HIS to HID
+2022-11-16 03:33:03,128 INFO:general.py:75:update_residues:updating ('B', 290) HIS to HID
+2022-11-16 03:33:03,129 INFO:general.py:75:update_residues:updating ('B', 291) HIS to HID
+2022-11-16 03:33:03,129 INFO:general.py:75:update_residues:updating ('B', 292) HIS to HID
+2022-11-16 03:33:03,129 INFO:general.py:75:update_residues:updating ('B', 293) HIS to HID
+2022-11-16 03:33:03,129 INFO:general.py:75:update_residues:updating ('B', 294) HIS to HID
+2022-11-16 03:33:03,132 INFO:general.py:75:update_residues:updating ('B', 304) HIS to HID
+2022-11-16 03:33:03,147 INFO:general.py:75:update_residues:updating ('B', 381) HIS to HIE
+2022-11-16 03:33:03,159 INFO:general.py:75:update_residues:updating ('B', 433) HIS to HID
+2022-11-16 03:33:03,188 INFO:general.py:75:update_residues:updating ('B', 555) HIS to HID
+2022-11-16 03:33:03,193 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:03,198 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:03,449 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:03,463 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:04,992 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:05,371 INFO:general.py:75:update_residues:updating ('A', 11) HIS to HIE
+2022-11-16 03:33:05,385 INFO:general.py:75:update_residues:updating ('A', 76) HIS to HID
+2022-11-16 03:33:05,387 INFO:general.py:75:update_residues:updating ('A', 87) HIS to HID
+2022-11-16 03:33:05,399 INFO:general.py:75:update_residues:updating ('A', 147) HIS to HIE
+2022-11-16 03:33:05,405 INFO:general.py:75:update_residues:updating ('A', 178) HIS to HID
+2022-11-16 03:33:05,407 INFO:general.py:75:update_residues:updating ('A', 188) HIS to HIE
+2022-11-16 03:33:05,409 INFO:general.py:75:update_residues:updating ('A', 192) HIS to HID
+2022-11-16 03:33:05,412 INFO:general.py:75:update_residues:updating ('A', 205) HIS to HID
+2022-11-16 03:33:05,418 INFO:general.py:75:update_residues:updating ('A', 234) HIS to HID
+2022-11-16 03:33:05,427 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:05,430 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:05,622 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:05,637 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:07,167 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:07,540 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 03:33:07,554 INFO:general.py:75:update_residues:updating ('A', 73) HIS to HID
+2022-11-16 03:33:07,557 INFO:general.py:75:update_residues:updating ('A', 84) HIS to HID
+2022-11-16 03:33:07,570 INFO:general.py:75:update_residues:updating ('A', 144) HIS to HIE
+2022-11-16 03:33:07,576 INFO:general.py:75:update_residues:updating ('A', 175) HIS to HIE
+2022-11-16 03:33:07,578 INFO:general.py:75:update_residues:updating ('A', 185) HIS to HIE
+2022-11-16 03:33:07,579 INFO:general.py:75:update_residues:updating ('A', 189) HIS to HIE
+2022-11-16 03:33:07,582 INFO:general.py:75:update_residues:updating ('A', 202) HIS to HID
+2022-11-16 03:33:07,589 INFO:general.py:75:update_residues:updating ('A', 231) HIS to HID
+2022-11-16 03:33:07,595 INFO:general.py:75:update_residues:updating ('A', 259) HIS to HID
+2022-11-16 03:33:07,596 INFO:general.py:75:update_residues:updating ('A', 260) HIS to HID
+2022-11-16 03:33:07,596 INFO:general.py:75:update_residues:updating ('A', 261) HIS to HID
+2022-11-16 03:33:07,596 INFO:general.py:75:update_residues:updating ('A', 262) HIS to HIE
+2022-11-16 03:33:07,597 INFO:general.py:75:update_residues:updating ('A', 263) HIS to HID
+2022-11-16 03:33:07,598 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:07,600 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:07,794 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:07,808 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:09,277 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:09,648 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HIE
+2022-11-16 03:33:09,661 INFO:general.py:75:update_residues:updating ('A', 73) HIS to HIE
+2022-11-16 03:33:09,663 INFO:general.py:75:update_residues:updating ('A', 84) HIS to HID
+2022-11-16 03:33:09,676 INFO:general.py:75:update_residues:updating ('A', 144) HIS to HIE
+2022-11-16 03:33:09,682 INFO:general.py:75:update_residues:updating ('A', 175) HIS to HIE
+2022-11-16 03:33:09,684 INFO:general.py:75:update_residues:updating ('A', 185) HIS to HID
+2022-11-16 03:33:09,685 INFO:general.py:75:update_residues:updating ('A', 189) HIS to HID
+2022-11-16 03:33:09,688 INFO:general.py:75:update_residues:updating ('A', 202) HIS to HID
+2022-11-16 03:33:09,694 INFO:general.py:75:update_residues:updating ('A', 231) HIS to HID
+2022-11-16 03:33:09,700 INFO:general.py:75:update_residues:updating ('A', 259) HIS to HID
+2022-11-16 03:33:09,700 INFO:general.py:75:update_residues:updating ('A', 260) HIS to HID
+2022-11-16 03:33:09,700 INFO:general.py:75:update_residues:updating ('A', 261) HIS to HID
+2022-11-16 03:33:09,700 INFO:general.py:75:update_residues:updating ('A', 262) HIS to HID
+2022-11-16 03:33:09,701 INFO:general.py:75:update_residues:updating ('A', 263) HIS to HID
+2022-11-16 03:33:09,702 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:09,704 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:09,800 WARNING:pdb_io.py:335:_resolve_missing_chain_id:Found multiple chain id in 1 HETATM chain. Be careful. Treating them as individual chains
+2022-11-16 03:33:10,114 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:10,149 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:13,073 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:14,019 INFO:general.py:75:update_residues:updating ('A', 59) HIS to HID
+2022-11-16 03:33:14,029 INFO:general.py:75:update_residues:updating ('A', 108) HIS to HID
+2022-11-16 03:33:14,058 INFO:general.py:75:update_residues:updating ('A', 201) HIS to HID
+2022-11-16 03:33:14,060 INFO:general.py:75:update_residues:updating ('A', 211) HIS to HIE
+2022-11-16 03:33:14,091 INFO:general.py:75:update_residues:updating ('B', 283) HIS to HID
+2022-11-16 03:33:14,101 INFO:general.py:75:update_residues:updating ('B', 332) HIS to HIE
+2022-11-16 03:33:14,122 INFO:general.py:75:update_residues:updating ('B', 425) HIS to HID
+2022-11-16 03:33:14,124 INFO:general.py:75:update_residues:updating ('B', 435) HIS to HIE
+2022-11-16 03:33:14,140 INFO:general.py:75:update_residues:updating ('C', 507) HIS to HID
+2022-11-16 03:33:14,150 INFO:general.py:75:update_residues:updating ('C', 556) HIS to HID
+2022-11-16 03:33:14,171 INFO:general.py:75:update_residues:updating ('C', 649) HIS to HID
+2022-11-16 03:33:14,174 INFO:general.py:75:update_residues:updating ('C', 659) HIS to HIE
+2022-11-16 03:33:14,180 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:14,185 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:14,529 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:14,552 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:16,331 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:16,990 INFO:general.py:75:update_residues:updating ('A', 75) HIS to HID
+2022-11-16 03:33:17,011 INFO:general.py:75:update_residues:updating ('A', 172) HIS to HID
+2022-11-16 03:33:17,024 INFO:general.py:75:update_residues:updating ('A', 237) HIS to HID
+2022-11-16 03:33:17,033 INFO:general.py:75:update_residues:updating ('A', 278) HIS to HID
+2022-11-16 03:33:17,053 INFO:general.py:75:update_residues:updating ('A', 368) HIS to HID
+2022-11-16 03:33:17,055 INFO:general.py:75:update_residues:updating ('A', 381) HIS to HID
+2022-11-16 03:33:17,058 INFO:general.py:75:update_residues:updating ('A', 393) HIS to HID
+2022-11-16 03:33:17,067 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:17,070 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:17,250 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:17,263 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:18,421 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:18,794 INFO:general.py:75:update_residues:updating ('A', 44) HIS to HID
+2022-11-16 03:33:18,812 INFO:general.py:75:update_residues:updating ('A', 139) HIS to HID
+2022-11-16 03:33:18,814 INFO:general.py:75:update_residues:updating ('A', 151) HIS to HID
+2022-11-16 03:33:18,823 INFO:general.py:75:update_residues:updating ('A', 193) HIS to HIE
+2022-11-16 03:33:18,833 INFO:general.py:75:update_residues:updating ('A', 233) HIS to HIE
+2022-11-16 03:33:18,833 INFO:general.py:75:update_residues:updating ('A', 234) HIS to HIE
+2022-11-16 03:33:18,833 INFO:general.py:75:update_residues:updating ('A', 235) HIS to HID
+2022-11-16 03:33:18,834 INFO:general.py:75:update_residues:updating ('A', 236) HIS to HID
+2022-11-16 03:33:18,834 INFO:general.py:75:update_residues:updating ('A', 237) HIS to HID
+2022-11-16 03:33:18,835 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:18,837 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:19,099 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:19,119 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:19,695 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:20,080 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:20,084 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(302, MG, atom:1, Chain(B, residue: 1-1,43-43,302-302)): Atom(OD1, 2235, (-8.69, 6.315, -19.227), Residue(191, ASP, atom:12, Chain(A, residue: 48-265)), None, None, None )
+2022-11-16 03:33:20,084 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(302, MG, atom:1, Chain(B, residue: 1-1,43-43,302-302)): Atom(OD2, 2701, (-10.682, 7.059, -21.39), Residue(219, ASP, atom:12, Chain(A, residue: 48-265)), None, None, None )
+2022-11-16 03:33:20,084 INFO:protonate.py:220:deprotonate_metal_donors:donor residue Residue(191, ASP, atom:12, Chain(A, residue: 48-265)) already have no proton in center MetalUnit(302, MG, atom:1, Chain(B, residue: 1-1,43-43,302-302))
+2022-11-16 03:33:20,084 INFO:protonate.py:220:deprotonate_metal_donors:donor residue Residue(219, ASP, atom:12, Chain(A, residue: 48-265)) already have no proton in center MetalUnit(302, MG, atom:1, Chain(B, residue: 1-1,43-43,302-302))
+2022-11-16 03:33:20,085 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:20,259 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:20,273 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:21,297 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:21,685 INFO:general.py:75:update_residues:updating ('A', 5) HIS to HID
+2022-11-16 03:33:21,685 INFO:general.py:75:update_residues:updating ('A', 6) HIS to HID
+2022-11-16 03:33:21,686 INFO:general.py:75:update_residues:updating ('A', 7) HIS to HID
+2022-11-16 03:33:21,686 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 03:33:21,686 INFO:general.py:75:update_residues:updating ('A', 9) HIS to HID
+2022-11-16 03:33:21,687 INFO:general.py:75:update_residues:updating ('A', 10) HIS to HID
+2022-11-16 03:33:21,689 INFO:general.py:75:update_residues:updating ('A', 20) HIS to HID
+2022-11-16 03:33:21,695 INFO:general.py:75:update_residues:updating ('A', 48) HIS to HID
+2022-11-16 03:33:21,699 INFO:general.py:75:update_residues:updating ('A', 66) HIS to HID
+2022-11-16 03:33:21,704 INFO:general.py:75:update_residues:updating ('A', 92) HIS to HIE
+2022-11-16 03:33:21,725 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 03:33:21,730 INFO:general.py:75:update_residues:updating ('A', 220) HIS to HID
+2022-11-16 03:33:21,730 INFO:general.py:75:update_residues:updating ('A', 221) HIS to HID
+2022-11-16 03:33:21,767 INFO:general.py:75:update_residues:updating ('A', 264) HIS to HID
+2022-11-16 03:33:21,768 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:21,771 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:22,038 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:22,060 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:24,357 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:25,014 INFO:general.py:75:update_residues:updating ('A', 51) HIS to HID
+2022-11-16 03:33:25,022 INFO:general.py:75:update_residues:updating ('A', 86) HIS to HID
+2022-11-16 03:33:25,029 INFO:general.py:75:update_residues:updating ('A', 119) HIS to HIE
+2022-11-16 03:33:25,033 INFO:general.py:75:update_residues:updating ('A', 137) HIS to HID
+2022-11-16 03:33:25,037 INFO:general.py:75:update_residues:updating ('A', 157) HIS to HID
+2022-11-16 03:33:25,038 INFO:general.py:75:update_residues:updating ('A', 158) HIS to HID
+2022-11-16 03:33:25,039 INFO:general.py:75:update_residues:updating ('A', 163) HIS to HID
+2022-11-16 03:33:25,045 INFO:general.py:75:update_residues:updating ('A', 193) HIS to HID
+2022-11-16 03:33:25,048 INFO:general.py:75:update_residues:updating ('A', 207) HIS to HID
+2022-11-16 03:33:25,048 INFO:general.py:75:update_residues:updating ('A', 209) CYS to CYX
+2022-11-16 03:33:25,060 INFO:general.py:75:update_residues:updating ('A', 267) CYS to CYX
+2022-11-16 03:33:25,071 INFO:general.py:75:update_residues:updating ('A', 310) HIS to HID
+2022-11-16 03:33:25,078 INFO:general.py:75:update_residues:updating ('A', 341) HIS to HID
+2022-11-16 03:33:25,085 INFO:general.py:75:update_residues:updating ('A', 373) HIS to HIE
+2022-11-16 03:33:25,091 INFO:general.py:75:update_residues:updating ('A', 397) HIS to HID
+2022-11-16 03:33:25,095 INFO:general.py:75:update_residues:updating ('A', 416) HIS to HID
+2022-11-16 03:33:25,096 INFO:general.py:75:update_residues:updating ('A', 420) HIS to HIE
+2022-11-16 03:33:25,100 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:25,107 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1003, ZN, atom:1, Chain(B, residue: 1-1,9-9,1003-1005)): Atom(SG, 3257, (0.757, -22.188, -1.999), Residue(209, CYX, atom:10, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:25,107 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1003, ZN, atom:1, Chain(B, residue: 1-1,9-9,1003-1005)): Atom(SG, 4180, (-1.195, -21.617, -2.234), Residue(267, CYX, atom:10, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:25,108 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(209, CYX, atom:10, Chain(A, residue: 1-433)) found in center MetalUnit(1003, ZN, atom:1, Chain(B, residue: 1-1,9-9,1003-1005))
+2022-11-16 03:33:25,108 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(267, CYX, atom:10, Chain(A, residue: 1-433)) found in center MetalUnit(1003, ZN, atom:1, Chain(B, residue: 1-1,9-9,1003-1005))
+2022-11-16 03:33:25,112 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1004, ZN, atom:1, Chain(B, residue: 1-1,9-9,1003-1005)): Atom(SG, 1127, (33.378, -4.016, 4.402), Residue(74, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:25,112 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1004, ZN, atom:1, Chain(B, residue: 1-1,9-9,1003-1005)): Atom(SG, 1183, (35.665, -6.112, 2.184), Residue(78, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:25,112 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(74, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:33:25,112 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(78, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:33:25,116 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1005, ZN, atom:1, Chain(B, residue: 1-1,9-9,1003-1005)): Atom(SG, 1026, (34.211, 3.723, -10.508), Residue(68, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:25,116 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1005, ZN, atom:1, Chain(B, residue: 1-1,9-9,1003-1005)): Atom(NE2, 1323, (34.602, 1.024, -9.149), Residue(86, HID, atom:17, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:25,117 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(68, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:33:25,117 WARNING:general.py:140:get_default_deproton_info:deprotonation info for Residue(86, HID, atom:17, Chain(A, residue: 1-433)) is actually a switching between HID/HIE
+2022-11-16 03:33:25,117 WARNING:general.py:144:get_default_deproton_info:no default protonation info for NE2 in HID. Could be no proton on it. Consider make a standard for it if do
+2022-11-16 03:33:25,117 INFO:general.py:110:deprotonate_residue:target atom Atom(NE2, 1323, (34.602, 1.024, -9.149), Residue(86, HID, atom:17, Chain(A, residue: 1-433)), None, None, None ) already have no H. keep original
+2022-11-16 03:33:25,119 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:25,408 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:25,431 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:27,657 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:28,282 INFO:general.py:75:update_residues:updating ('A', 51) HIS to HID
+2022-11-16 03:33:28,290 INFO:general.py:75:update_residues:updating ('A', 86) HIS to HIE
+2022-11-16 03:33:28,298 INFO:general.py:75:update_residues:updating ('A', 119) HIS to HIE
+2022-11-16 03:33:28,302 INFO:general.py:75:update_residues:updating ('A', 137) HIS to HID
+2022-11-16 03:33:28,307 INFO:general.py:75:update_residues:updating ('A', 157) HIS to HID
+2022-11-16 03:33:28,307 INFO:general.py:75:update_residues:updating ('A', 158) HIS to HID
+2022-11-16 03:33:28,308 INFO:general.py:75:update_residues:updating ('A', 163) HIS to HID
+2022-11-16 03:33:28,314 INFO:general.py:75:update_residues:updating ('A', 193) HIS to HIE
+2022-11-16 03:33:28,317 INFO:general.py:75:update_residues:updating ('A', 207) HIS to HIE
+2022-11-16 03:33:28,318 INFO:general.py:75:update_residues:updating ('A', 209) CYS to CYX
+2022-11-16 03:33:28,330 INFO:general.py:75:update_residues:updating ('A', 267) CYS to CYX
+2022-11-16 03:33:28,340 INFO:general.py:75:update_residues:updating ('A', 310) HIS to HID
+2022-11-16 03:33:28,347 INFO:general.py:75:update_residues:updating ('A', 341) HIS to HID
+2022-11-16 03:33:28,354 INFO:general.py:75:update_residues:updating ('A', 373) HIS to HIE
+2022-11-16 03:33:28,359 INFO:general.py:75:update_residues:updating ('A', 397) HIS to HID
+2022-11-16 03:33:28,364 INFO:general.py:75:update_residues:updating ('A', 416) HIS to HID
+2022-11-16 03:33:28,365 INFO:general.py:75:update_residues:updating ('A', 420) HIS to HID
+2022-11-16 03:33:28,369 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:28,376 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1003, ZN, atom:1, Chain(B, residue: 1-1,1003-1005)): Atom(SG, 3257, (-21.354, 2.114, -0.622), Residue(209, CYX, atom:10, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:28,376 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1003, ZN, atom:1, Chain(B, residue: 1-1,1003-1005)): Atom(SG, 4111, (-23.519, 4.192, -1.592), Residue(262, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:28,376 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1003, ZN, atom:1, Chain(B, residue: 1-1,1003-1005)): Atom(SG, 4137, (-24.146, 0.729, -0.175), Residue(264, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:28,376 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1003, ZN, atom:1, Chain(B, residue: 1-1,1003-1005)): Atom(SG, 4180, (-20.88, 2.426, 1.362), Residue(267, CYX, atom:10, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:28,377 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(209, CYX, atom:10, Chain(A, residue: 1-433)) found in center MetalUnit(1003, ZN, atom:1, Chain(B, residue: 1-1,1003-1005))
+2022-11-16 03:33:28,377 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(262, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:33:28,377 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(264, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:33:28,377 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(267, CYX, atom:10, Chain(A, residue: 1-433)) found in center MetalUnit(1003, ZN, atom:1, Chain(B, residue: 1-1,1003-1005))
+2022-11-16 03:33:28,381 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1004, ZN, atom:1, Chain(B, residue: 1-1,1003-1005)): Atom(SG, 819, (-6.195, -3.26, -31.827), Residue(55, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:28,382 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1004, ZN, atom:1, Chain(B, residue: 1-1,1003-1005)): Atom(SG, 1127, (-4.1, -4.524, -33.877), Residue(74, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:28,382 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1004, ZN, atom:1, Chain(B, residue: 1-1,1003-1005)): Atom(SG, 1183, (-6.0, -1.907, -35.942), Residue(78, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:28,382 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(55, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:33:28,382 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(74, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:33:28,382 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(78, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:33:28,386 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1005, ZN, atom:1, Chain(B, residue: 1-1,1003-1005)): Atom(SG, 984, (2.864, 7.582, -37.581), Residue(65, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:28,387 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1005, ZN, atom:1, Chain(B, residue: 1-1,1003-1005)): Atom(SG, 1026, (4.079, 8.87, -34.271), Residue(68, CYS, atom:11, Chain(A, residue: 1-433)), None, None, None )
+2022-11-16 03:33:28,387 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(65, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:33:28,387 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(68, CYS, atom:11, Chain(A, residue: 1-433))
+2022-11-16 03:33:28,388 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:28,612 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:28,625 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:29,965 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:30,316 INFO:general.py:75:update_residues:updating ('A', 13) HIS to HID
+2022-11-16 03:33:30,329 INFO:general.py:75:update_residues:updating ('A', 78) HIS to HID
+2022-11-16 03:33:30,332 INFO:general.py:75:update_residues:updating ('A', 89) HIS to HID
+2022-11-16 03:33:30,344 INFO:general.py:75:update_residues:updating ('A', 149) HIS to HID
+2022-11-16 03:33:30,351 INFO:general.py:75:update_residues:updating ('A', 180) HIS to HID
+2022-11-16 03:33:30,353 INFO:general.py:75:update_residues:updating ('A', 190) HIS to HIE
+2022-11-16 03:33:30,354 INFO:general.py:75:update_residues:updating ('A', 194) HIS to HID
+2022-11-16 03:33:30,357 INFO:general.py:75:update_residues:updating ('A', 207) HIS to HID
+2022-11-16 03:33:30,367 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:30,370 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:30,449 WARNING:pdb_io.py:335:_resolve_missing_chain_id:Found multiple chain id in 1 HETATM chain. Be careful. Treating them as individual chains
+2022-11-16 03:33:30,652 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:30,675 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:32,939 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:33,601 INFO:general.py:75:update_residues:updating ('A', 83) HIS to HID
+2022-11-16 03:33:33,616 INFO:general.py:75:update_residues:updating ('A', 153) HIS to HID
+2022-11-16 03:33:33,628 INFO:general.py:75:update_residues:updating ('A', 206) HIS to HID
+2022-11-16 03:33:33,630 INFO:general.py:75:update_residues:updating ('A', 220) HIS to HID
+2022-11-16 03:33:33,649 INFO:general.py:75:update_residues:updating ('A', 299) HIS to HID
+2022-11-16 03:33:33,663 INFO:general.py:75:update_residues:updating ('A', 366) HIS to HID
+2022-11-16 03:33:33,667 INFO:general.py:75:update_residues:updating ('A', 382) HIS to HID
+2022-11-16 03:33:33,672 INFO:general.py:75:update_residues:updating ('A', 404) HIS to HIE
+2022-11-16 03:33:33,673 INFO:general.py:75:update_residues:updating ('A', 408) HIS to HIE
+2022-11-16 03:33:33,680 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:33,686 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(501, ZN, atom:1, Chain(C, residue: 1-1,4-4,501-503)): Atom(SG, 804, (10.709, -6.066, -1.137), Residue(52, CYS, atom:11, Chain(A, residue: 1-432)), None, None, None )
+2022-11-16 03:33:33,687 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(501, ZN, atom:1, Chain(C, residue: 1-1,4-4,501-503)): Atom(SG, 1176, (7.747, -5.594, -4.06), Residue(75, CYS, atom:11, Chain(A, residue: 1-432)), None, None, None )
+2022-11-16 03:33:33,687 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(52, CYS, atom:11, Chain(A, residue: 1-432))
+2022-11-16 03:33:33,687 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(75, CYS, atom:11, Chain(A, residue: 1-432))
+2022-11-16 03:33:33,691 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(502, ZN, atom:1, Chain(C, residue: 1-1,4-4,501-503)): Atom(SG, 3311, (20.321, 5.416, 28.356), Residue(208, CYS, atom:11, Chain(A, residue: 1-432)), None, None, None )
+2022-11-16 03:33:33,691 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(502, ZN, atom:1, Chain(C, residue: 1-1,4-4,501-503)): Atom(SG, 4170, (18.879, 8.823, 29.445), Residue(261, CYS, atom:11, Chain(A, residue: 1-432)), None, None, None )
+2022-11-16 03:33:33,691 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(502, ZN, atom:1, Chain(C, residue: 1-1,4-4,501-503)): Atom(SG, 4193, (19.367, 6.267, 31.327), Residue(263, CYS, atom:11, Chain(A, residue: 1-432)), None, None, None )
+2022-11-16 03:33:33,691 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(502, ZN, atom:1, Chain(C, residue: 1-1,4-4,501-503)): Atom(SG, 4248, (22.075, 7.718, 30.326), Residue(266, CYS, atom:11, Chain(A, residue: 1-432)), None, None, None )
+2022-11-16 03:33:33,692 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(208, CYS, atom:11, Chain(A, residue: 1-432))
+2022-11-16 03:33:33,692 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(261, CYS, atom:11, Chain(A, residue: 1-432))
+2022-11-16 03:33:33,692 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(263, CYS, atom:11, Chain(A, residue: 1-432))
+2022-11-16 03:33:33,692 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(266, CYS, atom:11, Chain(A, residue: 1-432))
+2022-11-16 03:33:33,696 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(503, ZN, atom:1, Chain(C, residue: 1-1,4-4,501-503)): Atom(SG, 1018, (14.058, 5.499, -10.838), Residue(65, CYS, atom:11, Chain(A, residue: 1-432)), None, None, None )
+2022-11-16 03:33:33,697 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(503, ZN, atom:1, Chain(C, residue: 1-1,4-4,501-503)): Atom(NE2, 1316, (10.851, 6.149, -9.332), Residue(83, HID, atom:17, Chain(A, residue: 1-432)), None, None, None )
+2022-11-16 03:33:33,697 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(503, ZN, atom:1, Chain(C, residue: 1-1,4-4,501-503)): Atom(SG, 1386, (11.777, 8.043, -12.204), Residue(87, CYS, atom:11, Chain(A, residue: 1-432)), None, None, None )
+2022-11-16 03:33:33,697 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(65, CYS, atom:11, Chain(A, residue: 1-432))
+2022-11-16 03:33:33,697 WARNING:general.py:140:get_default_deproton_info:deprotonation info for Residue(83, HID, atom:17, Chain(A, residue: 1-432)) is actually a switching between HID/HIE
+2022-11-16 03:33:33,697 WARNING:general.py:144:get_default_deproton_info:no default protonation info for NE2 in HID. Could be no proton on it. Consider make a standard for it if do
+2022-11-16 03:33:33,698 INFO:general.py:110:deprotonate_residue:target atom Atom(NE2, 1316, (10.851, 6.149, -9.332), Residue(83, HID, atom:17, Chain(A, residue: 1-432)), None, None, None ) already have no H. keep original
+2022-11-16 03:33:33,698 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(87, CYS, atom:11, Chain(A, residue: 1-432))
+2022-11-16 03:33:33,699 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:33,898 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:33,911 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:35,064 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:35,480 INFO:general.py:75:update_residues:updating ('A', 46) HIS to HID
+2022-11-16 03:33:35,480 INFO:general.py:75:update_residues:updating ('A', 47) HIS to HIE
+2022-11-16 03:33:35,492 INFO:general.py:75:update_residues:updating ('A', 104) HIS to HID
+2022-11-16 03:33:35,509 INFO:general.py:75:update_residues:updating ('A', 186) HIS to HID
+2022-11-16 03:33:35,511 INFO:general.py:75:update_residues:updating ('A', 194) HIS to HIE
+2022-11-16 03:33:35,515 INFO:general.py:75:update_residues:updating ('A', 209) HIS to HID
+2022-11-16 03:33:35,521 INFO:general.py:75:update_residues:updating ('A', 240) HIS to HID
+2022-11-16 03:33:35,526 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:35,528 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:35,716 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:35,731 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:37,035 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:37,469 INFO:general.py:75:update_residues:updating ('A', 52) HIS to HID
+2022-11-16 03:33:37,470 INFO:general.py:75:update_residues:updating ('A', 53) HIS to HIE
+2022-11-16 03:33:37,483 INFO:general.py:75:update_residues:updating ('A', 110) HIS to HID
+2022-11-16 03:33:37,501 INFO:general.py:75:update_residues:updating ('A', 192) HIS to HID
+2022-11-16 03:33:37,504 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 03:33:37,507 INFO:general.py:75:update_residues:updating ('A', 215) HIS to HID
+2022-11-16 03:33:37,515 INFO:general.py:75:update_residues:updating ('A', 246) HIS to HID
+2022-11-16 03:33:37,519 INFO:general.py:75:update_residues:updating ('A', 263) HIS to HID
+2022-11-16 03:33:37,523 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:37,525 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:37,615 WARNING:pdb_io.py:335:_resolve_missing_chain_id:Found multiple chain id in 1 HETATM chain. Be careful. Treating them as individual chains
+2022-11-16 03:33:37,853 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:37,882 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:40,581 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:41,366 INFO:general.py:75:update_residues:updating ('A', 52) HIS to HIE
+2022-11-16 03:33:41,366 INFO:general.py:75:update_residues:updating ('A', 53) HIS to HIE
+2022-11-16 03:33:41,378 INFO:general.py:75:update_residues:updating ('A', 110) HIS to HIE
+2022-11-16 03:33:41,397 INFO:general.py:75:update_residues:updating ('A', 192) HIS to HID
+2022-11-16 03:33:41,399 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 03:33:41,403 INFO:general.py:75:update_residues:updating ('A', 215) HIS to HID
+2022-11-16 03:33:41,409 INFO:general.py:75:update_residues:updating ('A', 246) HIS to HID
+2022-11-16 03:33:41,413 INFO:general.py:75:update_residues:updating ('A', 263) HIS to HID
+2022-11-16 03:33:41,427 INFO:general.py:75:update_residues:updating ('B', 328) HIS to HIE
+2022-11-16 03:33:41,427 INFO:general.py:75:update_residues:updating ('B', 329) HIS to HIE
+2022-11-16 03:33:41,439 INFO:general.py:75:update_residues:updating ('B', 386) HIS to HID
+2022-11-16 03:33:41,456 INFO:general.py:75:update_residues:updating ('B', 468) HIS to HID
+2022-11-16 03:33:41,459 INFO:general.py:75:update_residues:updating ('B', 476) HIS to HID
+2022-11-16 03:33:41,462 INFO:general.py:75:update_residues:updating ('B', 491) HIS to HID
+2022-11-16 03:33:41,500 INFO:general.py:75:update_residues:updating ('B', 522) HIS to HIE
+2022-11-16 03:33:41,504 INFO:general.py:75:update_residues:updating ('B', 539) HIS to HID
+2022-11-16 03:33:41,508 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:41,513 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:41,726 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:41,742 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:43,141 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:43,550 INFO:general.py:75:update_residues:updating ('A', 52) HIS to HIE
+2022-11-16 03:33:43,551 INFO:general.py:75:update_residues:updating ('A', 53) HIS to HIE
+2022-11-16 03:33:43,562 INFO:general.py:75:update_residues:updating ('A', 110) HIS to HID
+2022-11-16 03:33:43,579 INFO:general.py:75:update_residues:updating ('A', 192) HIS to HID
+2022-11-16 03:33:43,582 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 03:33:43,585 INFO:general.py:75:update_residues:updating ('A', 215) HIS to HID
+2022-11-16 03:33:43,625 INFO:general.py:75:update_residues:updating ('A', 246) HIS to HID
+2022-11-16 03:33:43,629 INFO:general.py:75:update_residues:updating ('A', 263) HIS to HID
+2022-11-16 03:33:43,633 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:43,635 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:43,824 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:43,838 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:45,175 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:45,590 INFO:general.py:75:update_residues:updating ('A', 52) HIS to HID
+2022-11-16 03:33:45,591 INFO:general.py:75:update_residues:updating ('A', 53) HIS to HIE
+2022-11-16 03:33:45,602 INFO:general.py:75:update_residues:updating ('A', 110) HIS to HID
+2022-11-16 03:33:45,620 INFO:general.py:75:update_residues:updating ('A', 192) HIS to HID
+2022-11-16 03:33:45,650 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HIE
+2022-11-16 03:33:45,653 INFO:general.py:75:update_residues:updating ('A', 215) HIS to HID
+2022-11-16 03:33:45,660 INFO:general.py:75:update_residues:updating ('A', 246) HIS to HID
+2022-11-16 03:33:45,664 INFO:general.py:75:update_residues:updating ('A', 263) HIS to HIE
+2022-11-16 03:33:45,667 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:45,670 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:45,857 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:45,872 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:47,210 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:47,620 INFO:general.py:75:update_residues:updating ('A', 52) HIS to HIE
+2022-11-16 03:33:47,620 INFO:general.py:75:update_residues:updating ('A', 53) HIS to HIE
+2022-11-16 03:33:47,632 INFO:general.py:75:update_residues:updating ('A', 110) HIS to HID
+2022-11-16 03:33:47,676 INFO:general.py:75:update_residues:updating ('A', 192) HIS to HID
+2022-11-16 03:33:47,679 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HID
+2022-11-16 03:33:47,682 INFO:general.py:75:update_residues:updating ('A', 215) HIS to HID
+2022-11-16 03:33:47,688 INFO:general.py:75:update_residues:updating ('A', 246) HIS to HID
+2022-11-16 03:33:47,693 INFO:general.py:75:update_residues:updating ('A', 263) HIS to HID
+2022-11-16 03:33:47,696 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:47,699 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:47,965 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:47,987 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:33:48,655 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:33:49,012 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:49,015 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(303, MG, atom:1, Chain(B, residue: 1-1,303-303)): Atom(OD1, 2181, (19.051, 6.286, 76.331), Residue(141, ASP, atom:12, Chain(A, residue: 3-215)), None, None, None )
+2022-11-16 03:33:49,015 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(303, MG, atom:1, Chain(B, residue: 1-1,303-303)): Atom(OD2, 2654, (19.646, 8.773, 77.828), Residue(169, ASP, atom:12, Chain(A, residue: 3-215)), None, None, None )
+2022-11-16 03:33:49,015 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(303, MG, atom:1, Chain(B, residue: 1-1,303-303)): Atom(OD1, 2670, (18.075, 6.888, 79.065), Residue(170, ASN, atom:14, Chain(A, residue: 3-215)), None, None, None )
+2022-11-16 03:33:49,015 INFO:protonate.py:220:deprotonate_metal_donors:donor residue Residue(141, ASP, atom:12, Chain(A, residue: 3-215)) already have no proton in center MetalUnit(303, MG, atom:1, Chain(B, residue: 1-1,303-303))
+2022-11-16 03:33:49,015 INFO:protonate.py:220:deprotonate_metal_donors:donor residue Residue(169, ASP, atom:12, Chain(A, residue: 3-215)) already have no proton in center MetalUnit(303, MG, atom:1, Chain(B, residue: 1-1,303-303))
+2022-11-16 03:33:49,016 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(170, ASN, atom:14, Chain(A, residue: 3-215)) found in center MetalUnit(303, MG, atom:1, Chain(B, residue: 1-1,303-303))
+2022-11-16 03:33:49,016 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:33:49,148 ERROR:pdb_io.py:329:_resolve_missing_chain_id:Found multiple chain id together with missing chain id in 1 chain. Impossible to solve.
+2022-11-16 03:37:14,963 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:37:15,662 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:37:15,669 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1, MG, atom:1, Chain(C, residue: 1-3)): Atom(OD2, 2654, (24.971, 31.157, 43.049), Residue(212, ASP, atom:12, Chain(A, residue: 46-258)), None, None, None )
+2022-11-16 03:37:15,670 INFO:protonate.py:220:deprotonate_metal_donors:donor residue Residue(212, ASP, atom:12, Chain(A, residue: 46-258)) already have no proton in center MetalUnit(1, MG, atom:1, Chain(C, residue: 1-3))
+2022-11-16 03:37:15,674 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1, MG, atom:1, Chain(D, residue: 1-3)): Atom(OD1, 5544, (23.312, 50.875, 69.454), Residue(184, ASP, atom:12, Chain(B, residue: 46-258)), None, None, None )
+2022-11-16 03:37:15,674 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1, MG, atom:1, Chain(D, residue: 1-3)): Atom(OD2, 6017, (24.006, 50.267, 66.574), Residue(212, ASP, atom:12, Chain(B, residue: 46-258)), None, None, None )
+2022-11-16 03:37:15,674 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1, MG, atom:1, Chain(D, residue: 1-3)): Atom(OD1, 6033, (21.643, 51.648, 67.117), Residue(213, ASN, atom:14, Chain(B, residue: 46-258)), None, None, None )
+2022-11-16 03:37:15,674 INFO:protonate.py:220:deprotonate_metal_donors:donor residue Residue(184, ASP, atom:12, Chain(B, residue: 46-258)) already have no proton in center MetalUnit(1, MG, atom:1, Chain(D, residue: 1-3))
+2022-11-16 03:37:15,674 INFO:protonate.py:220:deprotonate_metal_donors:donor residue Residue(212, ASP, atom:12, Chain(B, residue: 46-258)) already have no proton in center MetalUnit(1, MG, atom:1, Chain(D, residue: 1-3))
+2022-11-16 03:37:15,674 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(213, ASN, atom:14, Chain(B, residue: 46-258)) found in center MetalUnit(1, MG, atom:1, Chain(D, residue: 1-3))
+2022-11-16 03:37:15,676 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:37:15,865 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:37:15,877 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:37:16,879 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:37:17,226 INFO:general.py:75:update_residues:updating ('A', 5) HIS to HID
+2022-11-16 03:37:17,226 INFO:general.py:75:update_residues:updating ('A', 6) HIS to HID
+2022-11-16 03:37:17,226 INFO:general.py:75:update_residues:updating ('A', 7) HIS to HIE
+2022-11-16 03:37:17,227 INFO:general.py:75:update_residues:updating ('A', 8) HIS to HID
+2022-11-16 03:37:17,227 INFO:general.py:75:update_residues:updating ('A', 9) HIS to HID
+2022-11-16 03:37:17,227 INFO:general.py:75:update_residues:updating ('A', 10) HIS to HID
+2022-11-16 03:37:17,229 INFO:general.py:75:update_residues:updating ('A', 19) HIS to HID
+2022-11-16 03:37:17,231 INFO:general.py:75:update_residues:updating ('A', 28) HIS to HID
+2022-11-16 03:37:17,254 INFO:general.py:75:update_residues:updating ('A', 132) HIS to HID
+2022-11-16 03:37:17,278 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:37:17,280 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:37:17,576 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:37:17,604 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:37:19,978 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:37:20,738 INFO:general.py:75:update_residues:updating ('A', 33) HIS to HID
+2022-11-16 03:37:20,755 INFO:general.py:75:update_residues:updating ('A', 106) HIS to HID
+2022-11-16 03:37:20,757 INFO:general.py:75:update_residues:updating ('A', 110) HIS to HIE
+2022-11-16 03:37:20,758 INFO:general.py:75:update_residues:updating ('A', 114) HIS to HID
+2022-11-16 03:37:20,764 INFO:general.py:75:update_residues:updating ('A', 144) HIS to HID
+2022-11-16 03:37:20,770 INFO:general.py:75:update_residues:updating ('A', 170) HIS to HID
+2022-11-16 03:37:20,774 INFO:general.py:75:update_residues:updating ('A', 187) HIS to HID
+2022-11-16 03:37:20,782 INFO:general.py:75:update_residues:updating ('B', 220) HIS to HID
+2022-11-16 03:37:20,783 INFO:general.py:75:update_residues:updating ('B', 226) HIS to HID
+2022-11-16 03:37:20,785 INFO:general.py:75:update_residues:updating ('B', 232) HIS to HID
+2022-11-16 03:37:20,821 INFO:general.py:75:update_residues:updating ('B', 391) HIS to HID
+2022-11-16 03:37:20,826 INFO:general.py:75:update_residues:updating ('B', 410) HIS to HID
+2022-11-16 03:37:20,832 INFO:general.py:75:update_residues:updating ('B', 436) HIS to HID
+2022-11-16 03:37:20,833 INFO:general.py:75:update_residues:updating ('B', 440) HIS to HIE
+2022-11-16 03:37:20,835 INFO:general.py:75:update_residues:updating ('B', 449) HIS to HID
+2022-11-16 03:37:20,851 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:37:20,856 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:37:20,967 ERROR:pdb_io.py:329:_resolve_missing_chain_id:Found multiple chain id together with missing chain id in 1 chain. Impossible to solve.
+2022-11-16 03:41:44,628 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:41:45,430 INFO:general.py:75:update_residues:updating ('A', 55) HIS to HID
+2022-11-16 03:41:45,431 INFO:general.py:75:update_residues:updating ('A', 58) HIS to HID
+2022-11-16 03:41:45,460 INFO:general.py:75:update_residues:updating ('A', 198) HIS to HID
+2022-11-16 03:41:45,463 INFO:general.py:75:update_residues:updating ('A', 213) HIS to HID
+2022-11-16 03:41:45,474 INFO:general.py:75:update_residues:updating ('A', 262) HIS to HIE
+2022-11-16 03:41:45,520 INFO:general.py:75:update_residues:updating ('C', 340) HIS to HID
+2022-11-16 03:41:45,521 INFO:general.py:75:update_residues:updating ('C', 343) HIS to HID
+2022-11-16 03:41:45,550 INFO:general.py:75:update_residues:updating ('C', 483) HIS to HID
+2022-11-16 03:41:45,554 INFO:general.py:75:update_residues:updating ('C', 498) HIS to HID
+2022-11-16 03:41:45,565 INFO:general.py:75:update_residues:updating ('C', 547) HIS to HIE
+2022-11-16 03:41:45,571 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:41:45,580 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(G, residue: 1201-1204)): Atom(SG, 988, (33.54, -3.285, 32.835), Residue(65, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:41:45,580 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(G, residue: 1201-1204)): Atom(SG, 1578, (36.668, -1.059, 33.22), Residue(102, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:41:45,580 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(G, residue: 1201-1204)): Atom(SG, 1652, (34.957, -2.495, 36.15), Residue(108, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:41:45,580 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(G, residue: 1201-1204)): Atom(SG, 1725, (37.412, -4.326, 34.034), Residue(112, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:41:45,580 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(65, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:41:45,581 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(102, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:41:45,581 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(108, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:41:45,581 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(112, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:41:45,587 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(G, residue: 1201-1204)): Atom(SG, 912, (32.871, 0.417, 33.994), Residue(59, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:41:45,587 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(G, residue: 1201-1204)): Atom(SG, 988, (33.54, -3.285, 32.835), Residue(65, CYM, atom:10, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:41:45,587 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(G, residue: 1201-1204)): Atom(SG, 1046, (33.464, -0.048, 30.106), Residue(70, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:41:45,587 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(59, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:41:45,587 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(65, CYM, atom:10, Chain(A, residue: 1-274)) found in center MetalUnit(1202, ZN, atom:1, Chain(G, residue: 1201-1204))
+2022-11-16 03:41:45,587 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(70, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:41:45,593 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(G, residue: 1201-1204)): Atom(SG, 912, (32.871, 0.417, 33.994), Residue(59, CYM, atom:10, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:41:45,593 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(G, residue: 1201-1204)): Atom(SG, 1076, (35.825, 2.741, 32.348), Residue(72, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:41:45,593 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(G, residue: 1201-1204)): Atom(SG, 1630, (35.48, 2.141, 35.718), Residue(106, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:41:45,593 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(59, CYM, atom:10, Chain(A, residue: 1-274)) found in center MetalUnit(1203, ZN, atom:1, Chain(G, residue: 1201-1204))
+2022-11-16 03:41:45,593 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(72, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:41:45,594 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(106, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:41:45,599 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(G, residue: 1201-1204)): Atom(SG, 3130, (66.636, 0.055, 11.668), Residue(200, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:41:45,599 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(G, residue: 1201-1204)): Atom(SG, 4020, (69.605, -0.225, 13.996), Residue(253, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:41:45,599 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(G, residue: 1201-1204)): Atom(SG, 4114, (69.778, -0.111, 10.372), Residue(260, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:41:45,599 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(200, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:41:45,599 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(253, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:41:45,600 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(260, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:41:45,605 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 5404, (66.079, -2.657, 53.612), Residue(344, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,605 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 5568, (63.376, -0.186, 55.453), Residue(357, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,605 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 6122, (63.613, -0.486, 52.067), Residue(391, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,605 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(344, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:41:45,605 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(357, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:41:45,605 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(391, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:41:45,611 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 5480, (64.91, -6.372, 54.327), Residue(350, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,611 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 6070, (62.096, -3.761, 54.264), Residue(387, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,611 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 6144, (63.562, -4.989, 51.162), Residue(393, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,611 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 6217, (60.994, -6.846, 53.031), Residue(397, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,611 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(350, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:41:45,611 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(387, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:41:45,612 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(393, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:41:45,612 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(397, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:41:45,617 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 5404, (66.079, -2.657, 53.612), Residue(344, CYM, atom:10, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,617 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 5480, (64.91, -6.372, 54.327), Residue(350, CYM, atom:10, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,617 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 5538, (65.433, -3.413, 57.32), Residue(355, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,617 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(344, CYM, atom:10, Chain(C, residue: 286-559)) found in center MetalUnit(1203, ZN, atom:1, Chain(H, residue: 1201-1204))
+2022-11-16 03:41:45,617 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(350, CYM, atom:10, Chain(C, residue: 286-559)) found in center MetalUnit(1203, ZN, atom:1, Chain(H, residue: 1201-1204))
+2022-11-16 03:41:45,618 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(355, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:41:45,623 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 7622, (32.277, -1.433, 75.742), Residue(485, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,623 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 8512, (29.298, -0.995, 73.05), Residue(538, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,623 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 8540, (30.299, -3.671, 74.479), Residue(540, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,624 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(H, residue: 1201-1204)): Atom(SG, 8606, (28.928, -1.316, 77.137), Residue(545, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:41:45,624 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(485, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:41:45,624 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(538, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:41:45,624 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(540, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:41:45,624 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(545, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:41:45,626 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:41:45,751 ERROR:pdb_io.py:329:_resolve_missing_chain_id:Found multiple chain id together with missing chain id in 1 chain. Impossible to solve.
+2022-11-16 03:43:40,753 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:43:41,552 INFO:general.py:75:update_residues:updating ('A', 55) HIS to HID
+2022-11-16 03:43:41,553 INFO:general.py:75:update_residues:updating ('A', 58) HIS to HID
+2022-11-16 03:43:41,584 INFO:general.py:75:update_residues:updating ('A', 198) HIS to HID
+2022-11-16 03:43:41,589 INFO:general.py:75:update_residues:updating ('A', 213) HIS to HIE
+2022-11-16 03:43:41,601 INFO:general.py:75:update_residues:updating ('A', 262) HIS to HIE
+2022-11-16 03:43:41,654 INFO:general.py:75:update_residues:updating ('C', 340) HIS to HID
+2022-11-16 03:43:41,655 INFO:general.py:75:update_residues:updating ('C', 343) HIS to HID
+2022-11-16 03:43:41,687 INFO:general.py:75:update_residues:updating ('C', 483) HIS to HID
+2022-11-16 03:43:41,690 INFO:general.py:75:update_residues:updating ('C', 498) HIS to HID
+2022-11-16 03:43:41,702 INFO:general.py:75:update_residues:updating ('C', 547) HIS to HID
+2022-11-16 03:43:41,709 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:43:41,718 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1076, (62.863, 2.784, 68.334), Residue(72, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:43:41,719 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1630, (62.533, 2.274, 71.706), Residue(106, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:43:41,719 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(72, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:43:41,720 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(106, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:43:41,726 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 912, (58.199, 0.786, 68.403), Residue(59, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:43:41,726 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1046, (60.513, 0.165, 66.137), Residue(70, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:43:41,727 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(59, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:43:41,727 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(70, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:43:41,733 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 988, (61.11, -3.131, 68.67), Residue(65, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:43:41,734 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1578, (63.707, -0.885, 69.296), Residue(102, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:43:41,734 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1652, (61.932, -2.3, 72.074), Residue(108, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:43:41,734 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1725, (63.993, -4.194, 69.8), Residue(112, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:43:41,735 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(65, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:43:41,735 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(102, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:43:41,735 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(108, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:43:41,735 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(112, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:43:41,741 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 3130, (93.535, 0.173, 47.925), Residue(200, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:43:41,741 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 4020, (96.593, -0.248, 50.362), Residue(253, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:43:41,741 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 4048, (95.482, -2.651, 48.571), Residue(255, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:43:41,741 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 4114, (96.714, -0.107, 46.546), Residue(260, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:43:41,742 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(200, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:43:41,742 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(253, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:43:41,742 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(255, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:43:41,742 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(260, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:43:41,748 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5411, (93.02, -2.87, 90.106), Residue(344, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:43:41,748 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5575, (90.368, -0.492, 91.788), Residue(357, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:43:41,748 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 6129, (90.679, -0.616, 88.444), Residue(391, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:43:41,748 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(344, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:43:41,749 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(357, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:43:41,749 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(391, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:43:41,754 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 6077, (88.996, -3.992, 90.445), Residue(387, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:43:41,755 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 6151, (90.599, -5.194, 87.479), Residue(393, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:43:41,755 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(387, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:43:41,755 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(393, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:43:41,761 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5411, (93.02, -2.87, 90.106), Residue(344, CYM, atom:10, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:43:41,761 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5545, (92.24, -3.642, 93.727), Residue(355, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:43:41,761 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(344, CYM, atom:10, Chain(C, residue: 286-559)) found in center MetalUnit(1203, ZN, atom:1, Chain(F, residue: 1201-1204))
+2022-11-16 03:43:41,761 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(355, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:43:41,767 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 7629, (59.192, -1.512, 111.763), Residue(485, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:43:41,767 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 8519, (56.335, -1.013, 109.23), Residue(538, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:43:41,767 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 8613, (56.187, -1.222, 112.943), Residue(545, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:43:41,768 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(485, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:43:41,768 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(538, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:43:41,768 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(545, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:43:41,770 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:43:41,918 ERROR:pdb_io.py:329:_resolve_missing_chain_id:Found multiple chain id together with missing chain id in 1 chain. Impossible to solve.
+2022-11-16 03:45:48,484 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:45:49,277 INFO:general.py:75:update_residues:updating ('A', 55) HIS to HID
+2022-11-16 03:45:49,277 INFO:general.py:75:update_residues:updating ('A', 58) HIS to HID
+2022-11-16 03:45:49,307 INFO:general.py:75:update_residues:updating ('A', 198) HIS to HID
+2022-11-16 03:45:49,311 INFO:general.py:75:update_residues:updating ('A', 213) HIS to HID
+2022-11-16 03:45:49,322 INFO:general.py:75:update_residues:updating ('A', 262) HIS to HIE
+2022-11-16 03:45:49,368 INFO:general.py:75:update_residues:updating ('C', 340) HIS to HID
+2022-11-16 03:45:49,368 INFO:general.py:75:update_residues:updating ('C', 343) HIS to HID
+2022-11-16 03:45:49,397 INFO:general.py:75:update_residues:updating ('C', 483) HIS to HID
+2022-11-16 03:45:49,401 INFO:general.py:75:update_residues:updating ('C', 498) HIS to HID
+2022-11-16 03:45:49,412 INFO:general.py:75:update_residues:updating ('C', 547) HIS to HIE
+2022-11-16 03:45:49,418 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:45:49,427 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 912, (60.489, -0.612, 143.182), Residue(59, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:45:49,427 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1076, (63.467, 1.511, 141.617), Residue(72, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:45:49,427 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1630, (63.107, 0.98, 145.011), Residue(106, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:45:49,427 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(59, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:45:49,427 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(72, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:45:49,428 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(106, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:45:49,433 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 912, (60.489, -0.612, 143.182), Residue(59, CYM, atom:10, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:45:49,433 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 937, (57.775, -2.547, 140.865), Residue(61, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:45:49,434 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1046, (61.134, -1.102, 139.412), Residue(70, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:45:49,434 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(59, CYM, atom:10, Chain(A, residue: 1-274)) found in center MetalUnit(1202, ZN, atom:1, Chain(E, residue: 1201-1204))
+2022-11-16 03:45:49,434 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(61, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:45:49,434 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(70, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:45:49,440 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1578, (64.338, -2.23, 142.497), Residue(102, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:45:49,452 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1652, (62.565, -3.69, 145.412), Residue(108, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:45:49,452 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1725, (64.89, -5.581, 143.263), Residue(112, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:45:49,452 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(102, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:45:49,452 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(108, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:45:49,452 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(112, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:45:49,458 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 3130, (94.415, -1.237, 121.229), Residue(200, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:45:49,458 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 4020, (97.348, -1.497, 123.626), Residue(253, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:45:49,458 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 4114, (97.5, -1.281, 119.869), Residue(260, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:45:49,458 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(200, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:45:49,458 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(253, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:45:49,458 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(260, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:45:49,464 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5413, (93.758, -4.0, 163.171), Residue(344, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:45:49,464 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5577, (91.101, -1.612, 164.967), Residue(357, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:45:49,464 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 6131, (91.251, -1.92, 161.575), Residue(391, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:45:49,464 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(344, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:45:49,464 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(357, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:45:49,464 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(391, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:45:49,470 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5489, (92.628, -7.62, 163.9), Residue(350, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:45:49,470 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 6079, (89.711, -5.177, 163.727), Residue(387, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:45:49,470 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(350, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:45:49,470 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(387, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:45:49,475 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5413, (93.758, -4.0, 163.171), Residue(344, CYM, atom:10, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:45:49,475 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5489, (92.628, -7.62, 163.9), Residue(350, CYM, atom:10, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:45:49,476 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5547, (93.108, -4.823, 166.888), Residue(355, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:45:49,476 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(344, CYM, atom:10, Chain(C, residue: 286-559)) found in center MetalUnit(1203, ZN, atom:1, Chain(F, residue: 1201-1204))
+2022-11-16 03:45:49,476 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(350, CYM, atom:10, Chain(C, residue: 286-559)) found in center MetalUnit(1203, ZN, atom:1, Chain(F, residue: 1201-1204))
+2022-11-16 03:45:49,476 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(355, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:45:49,481 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 7631, (60.127, -2.899, 185.368), Residue(485, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:45:49,481 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 8521, (57.139, -2.368, 182.771), Residue(538, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:45:49,481 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 8549, (57.92, -5.11, 184.255), Residue(540, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:45:49,482 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 8615, (56.822, -2.605, 186.787), Residue(545, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:45:49,482 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(485, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:45:49,482 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(538, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:45:49,482 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(540, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:45:49,482 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(545, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:45:49,484 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:45:49,603 ERROR:pdb_io.py:329:_resolve_missing_chain_id:Found multiple chain id together with missing chain id in 1 chain. Impossible to solve.
+2022-11-16 03:46:47,200 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:46:47,996 INFO:general.py:75:update_residues:updating ('A', 55) HIS to HID
+2022-11-16 03:46:47,997 INFO:general.py:75:update_residues:updating ('A', 58) HIS to HID
+2022-11-16 03:46:48,027 INFO:general.py:75:update_residues:updating ('A', 198) HIS to HIE
+2022-11-16 03:46:48,030 INFO:general.py:75:update_residues:updating ('A', 213) HIS to HID
+2022-11-16 03:46:48,041 INFO:general.py:75:update_residues:updating ('A', 262) HIS to HIE
+2022-11-16 03:46:48,087 INFO:general.py:75:update_residues:updating ('C', 340) HIS to HID
+2022-11-16 03:46:48,088 INFO:general.py:75:update_residues:updating ('C', 343) HIS to HID
+2022-11-16 03:46:48,118 INFO:general.py:75:update_residues:updating ('C', 483) HIS to HID
+2022-11-16 03:46:48,122 INFO:general.py:75:update_residues:updating ('C', 498) HIS to HIE
+2022-11-16 03:46:48,132 INFO:general.py:75:update_residues:updating ('C', 547) HIS to HIE
+2022-11-16 03:46:48,139 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:48,147 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1076, (63.907, 1.69, 68.625), Residue(72, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,148 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1578, (64.676, -1.955, 69.529), Residue(102, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,148 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1630, (63.516, 1.06, 71.978), Residue(106, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,148 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(72, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:46:48,148 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(102, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:46:48,148 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(106, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:46:48,154 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 912, (59.167, -0.319, 68.576), Residue(59, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,154 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 937, (59.543, -3.06, 70.167), Residue(61, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,154 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1046, (61.529, -0.962, 66.479), Residue(70, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,154 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(59, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:46:48,155 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(61, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:46:48,155 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(70, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:46:48,160 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 988, (62.109, -4.585, 69.069), Residue(65, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,160 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1578, (64.676, -1.955, 69.529), Residue(102, CYM, atom:10, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,160 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1652, (63.048, -3.491, 72.413), Residue(108, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,161 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 1725, (65.472, -5.465, 70.367), Residue(112, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,161 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(65, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:46:48,161 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(102, CYM, atom:10, Chain(A, residue: 1-274)) found in center MetalUnit(1203, ZN, atom:1, Chain(E, residue: 1201-1204))
+2022-11-16 03:46:48,161 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(108, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:46:48,161 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(112, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:46:48,166 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 3130, (94.688, -1.031, 48.057), Residue(200, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,167 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 4020, (97.74, -1.427, 50.425), Residue(253, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,167 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 4048, (96.542, -3.913, 48.812), Residue(255, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,167 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(E, residue: 1201-1204)): Atom(SG, 4114, (97.818, -1.247, 46.747), Residue(260, CYS, atom:11, Chain(A, residue: 1-274)), None, None, None )
+2022-11-16 03:46:48,167 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(200, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:46:48,167 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(253, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:46:48,167 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(255, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:46:48,168 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(260, CYS, atom:11, Chain(A, residue: 1-274))
+2022-11-16 03:46:48,173 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5413, (94.259, -3.93, 90.202), Residue(344, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,173 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5577, (91.635, -1.556, 91.882), Residue(357, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,173 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1201, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 6131, (91.855, -1.693, 88.534), Residue(391, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,173 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(344, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:46:48,173 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(357, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:46:48,173 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(391, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:46:48,178 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5489, (93.191, -7.573, 90.808), Residue(350, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,179 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 6079, (90.256, -5.099, 90.691), Residue(387, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,179 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 6153, (91.805, -6.308, 87.63), Residue(393, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,179 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1202, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 6226, (89.263, -8.184, 89.53), Residue(397, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,179 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(350, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:46:48,179 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(387, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:46:48,179 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(393, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:46:48,180 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(397, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:46:48,185 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5413, (94.259, -3.93, 90.202), Residue(344, CYM, atom:10, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,185 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5489, (93.191, -7.573, 90.808), Residue(350, CYM, atom:10, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,185 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1203, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 5547, (93.653, -4.724, 93.831), Residue(355, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,185 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(344, CYM, atom:10, Chain(C, residue: 286-559)) found in center MetalUnit(1203, ZN, atom:1, Chain(F, residue: 1201-1204))
+2022-11-16 03:46:48,185 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(350, CYM, atom:10, Chain(C, residue: 286-559)) found in center MetalUnit(1203, ZN, atom:1, Chain(F, residue: 1201-1204))
+2022-11-16 03:46:48,185 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(355, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:46:48,191 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 7631, (60.67, -2.762, 112.22), Residue(485, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,191 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 8521, (57.677, -2.284, 109.693), Residue(538, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,191 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 8549, (58.351, -5.017, 111.211), Residue(540, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,191 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(1204, ZN, atom:1, Chain(F, residue: 1201-1204)): Atom(SG, 8615, (57.424, -2.438, 113.665), Residue(545, CYS, atom:11, Chain(C, residue: 286-559)), None, None, None )
+2022-11-16 03:46:48,192 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(485, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:46:48,192 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(538, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:46:48,192 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(540, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:46:48,192 INFO:general.py:115:deprotonate_residue:deprotonate HG from Residue(545, CYS, atom:11, Chain(C, residue: 286-559))
+2022-11-16 03:46:48,194 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:48,543 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:48,571 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:46:51,145 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:46:51,938 INFO:general.py:75:update_residues:updating ('A', 46) HIS to HID
+2022-11-16 03:46:51,954 INFO:general.py:75:update_residues:updating ('A', 119) HIS to HID
+2022-11-16 03:46:51,955 INFO:general.py:75:update_residues:updating ('A', 123) HIS to HIE
+2022-11-16 03:46:51,956 INFO:general.py:75:update_residues:updating ('A', 127) HIS to HID
+2022-11-16 03:46:51,963 INFO:general.py:75:update_residues:updating ('A', 157) HIS to HIE
+2022-11-16 03:46:51,969 INFO:general.py:75:update_residues:updating ('A', 183) HIS to HID
+2022-11-16 03:46:51,972 INFO:general.py:75:update_residues:updating ('A', 200) HIS to HID
+2022-11-16 03:46:51,979 INFO:general.py:75:update_residues:updating ('B', 234) HIS to HID
+2022-11-16 03:46:51,981 INFO:general.py:75:update_residues:updating ('B', 240) HIS to HID
+2022-11-16 03:46:51,982 INFO:general.py:75:update_residues:updating ('B', 246) HIS to HID
+2022-11-16 03:46:52,016 INFO:general.py:75:update_residues:updating ('B', 405) HIS to HID
+2022-11-16 03:46:52,020 INFO:general.py:75:update_residues:updating ('B', 424) HIS to HID
+2022-11-16 03:46:52,026 INFO:general.py:75:update_residues:updating ('B', 450) HIS to HID
+2022-11-16 03:46:52,027 INFO:general.py:75:update_residues:updating ('B', 454) HIS to HIE
+2022-11-16 03:46:52,030 INFO:general.py:75:update_residues:updating ('B', 463) HIS to HID
+2022-11-16 03:46:52,050 INFO:general.py:75:update_residues:updating ('B', 567) HIS to HID
+2022-11-16 03:46:52,054 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:52,058 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:52,579 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:52,619 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:46:53,861 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:46:54,560 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:54,567 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(507, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509)): Atom(SG, 716, (-5.01, -38.384, -32.275), Residue(52, CYM, atom:10, Chain(A, residue: 5-433)), None, None, None )
+2022-11-16 03:46:54,567 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(507, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509)): Atom(SG, 762, (-6.781, -36.822, -29.292), Residue(55, CYM, atom:10, Chain(A, residue: 5-433)), None, None, None )
+2022-11-16 03:46:54,567 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(507, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509)): Atom(SG, 1067, (-6.147, -34.752, -32.234), Residue(74, CYM, atom:10, Chain(A, residue: 5-433)), None, None, None )
+2022-11-16 03:46:54,567 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(507, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509)): Atom(SG, 1122, (-3.009, -36.045, -30.125), Residue(78, CYM, atom:10, Chain(A, residue: 5-433)), None, None, None )
+2022-11-16 03:46:54,567 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(52, CYM, atom:10, Chain(A, residue: 5-433)) found in center MetalUnit(507, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509))
+2022-11-16 03:46:54,568 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(55, CYM, atom:10, Chain(A, residue: 5-433)) found in center MetalUnit(507, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509))
+2022-11-16 03:46:54,568 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(74, CYM, atom:10, Chain(A, residue: 5-433)) found in center MetalUnit(507, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509))
+2022-11-16 03:46:54,568 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(78, CYM, atom:10, Chain(A, residue: 5-433)) found in center MetalUnit(507, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509))
+2022-11-16 03:46:54,573 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(508, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509)): Atom(SG, 926, (3.023, -43.323, -39.73), Residue(65, CYM, atom:10, Chain(A, residue: 5-433)), None, None, None )
+2022-11-16 03:46:54,573 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(508, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509)): Atom(SG, 967, (0.76, -46.168, -40.76), Residue(68, CYM, atom:10, Chain(A, residue: 5-433)), None, None, None )
+2022-11-16 03:46:54,573 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(508, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509)): Atom(NE2, 1261, (1.466, -45.911, -37.476), Residue(86, HID, atom:17, Chain(A, residue: 5-433)), None, None, None )
+2022-11-16 03:46:54,573 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(508, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509)): Atom(SG, 1326, (4.346, -46.92, -39.382), Residue(90, CYM, atom:10, Chain(A, residue: 5-433)), None, None, None )
+2022-11-16 03:46:54,573 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(65, CYM, atom:10, Chain(A, residue: 5-433)) found in center MetalUnit(508, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509))
+2022-11-16 03:46:54,574 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(68, CYM, atom:10, Chain(A, residue: 5-433)) found in center MetalUnit(508, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509))
+2022-11-16 03:46:54,574 WARNING:general.py:140:get_default_deproton_info:deprotonation info for Residue(86, HID, atom:17, Chain(A, residue: 5-433)) is actually a switching between HID/HIE
+2022-11-16 03:46:54,574 WARNING:general.py:144:get_default_deproton_info:no default protonation info for NE2 in HID. Could be no proton on it. Consider make a standard for it if do
+2022-11-16 03:46:54,574 INFO:general.py:110:deprotonate_residue:target atom Atom(NE2, 1261, (1.466, -45.911, -37.476), Residue(86, HID, atom:17, Chain(A, residue: 5-433)), None, None, None ) already have no H. keep original
+2022-11-16 03:46:54,574 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(90, CYM, atom:10, Chain(A, residue: 5-433)) found in center MetalUnit(508, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509))
+2022-11-16 03:46:54,579 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(509, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509)): Atom(SG, 3202, (-30.483, -58.045, -17.008), Residue(209, CYM, atom:10, Chain(A, residue: 5-433)), None, None, None )
+2022-11-16 03:46:54,579 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(509, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509)): Atom(SG, 4056, (-28.896, -59.999, -13.848), Residue(262, CYM, atom:10, Chain(A, residue: 5-433)), None, None, None )
+2022-11-16 03:46:54,579 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(509, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509)): Atom(SG, 4081, (-31.846, -57.781, -13.331), Residue(264, CYM, atom:10, Chain(A, residue: 5-433)), None, None, None )
+2022-11-16 03:46:54,580 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(509, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509)): Atom(SG, 4123, (-32.106, -60.785, -15.803), Residue(267, CYM, atom:10, Chain(A, residue: 5-433)), None, None, None )
+2022-11-16 03:46:54,580 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(209, CYM, atom:10, Chain(A, residue: 5-433)) found in center MetalUnit(509, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509))
+2022-11-16 03:46:54,580 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(262, CYM, atom:10, Chain(A, residue: 5-433)) found in center MetalUnit(509, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509))
+2022-11-16 03:46:54,580 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(264, CYM, atom:10, Chain(A, residue: 5-433)) found in center MetalUnit(509, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509))
+2022-11-16 03:46:54,581 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(267, CYM, atom:10, Chain(A, residue: 5-433)) found in center MetalUnit(509, ZN, atom:1, Chain(B, residue: 1-1,6-6,507-509))
+2022-11-16 03:46:54,582 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:54,782 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:54,797 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:46:56,138 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:46:56,537 INFO:general.py:75:update_residues:updating ('A', 55) HIS to HIE
+2022-11-16 03:46:56,549 INFO:general.py:75:update_residues:updating ('A', 112) HIS to HID
+2022-11-16 03:46:56,554 INFO:general.py:75:update_residues:updating ('A', 136) HIS to HID
+2022-11-16 03:46:56,572 INFO:general.py:75:update_residues:updating ('A', 219) HIS to HID
+2022-11-16 03:46:56,584 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:56,586 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:56,775 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:56,790 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:46:58,195 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:46:58,588 INFO:general.py:75:update_residues:updating ('A', 55) HIS to HID
+2022-11-16 03:46:58,600 INFO:general.py:75:update_residues:updating ('A', 112) HIS to HID
+2022-11-16 03:46:58,606 INFO:general.py:75:update_residues:updating ('A', 136) HIS to HID
+2022-11-16 03:46:58,624 INFO:general.py:75:update_residues:updating ('A', 219) HIS to HID
+2022-11-16 03:46:58,636 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:58,639 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:58,936 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:46:58,964 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:47:01,349 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:47:02,088 INFO:general.py:75:update_residues:updating ('A', 48) HIS to HID
+2022-11-16 03:47:02,105 INFO:general.py:75:update_residues:updating ('A', 121) HIS to HID
+2022-11-16 03:47:02,106 INFO:general.py:75:update_residues:updating ('A', 125) HIS to HIE
+2022-11-16 03:47:02,107 INFO:general.py:75:update_residues:updating ('A', 129) HIS to HID
+2022-11-16 03:47:02,114 INFO:general.py:75:update_residues:updating ('A', 159) HIS to HID
+2022-11-16 03:47:02,154 INFO:general.py:75:update_residues:updating ('A', 185) HIS to HID
+2022-11-16 03:47:02,158 INFO:general.py:75:update_residues:updating ('A', 202) HIS to HID
+2022-11-16 03:47:02,166 INFO:general.py:75:update_residues:updating ('B', 237) HIS to HID
+2022-11-16 03:47:02,168 INFO:general.py:75:update_residues:updating ('B', 243) HIS to HID
+2022-11-16 03:47:02,169 INFO:general.py:75:update_residues:updating ('B', 249) HIS to HID
+2022-11-16 03:47:02,205 INFO:general.py:75:update_residues:updating ('B', 408) HIS to HID
+2022-11-16 03:47:02,209 INFO:general.py:75:update_residues:updating ('B', 427) HIS to HID
+2022-11-16 03:47:02,215 INFO:general.py:75:update_residues:updating ('B', 453) HIS to HID
+2022-11-16 03:47:02,216 INFO:general.py:75:update_residues:updating ('B', 457) HIS to HID
+2022-11-16 03:47:02,217 INFO:general.py:75:update_residues:updating ('B', 459) CYS to CYX
+2022-11-16 03:47:02,219 INFO:general.py:75:update_residues:updating ('B', 466) HIS to HIE
+2022-11-16 03:47:02,228 INFO:general.py:75:update_residues:updating ('B', 509) CYS to CYX
+2022-11-16 03:47:02,232 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:47:02,236 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:47:02,428 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:47:02,440 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:47:03,539 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:47:03,874 INFO:general.py:75:update_residues:updating ('A', 12) HIS to HID
+2022-11-16 03:47:03,875 INFO:general.py:75:update_residues:updating ('A', 16) HIS to HID
+2022-11-16 03:47:03,884 INFO:general.py:75:update_residues:updating ('A', 57) HIS to HID
+2022-11-16 03:47:03,902 INFO:general.py:75:update_residues:updating ('A', 142) HIS to HIE
+2022-11-16 03:47:03,911 INFO:general.py:75:update_residues:updating ('A', 182) HIS to HID
+2022-11-16 03:47:03,914 INFO:general.py:75:update_residues:updating ('A', 193) HIS to HIE
+2022-11-16 03:47:03,921 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:47:03,924 INFO:metal_atom.py:125:get_donor_atoms:found donor atom of MetalUnit(301, MG, atom:1, Chain(B, residue: 1-1,301-301)): Atom(OD1, 2672, (7.604, -4.029, 13.785), Residue(170, ASN, atom:14, Chain(A, residue: 1-221)), None, None, None )
+2022-11-16 03:47:03,925 WARNING:protonate.py:223:deprotonate_metal_donors:uncommon donor residue Residue(170, ASN, atom:14, Chain(A, residue: 1-221)) found in center MetalUnit(301, MG, atom:1, Chain(B, residue: 1-1,301-301))
+2022-11-16 03:47:03,926 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:47:04,147 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:47:04,159 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:47:05,245 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:47:05,573 INFO:general.py:75:update_residues:updating ('A', 41) HIS to HIE
+2022-11-16 03:47:05,576 INFO:general.py:75:update_residues:updating ('A', 54) HIS to HID
+2022-11-16 03:47:05,582 INFO:general.py:75:update_residues:updating ('A', 77) HIS to HID
+2022-11-16 03:47:05,587 INFO:general.py:75:update_residues:updating ('A', 102) HIS to HID
+2022-11-16 03:47:05,606 INFO:general.py:75:update_residues:updating ('A', 180) HIS to HID
+2022-11-16 03:47:05,608 INFO:general.py:75:update_residues:updating ('A', 189) HIS to HIE
+2022-11-16 03:47:05,612 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:47:05,614 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:47:05,795 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:47:05,808 INFO:protonate.py:183:pdb2pqr_protonate_pdb:Running pdb2pqr on '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_input_11.pdb'...
+2022-11-16 03:47:07,197 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:47:07,636 INFO:general.py:75:update_residues:updating ('A', 50) HIS to HID
+2022-11-16 03:47:07,659 INFO:general.py:75:update_residues:updating ('A', 107) HIS to HID
+2022-11-16 03:47:07,664 INFO:general.py:75:update_residues:updating ('A', 131) HIS to HID
+2022-11-16 03:47:07,682 INFO:general.py:75:update_residues:updating ('A', 214) HIS to HID
+2022-11-16 03:47:07,694 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:47:07,696 INFO:structure.py:361:renumber_atoms:renumbering atoms
+2022-11-16 03:47:07,770 ERROR:pdb_io.py:329:_resolve_missing_chain_id:Found multiple chain id together with missing chain id in 1 chain. Impossible to solve.
+2022-11-16 03:48:10,304 INFO:protonate.py:185:pdb2pqr_protonate_pdb:Finished running pdb2pqr! Output saved to '/Users/chrisjurich/projects/sam-pockets/cleaned/scratch/protonate_peptide_with_pdb2pqr_output_8.pdb'
+2022-11-16 03:48:10,750 INFO:structure.py:332:is_idx_subset:current stru chain Chain(A, residue: 1300-1303) doesnt contain residue: Residue(282, ASN, atom:16, Chain(A, residue: 282-562)) of the target stru
